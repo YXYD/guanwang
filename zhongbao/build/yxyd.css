@@ -1,0 +1,167 @@
+@charset "UTF-8";
+*{font-family: "Microsoft YaHei";}
+#a1{
+    color:#46b8da;
+    font-size: 40px;
+    padding-right:2px;
+    margin-left:100px;
+}
+#a2{
+    margin-top:6px;
+}
+#a3{
+    padding:0 3px 0 0;
+    text-align: center
+
+}
+#a4,#a5,#a6,#a7,#a8{
+    margin-left:15px;
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+}
+#a10{
+    padding:0 2px;
+    font-size: 10px;
+    margin-top:17px;
+    color:#46b8da;
+    border: 1px solid #46b8da;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+#a11{
+    padding-left:5px;
+    padding-right:0;
+    font-size: 10px;
+    padding-top:17px;
+}
+#a9{
+    font-size: 13px;
+    height: 30px;
+    margin-top: 10px;margin-left: 20px;
+}
+#nav{
+    text-align: center;
+
+}
+
+
+
+select{
+    height: 35px;
+}
+
+.mainBoay{min-width:980px;}
+.mainBoay .flow_path_title,.superiority_title,.publish_need_title{margin:0 auto;}
+.mainBoay .flow_path_title,.superiority_title,.publish_need_title  h3{color:#5397cf;text-align: center ;font-size:27px ;}
+.mainBoay .flow_path_title h3{margin-bottom: 80px;font-size:32px;}
+.mainBoay .superiority_title h3{margin-top:80px;font-size:32px;}
+
+
+.mainBoay .img-responsive{width:100%;}
+
+.img1{display:block;background: url("../assets/img/developer/1_01.png")/*tpa=http://www.kuai.ma/assets/img/developer/1_01.png*/ no-repeat center center;margin:0 auto;}
+.img2{display:block;height:24px;width:56px;background: url("../assets/img/developer/1_20.png")/*tpa=http://www.kuai.ma/assets/img/developer/1_20.png*/ no-repeat center center;margin:0 auto;}
+.img3{display:block;background: url("../assets/img/developer/1_02.png")/*tpa=http://www.kuai.ma/assets/img/developer/1_02.png*/ no-repeat center center;margin:0 auto;}
+.img5{display:block;background: url("../assets/img/developer/1_03.png")/*tpa=http://www.kuai.ma/assets/img/developer/1_03.png*/ no-repeat center center;margin:0 auto;}
+.img7{display:block;background: url("../assets/img/developer/1_04.png")/*tpa=http://www.kuai.ma/assets/img/developer/1_04.png*/ no-repeat center center;margin:0 auto;}
+.img9{display:block;background: url("../assets/img/developer/1_5.png")/*tpa=http://www.kuai.ma/assets/img/developer/1_5.png*/ no-repeat center center;margin:0 auto;}
+
+
+
+.superiority{max-width:980px;margin:0 auto;}
+.superiority .superiority_mainBody{margin:0 auto;padding-bottom:75px;}
+.superiority .superiority_mainBody .row{margin-top:50px;}
+.superiority .superiority_mainBody span{display:block;width:119px;height:95px;margin:0 auto;font-size:25px;}
+.superiority .superiority_mainBody .cost{background:url("../assets/img/developer/1_29.png")/*tpa=http://www.kuai.ma/assets/img/developer/1_29.png*/ no-repeat center center;}
+.superiority .superiority_mainBody .CTO{background:url("../assets/img/developer/CTO.png")/*tpa=http://www.kuai.ma/assets/img/developer/CTO.png*/ no-repeat center center;}
+.superiority .superiority_mainBody .store{background:url("../assets/img/developer/1_37.png")/*tpa=http://www.kuai.ma/assets/img/developer/1_37.png*/ no-repeat center center;}
+.superiority .superiority_mainBody .listen{background:url("../assets/img/developer/1_40.png")/*tpa=http://www.kuai.ma/assets/img/developer/1_40.png*/ no-repeat center center;}
+.superiority .superiority_mainBody .row h5,p{text-align: center;}
+.superiority .superiority_mainBody .row h5{color:#555555;font-size:16px;margin-top:30px;}
+.superiority .superiority_mainBody .row p{color:#898989;width:280px;margin:0 auto;}
+
+
+
+
+.publish_need{}
+.publish_need .publish_need_main{width:980px;padding-top:5px;margin:0px auto;}
+.publish_need .publish_need_main h3{line-height:50px;}
+.publish_need .publish_need_main .form-horizontal .control-label{color:#555555;font-family: "微软雅黑";font-size:15px;font-weight: normal;}
+/*.publish_need .publish_need_main .publish_need_title{margin:0 auto;}
+.publish_need .publish_need_main .publish_need_title h3{color:#5397cf;text-align: center ;font-size:27px ;}*/
+.publish_need_main form{margin-top: 80px;}
+.checkbox_img span.invent_type{display:inline-block;height:30px;width:30px;background:url("../assets/img/developer/haha_09.png")/*tpa=http://www.kuai.ma/assets/img/developer/haha_09.png*/ no-repeat center center;}
+.checked{display:inline-block;height:30px;width:30px;background:url("../assets/img/developer/haha_05.png")/*tpa=http://www.kuai.ma/assets/img/developer/haha_05.png*/ no-repeat center center;}
+.checkbox_img span.invent_type:hover{background:url("../assets/img/developer/haha_03.png")/*tpa=http://www.kuai.ma/assets/img/developer/haha_03.png*/ no-repeat center center;}
+.inventKind0 span.invent_type_content{height:50px;line-height: 30px;vertical-align: top;color:#555555;}
+.inventKind0 span{margin-right: 10px}
+.inventKind0 label{height: 30px;line-height: 30px;display: inline-block;padding:0;}
+.inventKind0 input{display: none}
+.inventKind0 #other{display: inline-block;color: #555555;font-size: 13px;}
+.inventKind0 .label input{display: inline-block;vertical-align: top}
+.inventKind0 .label .showInput{display: none}
+.inventKind0{display: inline-block}
+#input{visibility: hidden}
+.form-horizontal .form-group{width:900px;}
+.form-horizontal .checkbox_img{margin-bottom:0;}
+.form-horizontal .checkbox_last{margin-bottom:15px;}
+.form-horizontal .radio_box label { color:#737373;font-size: 15px;font-weight: normal;}
+
+.form-horizontal .radio_box .radio_input{padding-top:7px;}
+.form-horizontal .radio_box .radio_input label{padding-right:35px;}
+.form-horizontal .radio_box .radio_input label span{display:inline-block;width:15px;height:15px;margin-right: 5px;padding:0px;}
+.form-horizontal .radio_box .radio_input label .radio_img{background: url("../assets/img/developer/radio_b.png")/*tpa=http://www.kuai.ma/assets/img/developer/radio_b.png*/ no-repeat center center;}
+.form-horizontal .radio_box .radio_input label .radio_active{background: url("../assets/img/developer/radio.png")/*tpa=http://www.kuai.ma/assets/img/developer/radio.png*/ no-repeat center center;}
+
+.form-horizontal .radio_box label input{display:none;}
+.form-horizontal .submit_btn{margin-top: 20px;text-align: center;}
+.form-horizontal .submit_btn button{padding:12px 60px; border:0;}
+
+.checkbox_img>div>div{width:150px;}
+
+#div1{
+    color:#5397cf;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    font-size:27px ;
+    text-align: center;
+    background-color:#f8f8f8;
+
+}
+#div2{
+    color:#5397cf;
+    padding-top: 146px;
+    padding-bottom: 80px;
+    font-size:27px;
+    text-align: center;
+}
+
+#div3{
+    background-color: #f8f8f8;
+}
+
+#inputs1{
+    padding-right:80px;
+}
+
+#inlineRadio2{
+    margin-top: 10px;
+}
+#inlineRadio3{
+    margin-left: 10px;
+}
+
+#inlineRadio4{
+    margin-top: 10px;
+}
+#inlineRadio5{
+    margin-left: 10px;
+}
+
+select{
+    margin-left: 0px;
+    width:480px;
+    margin-top: 5px;
+}
+
+

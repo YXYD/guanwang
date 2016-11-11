@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=UTF-8>
+    <meta property="wb:webmaster" content="d12de21fd0a2c4ec" />
+    <title>有小有大-小梦想，大坚持</title>
+    <html xmlns:wb="http://open.weibo.com/wb">
+    <script src="../../tjs.sjs.sinajs.cn/open/api/js/wb.js" tppabs="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="../assets/css/reset.css" tppabs="http://www.youxiaoyouda.com/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" tppabs="http://www.youxiaoyouda.com/assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/calender.css" tppabs="http://www.youxiaoyouda.com/assets/css/calender.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/laydate.css" tppabs="http://www.youxiaoyouda.com/assets/css/laydate.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/sweet.css" tppabs="http://www.youxiaoyouda.com/assets/css/sweet.css"/>
+    <script src="../assets/js/jquery-1.8.1.min.js" tppabs="http://www.youxiaoyouda.com/assets/js/jquery-1.8.1.min.js"></script>
+    <script src="../assets/js/EasySlide.js" tppabs="http://www.youxiaoyouda.com/assets/js/EasySlide.js"></script>
+    <script src="../assets/js/main.js" tppabs="http://www.youxiaoyouda.com/assets/js/main.js"></script>
+    <script src="../assets/js/PCASClass.js" tppabs="http://www.youxiaoyouda.com/assets/js/PCASClass.js"></script>
+    <script src="../assets/js/formcom.js" tppabs="http://www.youxiaoyouda.com/assets/js/formcom.js"></script>
+    <script src="../assets/js/jquery.validate-1.13.1.js" tppabs="http://www.youxiaoyouda.com/assets/js/jquery.validate-1.13.1.js"></script>
+    <script src="../assets/js/layer.js" tppabs="http://www.youxiaoyouda.com/assets/js/layer.js"></script>
+    <script src="../assets/js/sweet.js" tppabs="http://www.youxiaoyouda.com/assets/js/sweet.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="hender">
+        <ul class="ul_con">
+            <li><!--<a href="#" class="wap">wap端</a>-->
+                <div class="none">
+                    <img src="../assets/img/wx.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/wx.jpg" alt="微信" />
+                </div>
+            </li>
+        <!--    <li><a href="#">手机版</a>
+                <div class="none">
+                    <img src="" alt="" />
+                </div>
+            </li>-->
+                       <li><span class="index_dl">登陆</span></li>
+            <li><span class="index_zc">快速注册</span></li>
+                   </ul>
+    </div>
+    <div class="tc_dl ne dl_dl">
+        <div class="tc_dl_mb">
+            <div class="tc_dl_bt">
+                登陆
+                <a href="javascript::void(0)" class="gb_01">x</a>
+            </div>
+            <div class="tc_ip">
+                <form action="" method="post" class="dl_for">
+                    <div class="phone_01">
+                        <input type="text" placeholder="手机号/邮箱" name="username" />
+                        <label id="txtUserName-error" class="error" for="txtUserName"></label>
+                    </div>
+                    <div class="phone_poswod phone_01">
+                        <input type="password" placeholder="密码" name="password" />
+                        <label id="txtPassWord-error" class="error" for="txtPassWord"></label>
+                    </div>
+                    <div class="subm">
+                        <input type="button" name="login" id="login" value="立即登陆" />
+                    </div>
+                </form>
+                <div class="zc_lik">
+                    没有账号？
+                    <a href="javascipt:" style="color:#397ADB;" class="ljzc">立即注册</a>
+                    <a href="../forgetpassword/index.htm" tppabs="http://www.youxiaoyouda.com/forgetpassword/index" class="wj_lik clear fr">忘记密码</a>
+                </div>
+                <div class="linebg"><b class="fond"></b>合作账号登录<b class="back"></b></div>
+                <div class="clearfix">
+                    <a class="wb"></a>
+                    <a class="qq"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--注册-->
+    <div class="tc_dl dl_zc ne">
+        <div class="tc_dl_mb_02">
+            <div class="tc_dl_bt">
+                注册
+                <a href="javascript::void(0)" class="gb_02">x</a>
+            </div>
+            <div class="qh_btn" id="tab_title">
+                <div class="phone_btn selected" id="sx" style="margin-right: 40px;">手机注册</div>
+                <div class="eml_btn">邮箱注册</div>
+            </div>
+            <div id="tab_con">
+                <div class="phone_from ss">
+                    <form>
+                        <p style="margin-top:9px;">
+                            <input type="text" name="phone" placeholder="手机号" />
+                        </p>
+                        <p style="position: relative;">
+                            <input type="text" style="width: 176px;"name="verify" placeholder="验证码" />
+                            <a href="javascript:void(0)" class="zc_yzm" name="yan_2"><img src="../captcha/captcha-time=1468064974.png" tppabs="http://www.youxiaoyouda.com/captcha/captcha?time=1468064974" alt="验证码"  onclick="this.src='/captcha/captcha?temp='+Math.random()"/></a>
+                            <span class="clear"></span>
+                        </p>
+                        <p style="position: relative;">
+                            <input type="text" style="width: 176px;" name="phone_verify" placeholder="手机验证码"  autocomplete="off"/>
+                            <input class="zc_hq" id="zc_hq" type="button"  value="获取" />
+                            <span class="clear"></span>
+                        </p>
+                        <p><input type="text"  placeholder="密码"  name="password_phone" autocomplete="off" onfocus="this.type='password'"/></p>
+                        <div class="zc_ty"><input class="xy" name="isagree"  type="checkbox"><span>阅读并同意</span><a href="javascript::void(0)" class="yhxy_ope">《用户注册服务协议》</a></div>
+
+                        <div class="subm">
+                            <input type="button" id="photo_register" value="立即注册" />
+                        </div>
+                    </form>
+                </div>
+                <div class="eml_from ne ss">
+                    <form action="http://www.youxiaoyouda.com/home/email_register" >
+                        <div class="eml_01" style="margin-top: 26px;">
+                            <input type="text" placeholder="邮箱" name="email"/>
+                        </div>
+                        <div class="eml_poswod">
+                            <input type="password" placeholder="密码"  name="password_email"/>
+                        </div>
+
+                        <div class="phone_poswod_qr">
+                            <input type="password" id="txtPassWord" name="repassword" placeholder="确认密码" />
+                        </div>
+                        <div class="zc_ty"><input class="xy"  type="checkbox" name="ischeck"><span>阅读并同意</span><a href="javascript::void(0)" class="yhxy_ope">《用户注册服务协议》</a></div>
+                        <div class="subm">
+                            <input type="button" name="register" id="register" value="立即注册" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="dl_dj"><span>已有账号？</span><a href="javascipt:" class="dl_tz">立即登录</a></div>
+            <div class="linebg_02"><b class="fond"></b>合作账号登录<b class="back"></b></div>
+            <div class="clearfix">
+                <a class="wb"></a>
+                <a class="qq"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="zc_fwxy_wc ne">
+    <div class="zc_fwxy">
+        <div class="zc_fwxy_hend">
+            用户注册服务协议
+            <h3 class="zc_fwxy_gbtn">X</h3>
+        </div>
+        <div class="zc_fwxy_content">
+            <h2>有小有大创客联盟注册协议</h2>
+            <p>须知：有小有大创客联盟<a href="www.youxiaoyouda.com.htm" tppabs="http://www.youxiaoyouda.com/college/www.youxiaoyouda.com">(www.youxiaoyouda.com)</a>1.1 用户在使用本网站的服务之前，应当仔细阅读本协议，并同意遵守本协议及所有网站规则后方可成为本站用户，一旦用户注册成功，则用户与本网站之间自动形成协议关系，用户应当受本协议及所有网站规则的约束。用户在使用特殊的服务或产品时，应当同意接受相关协议后方能使用。
+                1.2 本协议则可由本站随时更新，用户应当及时关注并同意本站不承担通知义务。本站的通知、公告、声明或其它类似内容是本协议的一部分。
+            </p>
+            <p>服务内容：</p>
+            <p>1、本站的具体内容由本站根据实际情况提供。</p>
+            <p>2、本站仅提供相关的网络服务，除此之外与相关网络服务有关的设备(如个人电脑、手机、及其他与接入互联网或移动网有关的装置)及所需的费用(如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费)均应由用户自行负担。</p>
+
+        </div>
+        <div class="zc_fwxygb">
+            <span class="zc_fwxy-button-text">已阅读并同意此协议</span>
+        </div>
+
+    </div>
+</div>
+
+<!-- 返回顶部-->
+<!-- 返回顶部-->
+<div class="v_main_back" id="_v_main_back">
+</div>
+<div class="nav-com">
+    <div class="nav">
+    <div class="logo">
+        <a href="#">
+            <em>有小有大</em>
+            <img src="../assets/img/jpg/logo.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/logo.jpg" class="log_img"/>
+        </a>
+    </div>
+    <ul class="nav_nav_pg">
+        <li><a href="../index/index.htm" tppabs="http://www.youxiaoyouda.com/index/index"  class="pg_a" >
+                首页
+            </a></li>
+        <li><a href="../news/index.htm" tppabs="http://www.youxiaoyouda.com/news/index"  class="pg_a" >
+                热点
+            </a></li>
+        <li><a href="../maker/index.htm" tppabs="http://www.youxiaoyouda.com/maker/index"  class="pg_a" >
+                创客
+            </a></li>
+        <li class="nav_pag_xm"><a href="../project/index.htm" tppabs="http://www.youxiaoyouda.com/project/index"  class="pg_a" >
+                项目
+                <i class="pg_xlbtn bor-xz"></i>
+            </a>
+            <ul class="nav_pag_xl">
+                                    <li><a href="javascript::void(0)" id="create">创建项目</a></li>
+                                <li><a href="../project/teamlist.htm" tppabs="http://www.youxiaoyouda.com/project/teamlist">发起组队</a></li>
+                <li><a href="../project/crowdlist.htm" tppabs="http://www.youxiaoyouda.com/project/crowdlist">寻求资金</a></li>
+                <li><a href="../project/financelist.htm" tppabs="http://www.youxiaoyouda.com/project/financelist">筹集资源</a></li>
+                <li><a href="../project/helplist.htm" tppabs="http://www.youxiaoyouda.com/project/helplist" style="border: none;">寻求帮助</a></li>
+            </ul>
+        </li>
+         <li>
+             <a href="../capital/index.htm" tppabs="http://www.youxiaoyouda.com/capital/index"  class="pg_a" >
+                资金支持
+            </a>
+        </li>
+        <li><a href="index.htm" tppabs="http://www.youxiaoyouda.com/college/index" class="nav_axs pg_a" >
+                创客学院
+            </a>
+        </li>
+        <li><a href="../jishu/index.html" tppabs="http://www.youxiaoyouda.com/jishu/index.html"  class="pg_a" >
+                技术支持
+            </a>
+        </li>
+    </ul>
+</div>
+</div>
+<script>
+    $("#create").bind("click",function(){
+        var action ='/project/checklogin';
+        $.post(action,{},function(data){
+            if(data.data=='login'){
+                $(".dl_dl").show();
+            }else{
+                window.location.href='http://www.youxiaoyouda.com/login';
+            }
+        },'json')
+    })
+    $(function(){
+        $("#register").click(function(){
+            var form = $(this).parents('form');
+            var email = $("input[name='email']");
+            var password = $("input[name='password_email']");
+            var repassword = $("input[name='repassword']");
+            var ischeck = $("input[name='ischeck']").is(':checked');
+            var action = form.attr('action');
+            if(email.val().length<1){
+                sweetAlert("邮箱不能为空!");
+                email.focus();
+                return false;
+            }
+            if(password.val().length<1){
+                sweetAlert("密码不能为空!");
+                password.focus();
+                return false;
+            }
+            if(password.val() !=  repassword.val()){
+                sweetAlert("两次密码不一致!");
+                repassword.focus();
+                return false;
+            }
+            if(ischeck == false){
+                sweetAlert("请同意用户协议!");
+                return false;
+            }
+            $.post(action, {email:email.val(),password:password.val(),repassword:repassword.val()}, function(data){
+                if(data.code == 0){
+                    /*sweetAlert('邮件发送成功');*/
+                    window.location.href='http://www.youxiaoyouda.com/login';
+                    /*window.location.href= data.data.url;*/
+                }else{
+                    sweetAlert(data.message);
+                }
+            },'json')
+        })
+    });
+    $(function(){
+        $("#login").click(function(){
+          var username = $("input[name='username']");
+          var password = $("input[name='password']");
+          var action = '/home/login';
+            if(username.val().length<1){
+              $("#txtUserName-error").html('请输入用户名');
+              username.focus();
+              return false;
+          }else if(!checkValue(username.val())){
+              $("#txtUserName-error").html("手机号或邮箱格式不正确!");
+              username.focus();
+              return false;
+          }
+          if(password.val().length<1){
+              $("#txtPassWord-error").html('请输入密码');
+              password.focus();
+              return false;
+          }
+            $.post(action,{username:username.val(),password:password.val()},function(data){
+                if(data.code == 0){
+                    window.location.href=data.data;
+                }else{
+                    sweetAlert(data.message);
+                    $(".dl_dl").show();
+                }
+            },'json')
+        })
+    })
+
+    /*
+    *     验证用户 * */
+
+    function checkValue(value){
+
+        return /^([a-z0-9]*[-_]?[a-z0-9]+)+@([a-z0-9]*[-_]?[a-z0-9]+)+[\.][a-z0-9]+([\.][a-z]+)?$/i.test(value) || /^1[34578]\d{9}$/.test(value);
+    }
+
+   $("#zc_hq").click(function(){
+       var phoneNum = $("input[name='phone']");
+       var numCheck = /^1[3|4|5|7|8][0-9]{9}$/.test(phoneNum.val());
+       if(phoneNum.val().length<1){
+           sweetAlert('请输入手机号');
+           phoneNum.focus();
+           return false
+       }
+       else if (!numCheck) {
+           sweetAlert('手机号格式不正确');
+           phoneNum.focus();
+           return false
+       }
+       var url = '/api/send_phone_vcode_request?phone='+ phoneNum.val();
+       $.ajax({
+           url:url,
+           dataType:'json',
+           success:function(data){
+               if(data.code == 0){
+                   var clearInterval = setInterval(function(){
+                       seconds -= 1;
+                       jPublicGetCode.html('已发送(' + seconds + 's)');
+                       if(seconds === 0){
+                           window.clearInterval(clearInterval);
+                           jPublicGetCode.html('再次获取').removeAttr('style').removeClass('getSend');
+                       }
+                   }, 1000);
+               }else{
+                   $(".getCode").removeClass("getSend").removeClass("active");
+                   userDialog("发送失败","error");
+               }
+           }
+       })
+   })
+
+  $("#photo_register").bind('click',function(){
+      var phoneNum = $("input[name='phone']");
+      var verify= $("input[name='verify']");
+      var phone_verify = $("input[name='phone_verify']");
+      var password_phone = $("input[name='password_phone']");
+      var isagree = $("input[name='isagree']").is(':checked');
+      var numCheck = /^1[3|4|5|7|8][0-9]{9}$/.test(phoneNum.val());
+      var action = '/home/phone_register';
+      if(phoneNum.val().length<1){
+          sweetAlert('请输入手机号');
+          phoneNum.focus();
+          return false
+      }
+      else if (!numCheck) {
+          sweetAlert('手机号格式不正确');
+          phoneNum.focus();
+          return false
+      }
+      if(verify.val().length<1){
+          sweetAlert("验证码不能为空!");
+          verify.focus();
+          return false;
+      }
+      if(password_phone.val().length<1){
+          sweetAlert("密码不能为空！");
+          password_phone.focus();
+          return false;
+      }
+      if(isagree == false){
+          sweetAlert("请同意用户协议！");
+          return false;
+      }
+      $.post(action,{phone:phoneNum.val(),verify:verify.val(),phone_verify:phone_verify.val(),password:password_phone.val(),isgree:isagree},function(data){
+          if(data.code == 0){
+              window.location.href='http://www.youxiaoyouda.com/login';
+          }else{
+              sweetAlert(data.message);
+              $("#tab_con").show();
+          }
+      },'json')
+  });
+
+</script>
+<!--   注册结束-->
+<div class="easySlideWrap easySlideWrap4">
+    <ul>
+                <li><a href="morevideo.htm" tppabs="http://www.youxiaoyouda.com/college/morevideo" target="_blank"> <img src="../assets/img/5760f77bedd72.png" tppabs="http://www.youxiaoyouda.com/assets/img/5760f77bedd72.png" alt=""  width="1349px" height="505px"/></a></li>
+                <li><a href="info-id=8.htm" tppabs="http://www.youxiaoyouda.com/college/info?id=8" target="_blank"> <img src="../assets/img/576ce21ad16f2.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/576ce21ad16f2.jpg" alt=""  width="1349px" height="505px"/></a></li>
+                <li><a href="" target="_blank"> <img src="../assets/img/5760f6c67e05c.png" tppabs="http://www.youxiaoyouda.com/assets/img/5760f6c67e05c.png" alt=""  width="1349px" height="505px"/></a></li>
+                <li><a href="" target="_blank"> <img src="../assets/img/576ce5b0ee0b7.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/576ce5b0ee0b7.jpg" alt="http://www.youxiaoyouda.com/news/newsinfo?id=263"  width="1349px" height="505px"/></a></li>
+            </ul>
+    <div class="easySlideFocus easySlideFocus4">
+                    <span ></span>
+                    <span ></span>
+                    <span ></span>
+                    <span ></span>
+            </div>
+    <a href="javascript:;" class="enext"> </a>
+    <a href="javascript:;" class="eprev"></a>
+
+</div>
+<div class="hx"></div>
+<!--   开始-->
+<div class="hot_conter clear">
+<div class="ck_top">
+   <!-- <h4>院长致辞</h4>-->
+    <div class="ck_top_con">
+        <a href="" class="fl yz_img"><img src="../assets/img/jpg/ckxy_yz.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/ckxy_yz.jpg" class="fl"/></a>
+        <div class="fr yz_jy">
+            <a href="javascript::void(0)">有小有大学院介绍</a>
+            <p class="xhx">秉承"大众创业、万众创新"的校训，有小有大学院风雨兼程，伴随着中国崛起的步伐，</p>
+            <p>融创新、创业于管理理论和管理实践的开拓，已经发展成为一所学科特色鲜明、走在市场经济前沿</p>
+            <p>精英荟萃、人才辈出的现代商学院。而当今世界的新变局，今日中国的新发展，对管理理论与实践无疑</p>
+            <p>提出了更新、更高的要求。全球视野、创新能力、创业精神与社会责任正迅速地</p><p>成为新时代管理理论研究和管理人才培养的主题。</p>
+            <p>我们相信——来自竞争的繁荣！</p>
+            <p>我们奋斗——为中华民族的伟大复兴！</p>
+            <p>我们开放——面向全球环境与全人类的和谐与可持续发展!</p>
+            <p>受益于先辈们的奋斗，我们有今日之成就；有赖于同仁们的共同努力和社会各界的鼎力相助，我们必将跻身世界一流!</p>
+        </div>
+    </div>
+
+
+</div>
+<div class="ck_hd">
+    <div class="ck_hdl fl">
+        <h4>活动沙龙 <a href="moreactive.htm" tppabs="http://www.youxiaoyouda.com/college/moreactive" class="fr">更多</a></h4>
+                <div class="ck_wybm fl" style="margin-right: 20px;">
+            <a href="info-id=9.htm" tppabs="http://www.youxiaoyouda.com/college/info?id=9" class="bm_img"><img src="../assets/img/5763a7a4bd37e.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/5763a7a4bd37e.jpg" alt="DSP开发培训，你准备好了吗？小班面授培训课程" width="349px" height="252px" /></a>
+            <h5>DSP开发培训，你准备好了吗？小班</h5>
+            <p class="ck_wy_top">
+                <span class="wk_top_o">06-17</span>
+                <span class="wk_top_t">38</span>
+                <b>|</b>
+                <span class="wk_top_s">0</span>
+            </p>
+            <p class="ck_wy_bot">
+                <span class="wk_top_f">创龙教育</span>
+                <a href="info-id=9.htm" tppabs="http://www.youxiaoyouda.com/college/info?id=9" class="wybm_btn">我要报名</a>
+            </p>
+        </div>
+                <div class="ck_wybm fl" style="margin-right: 20px;">
+            <a href="info-id=8.htm" tppabs="http://www.youxiaoyouda.com/college/info?id=8" class="bm_img"><img src="../assets/img/575e71096c988.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/575e71096c988.jpg" alt="兵熊熊一个将熊熊一窝" width="349px" height="252px" /></a>
+            <h5>兵熊熊一个将熊熊一窝</h5>
+            <p class="ck_wy_top">
+                <span class="wk_top_o">06-13</span>
+                <span class="wk_top_t">29</span>
+                <b>|</b>
+                <span class="wk_top_s">0</span>
+            </p>
+            <p class="ck_wy_bot">
+                <span class="wk_top_f">有小有大创客联盟学院</span>
+                <a href="info-id=8.htm" tppabs="http://www.youxiaoyouda.com/college/info?id=8" class="wybm_btn">我要报名</a>
+            </p>
+        </div>
+            </div>
+    <div class="ck_hdr fr">
+        <h4>学院课程<a href="morevideo.htm" tppabs="http://www.youxiaoyouda.com/college/morevideo" class="fr" target="_blank">更多</a></h4>
+        <div class="ck_hdr_nav"><span class="kc_hover">热门点击</span><span>最新发布</span></div>
+        <div class="ck_xykc" style="display: block;">
+                            <div class="ck_xykc_list">
+                    <a href="video-id=11.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=11" class="xykc_list_img" target="_blank"><img src="../assets/img/5760c4eec4c2a.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/5760c4eec4c2a.jpg" alt="meinv" /></a>
+                    <div class="xykc_list_text">
+                        <p><a href="video-id=11.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=11" target="_blank">马云励志演讲教你</a></p>
+                        <span class="list_sp"><a href="javascript::void()" class="zan" nid="11" uid="">0</a><a href="video-id=11.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=11" class="rs">2</a></span>
+                    </div>
+                </div>
+                            <div class="ck_xykc_list">
+                    <a href="video-id=13.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=13" class="xykc_list_img" target="_blank"><img src="../assets/img/576130e36579b.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/576130e36579b.jpg" alt="meinv" /></a>
+                    <div class="xykc_list_text">
+                        <p><a href="video-id=13.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=13" target="_blank">「爱否出品｜HT</a></p>
+                        <span class="list_sp"><a href="javascript::void()" class="zan" nid="13" uid="">0</a><a href="video-id=13.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=13" class="rs">2</a></span>
+                    </div>
+                </div>
+                            <div class="ck_xykc_list">
+                    <a href="video-id=10.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=10" class="xykc_list_img" target="_blank"><img src="../assets/img/5760c3c8ec929.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/5760c3c8ec929.jpg" alt="meinv" /></a>
+                    <div class="xykc_list_text">
+                        <p><a href="video-id=10.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=10" target="_blank">马云创业教父力推</a></p>
+                        <span class="list_sp"><a href="javascript::void()" class="zan" nid="10" uid="">0</a><a href="video-id=10.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=10" class="rs">0</a></span>
+                    </div>
+                </div>
+                    </div>
+
+        <div class="ck_xykc ">
+                        <div class="ck_xykc_list">
+                <a href="video-id=7.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=7" class="xykc_list_img" target="_blank"><img src="../assets/img/573ec0fd232cb.png" tppabs="http://www.youxiaoyouda.com/assets/img/573ec0fd232cb.png" alt="meinv" /></a>
+                <div class="xykc_list_text">
+                    <p><a href="video-id=7.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=7" target="_blank">视频: 『HTC</a></p>
+                    <span class="list_sp"><a href="javascript::void()" class="zan" nid="7" uid="">0</a><a href="video-id=7.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=7" class="rs">2</a></span>
+                </div>
+            </div>
+                        <div class="ck_xykc_list">
+                <a href="video-id=5.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=5" class="xykc_list_img" target="_blank"><img src="../assets/img/56fba298079b4.png" tppabs="http://www.youxiaoyouda.com/assets/img/56fba298079b4.png" alt="meinv" /></a>
+                <div class="xykc_list_text">
+                    <p><a href="video-id=5.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=5" target="_blank">视频: 牛人将电</a></p>
+                    <span class="list_sp"><a href="javascript::void()" class="zan" nid="5" uid="">0</a><a href="video-id=5.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=5" class="rs">1</a></span>
+                </div>
+            </div>
+                        <div class="ck_xykc_list">
+                <a href="video-id=2.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=2" class="xykc_list_img" target="_blank"><img src="../assets/img/56fb9c7497aa8.png" tppabs="http://www.youxiaoyouda.com/assets/img/56fb9c7497aa8.png" alt="meinv" /></a>
+                <div class="xykc_list_text">
+                    <p><a href="video-id=2.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=2" target="_blank">视频: NAO机</a></p>
+                    <span class="list_sp"><a href="javascript::void()" class="zan" nid="2" uid="">0</a><a href="video-id=2.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=2" class="rs">0</a></span>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+</div>
+<div class="ck_ckfu">
+    <h4><a href="javascript::void()">顾问服务</a> <a href="../adviser/category.htm" tppabs="http://www.youxiaoyouda.com/adviser/category" class="gd_gw">更多</a></h4>
+            <div class="ck_ckfu_xq" >
+            <a href="../adviser/categorylist-id=16.htm" tppabs="http://www.youxiaoyouda.com/adviser/categorylist?id=16"><img src="../assets/img/577b4bfe59d99.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/577b4bfe59d99.jpg" alt="孵化器寻找 " width="211px" height="159px" /></a>
+            <h5><a href="../adviser/categorylist-id=16.htm" tppabs="http://www.youxiaoyouda.com/adviser/categorylist?id=16">孵化器寻找 </a></h5>
+            <p>
+               让优秀的团队找到匹配的孵化器，让孵化器找到合适的团队，实现双向共赢！            </p>
+        </div>
+            <div class="ck_ckfu_xq" >
+            <a href="../adviser/categorylist-id=15.htm" tppabs="http://www.youxiaoyouda.com/adviser/categorylist?id=15"><img src="../assets/img/577e2f6d97be9.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/577e2f6d97be9.jpg" alt="知识产权 " width="211px" height="159px" /></a>
+            <h5><a href="../adviser/categorylist-id=15.htm" tppabs="http://www.youxiaoyouda.com/adviser/categorylist?id=15">知识产权 </a></h5>
+            <p>
+               知识产权是高新技术企业最有价值的资产,构成企业的核心竞争力.新公司法鼓            </p>
+        </div>
+            <div class="ck_ckfu_xq" >
+            <a href="../adviser/categorylist-id=14.htm" tppabs="http://www.youxiaoyouda.com/adviser/categorylist?id=14"><img src="../assets/img/577b54c1908aa.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/577b54c1908aa.jpg" alt="工商服务 " width="211px" height="159px" /></a>
+            <h5><a href="../adviser/categorylist-id=14.htm" tppabs="http://www.youxiaoyouda.com/adviser/categorylist?id=14">工商服务 </a></h5>
+            <p>
+               为中小微企业提供工商注册、变更、注销及代理记账、报税、税审、审计、认证            </p>
+        </div>
+            <div class="ck_ckfu_xq" >
+            <a href="../adviser/categorylist-id=13.htm" tppabs="http://www.youxiaoyouda.com/adviser/categorylist?id=13"><img src="../assets/img/577b5e0c85c26.png" tppabs="http://www.youxiaoyouda.com/assets/img/577b5e0c85c26.png" alt="法务" width="211px" height="159px" /></a>
+            <h5><a href="../adviser/categorylist-id=13.htm" tppabs="http://www.youxiaoyouda.com/adviser/categorylist?id=13">法务</a></h5>
+            <p>
+               为企业提供低价高效的法律服务模式,为法律专业人员提供便捷实用的工作平台            </p>
+        </div>
+            <div class="ck_ckfu_xq"  style="position: relative;" >
+            <a href="../adviser/categorylist-id=12.htm" tppabs="http://www.youxiaoyouda.com/adviser/categorylist?id=12"><img src="../assets/img/577b61d9296bd.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/577b61d9296bd.jpg" alt="营销推广" width="211px" height="159px" /></a>
+            <h5><a href="../adviser/categorylist-id=12.htm" tppabs="http://www.youxiaoyouda.com/adviser/categorylist?id=12">营销推广</a></h5>
+            <p>
+               提供与网络营销、网络推广、网站推广有关的工具资源、网络营销解决方案等            </p>
+        </div>
+    
+</div>
+<div class="ck-dzjk">
+    <div class="ck-dzjk_lik fl">
+        <div class="dzjk_nav">
+            <p class="dzjk_nav_bt"><a href="javascript::void(0)" class="dzjk_nav_ds">电子极客 ></a><a href="" class="dzjk_nav_gd">查看更多</a></p>
+            <p class="dzjk_nav_btfl"><a href="index-cid=0.htm" tppabs="http://www.youxiaoyouda.com/college/index?cid=0">最新上线</a>
+                                <span>|</span><a href="index-cid=2.htm" tppabs="http://www.youxiaoyouda.com/college/index?cid=2">科技</a>
+                                <span>|</span><a href="index-cid=3.htm" tppabs="http://www.youxiaoyouda.com/college/index?cid=3">农业</a>
+                                <span>|</span><a href="index-cid=5.htm" tppabs="http://www.youxiaoyouda.com/college/index?cid=5">娱乐</a>
+                                <span>|</span><a href="index-cid=6.htm" tppabs="http://www.youxiaoyouda.com/college/index?cid=6">艺术</a>
+                                <span>|</span><a href="index-cid=7.htm" tppabs="http://www.youxiaoyouda.com/college/index?cid=7">商铺</a>
+                                <span>|</span><a href="index-cid=8.htm" tppabs="http://www.youxiaoyouda.com/college/index?cid=8">学院课程</a>
+                            </p>
+        </div>
+            </div>
+    </div>
+
+<div class="mai_cy" style="position: relative;">
+    <div class="man_xm_bt">
+        <span  class="m-l"><a href="javascript::void(0)">推荐视频</a></span>
+        <span class="fr"><a href="morevideo.htm" tppabs="http://www.youxiaoyouda.com/college/morevideo" style="font-size: 14px; color:#88afe9;">更多</a></span>
+    </div>
+    <div class="mx_m" id="outer2">
+                        <div class="hot_mx_ll">
+                <a href="video-id=18.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=18" class="hot_mx_llimg">
+                    <img src="../assets/img/577f860f87fdd.png" tppabs="http://www.youxiaoyouda.com/assets/img/577f860f87fdd.png" alt="太有创意了！一个外国小哥用2000颗弹珠做了音乐盒" height="174px" width="254px" />
+                    <img class="ckxy_sp_btn" src="../assets/img/png/sp_bf_btn.png" tppabs="http://www.youxiaoyouda.com/assets/img/png/sp_bf_btn.png" alt="播放按钮" />
+                </a>
+                <h4>太有创意了！一个外国小哥用20</h4>
+            </div>
+                        <div class="hot_mx_ll">
+                <a href="video-id=16.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=16" class="hot_mx_llimg">
+                    <img src="../assets/img/577ccfcc88142.png" tppabs="http://www.youxiaoyouda.com/assets/img/577ccfcc88142.png" alt="杜云生绝对成交实战篇 大学生创业 杜云生绝对成交 销售技巧 绝对成交 销售技巧和话术 陈安之演讲 销售" height="174px" width="254px" />
+                    <img class="ckxy_sp_btn" src="../assets/img/png/sp_bf_btn.png" tppabs="http://www.youxiaoyouda.com/assets/img/png/sp_bf_btn.png" alt="播放按钮" />
+                </a>
+                <h4>杜云生绝对成交实战篇 大学生创</h4>
+            </div>
+                        <div class="hot_mx_ll">
+                <a href="video-id=15.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=15" class="hot_mx_llimg">
+                    <img src="../assets/img/577ccc9b4368f.png" tppabs="http://www.youxiaoyouda.com/assets/img/577ccc9b4368f.png" alt="《创业子午线》访谈熊伟、郭上权——体育创业" height="174px" width="254px" />
+                    <img class="ckxy_sp_btn" src="../assets/img/png/sp_bf_btn.png" tppabs="http://www.youxiaoyouda.com/assets/img/png/sp_bf_btn.png" alt="播放按钮" />
+                </a>
+                <h4>《创业子午线》访谈熊伟、郭上权</h4>
+            </div>
+                        <div class="hot_mx_ll">
+                <a href="video-id=9.htm" tppabs="http://www.youxiaoyouda.com/college/video?id=9" class="hot_mx_llimg">
+                    <img src="../assets/img/573ec55c41d87.png" tppabs="http://www.youxiaoyouda.com/assets/img/573ec55c41d87.png" alt="斧子科技发布战斧F1游戏机" height="174px" width="254px" />
+                    <img class="ckxy_sp_btn" src="../assets/img/png/sp_bf_btn.png" tppabs="http://www.youxiaoyouda.com/assets/img/png/sp_bf_btn.png" alt="播放按钮" />
+                </a>
+                <h4>斧子科技发布战斧F1游戏机</h4>
+            </div>
+            
+    </div>
+    <div class="hot_left"><</div>
+    <div class="hot_right">></div>
+</div>
+</div>
+<script type="text/javascript">
+    $(".zan").bind('click',function(){
+        var nid = $(this).attr("nid");
+        var uid = $(this).attr("uid");
+        var type = 3;
+        var action = '/college/praise';
+        if(nid==''|| uid==''){
+            $(".dl_dl").show();
+            return false;
+        }
+        var dom = $(this);
+        $.get(action,{id:nid,uid:uid},function(data){
+            if(data.code ==0){
+                dom.html(data.data);
+                dom.removeClass('zan').addClass('zan1');
+            }else{
+                sweetAlert(data.message);
+            }
+        },'json');
+    })
+
+    $(".zan1").on("click",function(){
+        sweetAlert("该用户已经点过赞了!");
+    })
+
+</script>
+
+<div class="fonter">
+    <div class="fo_nav">
+        <ul>
+            <li><a href="../index/index.htm" tppabs="http://www.youxiaoyouda.com/index/index">首页</a></li>
+            <li><a href="../news/index.htm" tppabs="http://www.youxiaoyouda.com/news/index">热点</a></li>
+            <li><a href="../maker/index.htm" tppabs="http://www.youxiaoyouda.com/maker/index">创客</a></li>
+            <li><a href="index.htm" tppabs="http://www.youxiaoyouda.com/college/index">学院</a></li>
+            <li><a href="../index/aboutus.htm" tppabs="http://www.youxiaoyouda.com/index/aboutus">关于我们 </a></li>
+            <li><a href="../index/joinus.htm" tppabs="http://www.youxiaoyouda.com/index/joinus">加入我们 </a></li>
+            <li><a href="../index/contact.htm" tppabs="http://www.youxiaoyouda.com/index/contact">联系我们</a></li>
+            <li><a href="../index/feedback.htm" tppabs="http://www.youxiaoyouda.com/index/feedback">意见反馈</a></li>
+            <li><a href="../index/help.htm" tppabs="http://www.youxiaoyouda.com/index/help">帮助中心</a></li>
+            <li><p>合作邮箱：<span>market@youxiaoyouda.com</span></p></li>
+        </ul>
+    </div>
+    <div class="fo_tonav">
+        <div class="fo_tona_t">
+            <div class="fo_tl">
+                <h4 style="
+    width: 400px;
+"><a href="" style="font-size: 14px;">友情链接</a></h4>
+                <p style="
+    width: 427px;
+">
+                    <a href="http://www.sequoiacap.com/" target="_blank"> 红杉资本 </a>
+                    <a href="http://www.cefund.com/" target="_blank"> 青云创投 </a>
+                    <a href="http://lvzhou.gobi.cn/" target="_blank"> 戈壁合伙人 </a>
+                    <a href="http://www.cdhfund.com/" target="_blank"> 鼎晖投资 </a>
+                    <a href="http://www.idg.com.cn/" target="_blank"> IDG中国 </a>
+                    <a href="http://www.exevc.com/" target="_blank"> 元素资本 </a>
+                    <a href="http://www.qimingvc.com/" tppabs="http://www.qimingvc.com/" target="_blank"> 启明创投 </a>
+                    <a href="http://www.legendcapital.com.cn/" target="_blank"> 君联资本 </a>
+                    <a href="http://www.kpcb.com/china" target="_blank"> 凯鹏华盈</a>
+                    <a href="http://www.waldenintl.com/" target="_blank"> 华登国际</a>
+                    <a href="http://www.banyanvc.com/" target="_blank"> 高榕资本 </a>
+                    <a href="http://www.chinagrowthcapital.com/" target="_blank"> 华创资本</a>
+                    <a href="http://shenmatouzi.com/" target="_blank"> 神马投资</a>
+                    <a href="http://www.legendstar.com.cn/" target="_blank"> 联想之星 </a><br>
+                </p>
+            </div>
+            <div class="fo_tr" style="width: 682px;">
+                <h4 style="font-size: 14px; color: #818181;margin-left: 88px;">
+                    <a href="../index/aboutus.htm" tppabs="http://www.youxiaoyouda.com/index/aboutus" style="font-size: 14px; color: #818181;">关于我们</a>
+                </h4>
+                <div class="tr_b">
+
+                    <!-- 	<a href="/" target="_blank" class="app"></a> -->
+                    <div class="fo_ewm">
+                        <a href="">
+                            <img src="../assets/img/jpg/ck_kf.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/ck_kf.jpg" alt="二维码">
+                        </a>
+                        <a href="">
+           			    	<span class="fo_ewm_span">
+           			    		客服
+           			    	</span>
+                        </a>
+
+                    </div>
+                    <div class="fo_ewm">
+                        <img src="../assets/img/jpg/wb-ewm.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/wb-ewm.jpg" alt="二维码">
+           			    	<span class="fo_ewm_span">
+           			    		微博
+           			    	</span>
+
+                    </div>
+                    <div class="fo_ewm">
+                        <img src="../assets/img/jpg/dyh-ewm.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/dyh-ewm.jpg" alt="二维码">
+           			 		 <span class="fo_ewm_span">
+           			    		订阅号
+           			    	</span>
+                    </div>
+                    <div class="fo_ewm">
+                        <img src="../assets/img/jpg/wx-erm.png" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/wx-erm.png" alt="二维码">
+							<span class="fo_ewm_span">
+           			    		微信
+           			    	</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="fo_xk">© 2015  北京有小有大科技有限公司   版权所有   </p>
+    </div>
+</div>
+
+</body>
+</html>

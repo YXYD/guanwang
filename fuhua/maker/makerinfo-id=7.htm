@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=UTF-8>
+    <meta property="wb:webmaster" content="d12de21fd0a2c4ec" />
+    <link rel="stylesheet" type="text/css" href="../assets/5f174b3c/pager.css" tppabs="http://www.youxiaoyouda.com/assets/5f174b3c/pager.css" />
+<title>有小有大-小梦想，大坚持</title>
+    <html xmlns:wb="http://open.weibo.com/wb">
+    <script src="../../tjs.sjs.sinajs.cn/open/api/js/wb.js" tppabs="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="../assets/css/reset.css" tppabs="http://www.youxiaoyouda.com/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" tppabs="http://www.youxiaoyouda.com/assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/calender.css" tppabs="http://www.youxiaoyouda.com/assets/css/calender.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/laydate.css" tppabs="http://www.youxiaoyouda.com/assets/css/laydate.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/sweet.css" tppabs="http://www.youxiaoyouda.com/assets/css/sweet.css"/>
+    <script src="../assets/js/jquery-1.8.1.min.js" tppabs="http://www.youxiaoyouda.com/assets/js/jquery-1.8.1.min.js"></script>
+    <script src="../assets/js/EasySlide.js" tppabs="http://www.youxiaoyouda.com/assets/js/EasySlide.js"></script>
+    <script src="../assets/js/main.js" tppabs="http://www.youxiaoyouda.com/assets/js/main.js"></script>
+    <script src="../assets/js/PCASClass.js" tppabs="http://www.youxiaoyouda.com/assets/js/PCASClass.js"></script>
+    <script src="../assets/js/formcom.js" tppabs="http://www.youxiaoyouda.com/assets/js/formcom.js"></script>
+    <script src="../assets/js/jquery.validate-1.13.1.js" tppabs="http://www.youxiaoyouda.com/assets/js/jquery.validate-1.13.1.js"></script>
+    <script src="../assets/js/layer.js" tppabs="http://www.youxiaoyouda.com/assets/js/layer.js"></script>
+    <script src="../assets/js/sweet.js" tppabs="http://www.youxiaoyouda.com/assets/js/sweet.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="hender">
+        <ul class="ul_con">
+            <li><!--<a href="#" class="wap">wap端</a>-->
+                <div class="none">
+                    <img src="../assets/img/wx.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/wx.jpg" alt="微信" />
+                </div>
+            </li>
+        <!--    <li><a href="#">手机版</a>
+                <div class="none">
+                    <img src="" alt="" />
+                </div>
+            </li>-->
+                       <li><span class="index_dl">登陆</span></li>
+            <li><span class="index_zc">快速注册</span></li>
+                   </ul>
+    </div>
+    <div class="tc_dl ne dl_dl">
+        <div class="tc_dl_mb">
+            <div class="tc_dl_bt">
+                登陆
+                <a href="javascript::void(0)" class="gb_01">x</a>
+            </div>
+            <div class="tc_ip">
+                <form action="" method="post" class="dl_for">
+                    <div class="phone_01">
+                        <input type="text" placeholder="手机号/邮箱" name="username" />
+                        <label id="txtUserName-error" class="error" for="txtUserName"></label>
+                    </div>
+                    <div class="phone_poswod phone_01">
+                        <input type="password" placeholder="密码" name="password" />
+                        <label id="txtPassWord-error" class="error" for="txtPassWord"></label>
+                    </div>
+                    <div class="subm">
+                        <input type="button" name="login" id="login" value="立即登陆" />
+                    </div>
+                </form>
+                <div class="zc_lik">
+                    没有账号？
+                    <a href="javascipt:" style="color:#397ADB;" class="ljzc">立即注册</a>
+                    <a href="../forgetpassword/index.htm" tppabs="http://www.youxiaoyouda.com/forgetpassword/index" class="wj_lik clear fr">忘记密码</a>
+                </div>
+                <div class="linebg"><b class="fond"></b>合作账号登录<b class="back"></b></div>
+                <div class="clearfix">
+                    <a class="wb"></a>
+                    <a class="qq"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--注册-->
+    <div class="tc_dl dl_zc ne">
+        <div class="tc_dl_mb_02">
+            <div class="tc_dl_bt">
+                注册
+                <a href="javascript::void(0)" class="gb_02">x</a>
+            </div>
+            <div class="qh_btn" id="tab_title">
+                <div class="phone_btn selected" id="sx" style="margin-right: 40px;">手机注册</div>
+                <div class="eml_btn">邮箱注册</div>
+            </div>
+            <div id="tab_con">
+                <div class="phone_from ss">
+                    <form>
+                        <p style="margin-top:9px;">
+                            <input type="text" name="phone" placeholder="手机号" />
+                        </p>
+                        <p style="position: relative;">
+                            <input type="text" style="width: 176px;"name="verify" placeholder="验证码" />
+                            <a href="javascript:void(0)" class="zc_yzm" name="yan_2"><img src="../captcha/captcha-time=1468064964.png" tppabs="http://www.youxiaoyouda.com/captcha/captcha?time=1468064964" alt="验证码"  onclick="this.src='/captcha/captcha?temp='+Math.random()"/></a>
+                            <span class="clear"></span>
+                        </p>
+                        <p style="position: relative;">
+                            <input type="text" style="width: 176px;" name="phone_verify" placeholder="手机验证码"  autocomplete="off"/>
+                            <input class="zc_hq" id="zc_hq" type="button"  value="获取" />
+                            <span class="clear"></span>
+                        </p>
+                        <p><input type="text"  placeholder="密码"  name="password_phone" autocomplete="off" onfocus="this.type='password'"/></p>
+                        <div class="zc_ty"><input class="xy" name="isagree"  type="checkbox"><span>阅读并同意</span><a href="javascript::void(0)" class="yhxy_ope">《用户注册服务协议》</a></div>
+
+                        <div class="subm">
+                            <input type="button" id="photo_register" value="立即注册" />
+                        </div>
+                    </form>
+                </div>
+                <div class="eml_from ne ss">
+                    <form action="http://www.youxiaoyouda.com/home/email_register" >
+                        <div class="eml_01" style="margin-top: 26px;">
+                            <input type="text" placeholder="邮箱" name="email"/>
+                        </div>
+                        <div class="eml_poswod">
+                            <input type="password" placeholder="密码"  name="password_email"/>
+                        </div>
+
+                        <div class="phone_poswod_qr">
+                            <input type="password" id="txtPassWord" name="repassword" placeholder="确认密码" />
+                        </div>
+                        <div class="zc_ty"><input class="xy"  type="checkbox" name="ischeck"><span>阅读并同意</span><a href="javascript::void(0)" class="yhxy_ope">《用户注册服务协议》</a></div>
+                        <div class="subm">
+                            <input type="button" name="register" id="register" value="立即注册" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="dl_dj"><span>已有账号？</span><a href="javascipt:" class="dl_tz">立即登录</a></div>
+            <div class="linebg_02"><b class="fond"></b>合作账号登录<b class="back"></b></div>
+            <div class="clearfix">
+                <a class="wb"></a>
+                <a class="qq"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="zc_fwxy_wc ne">
+    <div class="zc_fwxy">
+        <div class="zc_fwxy_hend">
+            用户注册服务协议
+            <h3 class="zc_fwxy_gbtn">X</h3>
+        </div>
+        <div class="zc_fwxy_content">
+            <h2>有小有大创客联盟注册协议</h2>
+            <p>须知：有小有大创客联盟<a href="www.youxiaoyouda.com.htm" tppabs="http://www.youxiaoyouda.com/maker/www.youxiaoyouda.com">(www.youxiaoyouda.com)</a>1.1 用户在使用本网站的服务之前，应当仔细阅读本协议，并同意遵守本协议及所有网站规则后方可成为本站用户，一旦用户注册成功，则用户与本网站之间自动形成协议关系，用户应当受本协议及所有网站规则的约束。用户在使用特殊的服务或产品时，应当同意接受相关协议后方能使用。
+                1.2 本协议则可由本站随时更新，用户应当及时关注并同意本站不承担通知义务。本站的通知、公告、声明或其它类似内容是本协议的一部分。
+            </p>
+            <p>服务内容：</p>
+            <p>1、本站的具体内容由本站根据实际情况提供。</p>
+            <p>2、本站仅提供相关的网络服务，除此之外与相关网络服务有关的设备(如个人电脑、手机、及其他与接入互联网或移动网有关的装置)及所需的费用(如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费)均应由用户自行负担。</p>
+
+        </div>
+        <div class="zc_fwxygb">
+            <span class="zc_fwxy-button-text">已阅读并同意此协议</span>
+        </div>
+
+    </div>
+</div>
+
+<!-- 返回顶部-->
+<!-- 返回顶部-->
+<div class="v_main_back" id="_v_main_back">
+</div>
+<div class="nav-com">
+    <div class="nav">
+    <div class="logo">
+        <a href="#">
+            <em>有小有大</em>
+            <img src="../assets/img/jpg/logo.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/logo.jpg" class="log_img"/>
+        </a>
+    </div>
+    <ul class="nav_nav_pg">
+        <li><a href="../index/index.htm" tppabs="http://www.youxiaoyouda.com/index/index"  class="pg_a" >
+                首页
+            </a></li>
+        <li><a href="../news/index.htm" tppabs="http://www.youxiaoyouda.com/news/index"  class="pg_a" >
+                热点
+            </a></li>
+        <li><a href="index.htm" tppabs="http://www.youxiaoyouda.com/maker/index" class="nav_axs pg_a" >
+                创客
+            </a></li>
+        <li class="nav_pag_xm"><a href="../project/index.htm" tppabs="http://www.youxiaoyouda.com/project/index"  class="pg_a" >
+                项目
+                <i class="pg_xlbtn bor-xz"></i>
+            </a>
+            <ul class="nav_pag_xl">
+                                    <li><a href="javascript::void(0)" id="create">创建项目</a></li>
+                                <li><a href="../project/teamlist.htm" tppabs="http://www.youxiaoyouda.com/project/teamlist">发起组队</a></li>
+                <li><a href="../project/crowdlist.htm" tppabs="http://www.youxiaoyouda.com/project/crowdlist">寻求资金</a></li>
+                <li><a href="../project/financelist.htm" tppabs="http://www.youxiaoyouda.com/project/financelist">筹集资源</a></li>
+                <li><a href="../project/helplist.htm" tppabs="http://www.youxiaoyouda.com/project/helplist" style="border: none;">寻求帮助</a></li>
+            </ul>
+        </li>
+         <li>
+             <a href="../capital/index.htm" tppabs="http://www.youxiaoyouda.com/capital/index"  class="pg_a" >
+                资金支持
+            </a>
+        </li>
+        <li><a href="../college/index.htm" tppabs="http://www.youxiaoyouda.com/college/index"  class="pg_a" >
+                创客学院
+            </a>
+        </li>
+        <li><a href="../jishu/index.html" tppabs="http://www.youxiaoyouda.com/jishu/index.html"  class="pg_a" >
+                技术支持
+            </a>
+        </li>
+    </ul>
+</div>
+</div>
+<script>
+    $("#create").bind("click",function(){
+        var action ='/project/checklogin';
+        $.post(action,{},function(data){
+            if(data.data=='login'){
+                $(".dl_dl").show();
+            }else{
+                window.location.href='../login.htm'/*tpa=http://www.youxiaoyouda.com/login*/;
+            }
+        },'json')
+    })
+    $(function(){
+        $("#register").click(function(){
+            var form = $(this).parents('form');
+            var email = $("input[name='email']");
+            var password = $("input[name='password_email']");
+            var repassword = $("input[name='repassword']");
+            var ischeck = $("input[name='ischeck']").is(':checked');
+            var action = form.attr('action');
+            if(email.val().length<1){
+                sweetAlert("邮箱不能为空!");
+                email.focus();
+                return false;
+            }
+            if(password.val().length<1){
+                sweetAlert("密码不能为空!");
+                password.focus();
+                return false;
+            }
+            if(password.val() !=  repassword.val()){
+                sweetAlert("两次密码不一致!");
+                repassword.focus();
+                return false;
+            }
+            if(ischeck == false){
+                sweetAlert("请同意用户协议!");
+                return false;
+            }
+            $.post(action, {email:email.val(),password:password.val(),repassword:repassword.val()}, function(data){
+                if(data.code == 0){
+                    /*sweetAlert('邮件发送成功');*/
+                    window.location.href='../login.htm'/*tpa=http://www.youxiaoyouda.com/login*/;
+                    /*window.location.href= data.data.url;*/
+                }else{
+                    sweetAlert(data.message);
+                }
+            },'json')
+        })
+    });
+    $(function(){
+        $("#login").click(function(){
+          var username = $("input[name='username']");
+          var password = $("input[name='password']");
+          var action = '/home/login';
+            if(username.val().length<1){
+              $("#txtUserName-error").html('请输入用户名');
+              username.focus();
+              return false;
+          }else if(!checkValue(username.val())){
+              $("#txtUserName-error").html("手机号或邮箱格式不正确!");
+              username.focus();
+              return false;
+          }
+          if(password.val().length<1){
+              $("#txtPassWord-error").html('请输入密码');
+              password.focus();
+              return false;
+          }
+            $.post(action,{username:username.val(),password:password.val()},function(data){
+                if(data.code == 0){
+                    window.location.href=data.data;
+                }else{
+                    sweetAlert(data.message);
+                    $(".dl_dl").show();
+                }
+            },'json')
+        })
+    })
+
+    /*
+    *     验证用户 * */
+
+    function checkValue(value){
+
+        return /^([a-z0-9]*[-_]?[a-z0-9]+)+@([a-z0-9]*[-_]?[a-z0-9]+)+[\.][a-z0-9]+([\.][a-z]+)?$/i.test(value) || /^1[34578]\d{9}$/.test(value);
+    }
+
+   $("#zc_hq").click(function(){
+       var phoneNum = $("input[name='phone']");
+       var numCheck = /^1[3|4|5|7|8][0-9]{9}$/.test(phoneNum.val());
+       if(phoneNum.val().length<1){
+           sweetAlert('请输入手机号');
+           phoneNum.focus();
+           return false
+       }
+       else if (!numCheck) {
+           sweetAlert('手机号格式不正确');
+           phoneNum.focus();
+           return false
+       }
+       var url = '/api/send_phone_vcode_request?phone='+ phoneNum.val();
+       $.ajax({
+           url:url,
+           dataType:'json',
+           success:function(data){
+               if(data.code == 0){
+                   var clearInterval = setInterval(function(){
+                       seconds -= 1;
+                       jPublicGetCode.html('已发送(' + seconds + 's)');
+                       if(seconds === 0){
+                           window.clearInterval(clearInterval);
+                           jPublicGetCode.html('再次获取').removeAttr('style').removeClass('getSend');
+                       }
+                   }, 1000);
+               }else{
+                   $(".getCode").removeClass("getSend").removeClass("active");
+                   userDialog("发送失败","error");
+               }
+           }
+       })
+   })
+
+  $("#photo_register").bind('click',function(){
+      var phoneNum = $("input[name='phone']");
+      var verify= $("input[name='verify']");
+      var phone_verify = $("input[name='phone_verify']");
+      var password_phone = $("input[name='password_phone']");
+      var isagree = $("input[name='isagree']").is(':checked');
+      var numCheck = /^1[3|4|5|7|8][0-9]{9}$/.test(phoneNum.val());
+      var action = '/home/phone_register';
+      if(phoneNum.val().length<1){
+          sweetAlert('请输入手机号');
+          phoneNum.focus();
+          return false
+      }
+      else if (!numCheck) {
+          sweetAlert('手机号格式不正确');
+          phoneNum.focus();
+          return false
+      }
+      if(verify.val().length<1){
+          sweetAlert("验证码不能为空!");
+          verify.focus();
+          return false;
+      }
+      if(password_phone.val().length<1){
+          sweetAlert("密码不能为空！");
+          password_phone.focus();
+          return false;
+      }
+      if(isagree == false){
+          sweetAlert("请同意用户协议！");
+          return false;
+      }
+      $.post(action,{phone:phoneNum.val(),verify:verify.val(),phone_verify:phone_verify.val(),password:password_phone.val(),isgree:isagree},function(data){
+          if(data.code == 0){
+              window.location.href='../login.htm'/*tpa=http://www.youxiaoyouda.com/login*/;
+          }else{
+              sweetAlert(data.message);
+              $("#tab_con").show();
+          }
+      },'json')
+  });
+
+</script>
+<!--   开始-->
+<div class="pc_conter clear">
+<div class="pc_hed">
+</div>
+<div class="pc_hcon">
+<div class="pc_hcon_xx">
+    <div class="pc_hcon_l">
+        <div class="pc_hol_l">
+            <div class="hol_l-tx">
+                <img src="../assets/project/574eac8f2a46f.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574eac8f2a46f.jpg" alt="头像" />
+            </div>
+            <div class="hol_bt">
+                <ul>
+                    <li>
+                        <div class="hcor">lv1</div>
+                        <div>等级</div>
+                    </li>
+                    <li class="br_s">
+                        <div class="hcor">1</div>
+                        <div >支持数</div>
+                    </li>
+                    <li>
+                        <div class="hcor">0</div>
+                        <div>积分</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="pc_hol_r">
+            <ul>
+                <li><h4>有小有大李冠毅</h4></li>
+                <li><h5>北京市|市辖区</h5></li>
+                <li><p></p></li>
+                <li><span>关注方向：</span>
+                    </li>
+                <li><span>我的年龄：</span><span>32</span></li>
+                <li><span>我在寻找：帮助实现梦想的人</span></li>
+               <!-- <li><span>关注了 89 人</span><span>被 21 人关注</span></li>-->
+                <li class="hol_r_fx">
+                    <span class="wy_zc">&nbsp;&nbsp;我要支持</span>
+                    分享到：
+                    <span><a href="javascript::void(0)" target="_blank" onclick="shareUrl({type:'tenc'})"><img src="../assets/img/jpg/fx_01.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/fx_01.jpg" alt="" /></a> </span>
+                    <a href="javascript::void(0)" target="_blank" onclick="shareUrl({type:'qzone'})"><img src="../assets/img/jpg/fx_02.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/fx_02.jpg" alt="" /></a>
+                    <span><a href="javascript::void(0)" target="_blank" onclick="shareUrl({type:'sina'})"><img src="../assets/img/jpg/fx_04.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/fx_04.jpg" alt="" /></a></span>
+                    <span><a href="javascript::void(0)" target="_blank" onclick="shareUrl({type:'weixin'})"><img src="../assets/img/jpg/fx_05.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/fx_05.jpg" alt="" /></a></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="pc_hcon_r">
+        <form action="" method="post">
+            <input type="hidden" name="id" value="7">
+            <input type="hidden" name="uid" value="">
+            <a href="javascript::void(0)"  class="pc_bjbtn" style="font-size: 16px;" target="_blank">联系</a>
+        </form>
+    </div>
+</div>
+
+<div class="gr_xx_fm">
+    <form action="">
+        <ul class="xx-fm_sml" style="text-align:left;">
+            <li><span>&nbsp;Q&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Q&nbsp;:</span>lihuaiyutnt</li>
+            <li><span>兴&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;趣 :</span></li>
+            <li><span>家&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;乡:</span>北京市市辖区朝阳区 </li>
+            <li class="xx-fm-jj">
+                <span style="display: inline-block;vertical-align: top; float: left;">简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介:</span>
+                <div style="display: inline-block;width:272px;overflow: hidden;">
+                 能够抓住机会，勇于挑战，头脑清晰，善于从用户体验、产品功能、媒体关注度、BD合作方的角度，并综合竞品信息去制定工作策略和工作目标。执行能力， 沟通谈判能力强。为人稳重厚道，沟通能力强，具有多年的建设团队和团队日常管理经验，学习能力优秀，知识面极广。                </div>
+            </li>
+            <li><span>创业状态:</span>已在全职创业</li></li>
+            <li><span>希望创业地点:</span>我所处的城市</li>
+        </ul>
+        <ul class="xx-fm_smr" style="text-align:left;">
+            <li><span>个人定位:</span> </li>
+            <li><span>创业经验:</span>尝试过创业</li>
+            <li><span>经济状况:</span>愿意大力投资</li>
+            <li><span>家庭支持:</span>支持</li>
+            <li><span>投入时间:</span>几乎全部时间</li>
+            <li><span>资金投入:</span>愿意大力投资</li>
+
+        </ul>
+        </form>
+        <!--<div class="clear subm_r">
+            <input type="submit" value="确认" />
+        </div>-->
+</div>
+<div class="grzx_xm_xq">
+    <h4>我发起的项目</h4>
+    <div class="grzx_xm_sj">
+        <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 25px; border-radius: 6px; margin-top: 50px;margin-left:30px;margin-bottom: 50px; width: 1000px;">
+            <li class="of_ck_tx"><a href="../project/projectinfo-id=6.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=6"><img src="../assets/img/56fbb95d6e695.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/56fbb95d6e695.jpg" alt="程序化交易" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../project/projectinfo-id=6.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=6"> 程序化交易</a></h5>
+                <p style="width: 400px;"> 我希望建立一个程序化交易的团队..
+                </p>
+                <div class="fr pldata"  >
+									<span class="ml_20">
+										<a href="javascript::void(0)" class="rs">1</a>
+										<a href="javascript::void(0)" class="">2016-03-30</a>
+									</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="pc_dt_conter">
+<div class="pc_dt_l">
+    <div class="hader">
+        <h4>动态</h4>
+    </div>
+    <div class="pc_fb_con">
+        
+            <div class="bt_zj">
+                <dl>
+                    <dt class="fl">
+                        <a href=""><img src="../assets/project/574eac8f2a46f.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574eac8f2a46f.jpg" alt="" width="51px" height="51px"></a>
+                    </dt>
+                    <dd class="fl fo_18">
+                        <a href="">有小有大李冠毅</a>
+                    </dd>
+                    <dd class="fl fo_12">18:40:51</dd>
+                </dl>
+                <div class="bt_zj_pl">
+                    asdfasfasdf                                    </div>
+                <div class="f_bpl">
+                    <a href="javascript::void(0)" class="my_plbtn">评论</a>
+                    <a href="javascript::void(0)" class="my_zan" nid="132">赞(0)</a>
+                                    </div>
+                <div class="pl_conten ">
+                    <div class="msgbox">
+                                            </div>
+                    <textarea   class="edit" name="comment" rows="" cols=""  style="height: 30px; color: rgb(64, 64, 64);resize: none;" placeholder="我也说一句"></textarea>
+                    <div class="but">
+                        <a href="javascript::void(0)" class="btn" nid="132" uid="">发表</a><!--表情开始-->
+                    </div>
+                </div>
+            </div>
+        
+            <div class="bt_zj">
+                <dl>
+                    <dt class="fl">
+                        <a href=""><img src="../assets/project/574eac8f2a46f.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574eac8f2a46f.jpg" alt="" width="51px" height="51px"></a>
+                    </dt>
+                    <dd class="fl fo_18">
+                        <a href="">有小有大李冠毅</a>
+                    </dd>
+                    <dd class="fl fo_12">18:40:46</dd>
+                </dl>
+                <div class="bt_zj_pl">
+                    sdfgsdgs                                    </div>
+                <div class="f_bpl">
+                    <a href="javascript::void(0)" class="my_plbtn">评论</a>
+                    <a href="javascript::void(0)" class="my_zan" nid="131">赞(0)</a>
+                                    </div>
+                <div class="pl_conten ">
+                    <div class="msgbox">
+                                            </div>
+                    <textarea   class="edit" name="comment" rows="" cols=""  style="height: 30px; color: rgb(64, 64, 64);resize: none;" placeholder="我也说一句"></textarea>
+                    <div class="but">
+                        <a href="javascript::void(0)" class="btn" nid="131" uid="">发表</a><!--表情开始-->
+                    </div>
+                </div>
+            </div>
+        
+            <div class="bt_zj">
+                <dl>
+                    <dt class="fl">
+                        <a href=""><img src="../assets/project/574eac8f2a46f.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574eac8f2a46f.jpg" alt="" width="51px" height="51px"></a>
+                    </dt>
+                    <dd class="fl fo_18">
+                        <a href="">有小有大李冠毅</a>
+                    </dd>
+                    <dd class="fl fo_12">17:15:44</dd>
+                </dl>
+                <div class="bt_zj_pl">
+                    请问我可以发表视频吗？                                    </div>
+                <div class="f_bpl">
+                    <a href="javascript::void(0)" class="my_plbtn">评论</a>
+                    <a href="javascript::void(0)" class="my_zan" nid="74">赞(0)</a>
+                                    </div>
+                <div class="pl_conten ">
+                    <div class="msgbox">
+                                            </div>
+                    <textarea   class="edit" name="comment" rows="" cols=""  style="height: 30px; color: rgb(64, 64, 64);resize: none;" placeholder="我也说一句"></textarea>
+                    <div class="but">
+                        <a href="javascript::void(0)" class="btn" nid="74" uid="">发表</a><!--表情开始-->
+                    </div>
+                </div>
+            </div>
+        
+            <div class="bt_zj">
+                <dl>
+                    <dt class="fl">
+                        <a href=""><img src="../assets/project/574eac8f2a46f.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574eac8f2a46f.jpg" alt="" width="51px" height="51px"></a>
+                    </dt>
+                    <dd class="fl fo_18">
+                        <a href="">有小有大李冠毅</a>
+                    </dd>
+                    <dd class="fl fo_12">17:15:43</dd>
+                </dl>
+                <div class="bt_zj_pl">
+                    请问我可以发表视频吗？                                    </div>
+                <div class="f_bpl">
+                    <a href="javascript::void(0)" class="my_plbtn">评论</a>
+                    <a href="javascript::void(0)" class="my_zan" nid="73">赞(0)</a>
+                                    </div>
+                <div class="pl_conten ">
+                    <div class="msgbox">
+                                            </div>
+                    <textarea   class="edit" name="comment" rows="" cols=""  style="height: 30px; color: rgb(64, 64, 64);resize: none;" placeholder="我也说一句"></textarea>
+                    <div class="but">
+                        <a href="javascript::void(0)" class="btn" nid="73" uid="">发表</a><!--表情开始-->
+                    </div>
+                </div>
+            </div>
+        
+            <div class="bt_zj">
+                <dl>
+                    <dt class="fl">
+                        <a href=""><img src="../assets/project/574eac8f2a46f.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574eac8f2a46f.jpg" alt="" width="51px" height="51px"></a>
+                    </dt>
+                    <dd class="fl fo_18">
+                        <a href="">有小有大李冠毅</a>
+                    </dd>
+                    <dd class="fl fo_12">19:30:42</dd>
+                </dl>
+                <div class="bt_zj_pl">
+                    大家好，我是有小有大的新成员，请多关照！                                    </div>
+                <div class="f_bpl">
+                    <a href="javascript::void(0)" class="my_plbtn">评论</a>
+                    <a href="javascript::void(0)" class="my_zan" nid="35">赞(0)</a>
+                                    </div>
+                <div class="pl_conten ">
+                    <div class="msgbox">
+                                            </div>
+                    <textarea   class="edit" name="comment" rows="" cols=""  style="height: 30px; color: rgb(64, 64, 64);resize: none;" placeholder="我也说一句"></textarea>
+                    <div class="but">
+                        <a href="javascript::void(0)" class="btn" nid="35" uid="">发表</a><!--表情开始-->
+                    </div>
+                </div>
+            </div>
+        
+            <div class="bt_zj">
+                <dl>
+                    <dt class="fl">
+                        <a href=""><img src="../assets/project/574eac8f2a46f.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574eac8f2a46f.jpg" alt="" width="51px" height="51px"></a>
+                    </dt>
+                    <dd class="fl fo_18">
+                        <a href="">有小有大李冠毅</a>
+                    </dd>
+                    <dd class="fl fo_12">19:30:42</dd>
+                </dl>
+                <div class="bt_zj_pl">
+                    大家好，我是有小有大的新成员，请多关照！                                    </div>
+                <div class="f_bpl">
+                    <a href="javascript::void(0)" class="my_plbtn">评论</a>
+                    <a href="javascript::void(0)" class="my_zan" nid="36">赞(0)</a>
+                                    </div>
+                <div class="pl_conten ">
+                    <div class="msgbox">
+                                            </div>
+                    <textarea   class="edit" name="comment" rows="" cols=""  style="height: 30px; color: rgb(64, 64, 64);resize: none;" placeholder="我也说一句"></textarea>
+                    <div class="but">
+                        <a href="javascript::void(0)" class="btn" nid="36" uid="">发表</a><!--表情开始-->
+                    </div>
+                </div>
+            </div>
+        
+            <div class="bt_zj">
+                <dl>
+                    <dt class="fl">
+                        <a href=""><img src="../assets/project/574eac8f2a46f.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574eac8f2a46f.jpg" alt="" width="51px" height="51px"></a>
+                    </dt>
+                    <dd class="fl fo_18">
+                        <a href="">有小有大李冠毅</a>
+                    </dd>
+                    <dd class="fl fo_12">19:30:42</dd>
+                </dl>
+                <div class="bt_zj_pl">
+                    大家好，我是有小有大的新成员，请多关照！                                    </div>
+                <div class="f_bpl">
+                    <a href="javascript::void(0)" class="my_plbtn">评论</a>
+                    <a href="javascript::void(0)" class="my_zan" nid="37">赞(0)</a>
+                                    </div>
+                <div class="pl_conten ">
+                    <div class="msgbox">
+                                            </div>
+                    <textarea   class="edit" name="comment" rows="" cols=""  style="height: 30px; color: rgb(64, 64, 64);resize: none;" placeholder="我也说一句"></textarea>
+                    <div class="but">
+                        <a href="javascript::void(0)" class="btn" nid="37" uid="">发表</a><!--表情开始-->
+                    </div>
+                </div>
+            </div>
+        
+            <div class="bt_zj">
+                <dl>
+                    <dt class="fl">
+                        <a href=""><img src="../assets/project/574eac8f2a46f.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574eac8f2a46f.jpg" alt="" width="51px" height="51px"></a>
+                    </dt>
+                    <dd class="fl fo_18">
+                        <a href="">有小有大李冠毅</a>
+                    </dd>
+                    <dd class="fl fo_12">19:30:41</dd>
+                </dl>
+                <div class="bt_zj_pl">
+                    大家好，我是有小有大的新成员，请多关照！                                    </div>
+                <div class="f_bpl">
+                    <a href="javascript::void(0)" class="my_plbtn">评论</a>
+                    <a href="javascript::void(0)" class="my_zan" nid="34">赞(0)</a>
+                                    </div>
+                <div class="pl_conten ">
+                    <div class="msgbox">
+                                            </div>
+                    <textarea   class="edit" name="comment" rows="" cols=""  style="height: 30px; color: rgb(64, 64, 64);resize: none;" placeholder="我也说一句"></textarea>
+                    <div class="but">
+                        <a href="javascript::void(0)" class="btn" nid="34" uid="">发表</a><!--表情开始-->
+                    </div>
+                </div>
+            </div>
+        
+            <div class="bt_zj">
+                <dl>
+                    <dt class="fl">
+                        <a href=""><img src="../assets/project/574eac8f2a46f.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574eac8f2a46f.jpg" alt="" width="51px" height="51px"></a>
+                    </dt>
+                    <dd class="fl fo_18">
+                        <a href="">有小有大李冠毅</a>
+                    </dd>
+                    <dd class="fl fo_12">19:30:39</dd>
+                </dl>
+                <div class="bt_zj_pl">
+                    大家好，我是有小有大的新成员，请多关照！                                    </div>
+                <div class="f_bpl">
+                    <a href="javascript::void(0)" class="my_plbtn">评论</a>
+                    <a href="javascript::void(0)" class="my_zan" nid="32">赞(0)</a>
+                                    </div>
+                <div class="pl_conten ">
+                    <div class="msgbox">
+                                            </div>
+                    <textarea   class="edit" name="comment" rows="" cols=""  style="height: 30px; color: rgb(64, 64, 64);resize: none;" placeholder="我也说一句"></textarea>
+                    <div class="but">
+                        <a href="javascript::void(0)" class="btn" nid="32" uid="">发表</a><!--表情开始-->
+                    </div>
+                </div>
+            </div>
+        
+            <div class="bt_zj">
+                <dl>
+                    <dt class="fl">
+                        <a href=""><img src="../assets/project/574eac8f2a46f.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574eac8f2a46f.jpg" alt="" width="51px" height="51px"></a>
+                    </dt>
+                    <dd class="fl fo_18">
+                        <a href="">有小有大李冠毅</a>
+                    </dd>
+                    <dd class="fl fo_12">19:30:39</dd>
+                </dl>
+                <div class="bt_zj_pl">
+                    大家好，我是有小有大的新成员，请多关照！                                    </div>
+                <div class="f_bpl">
+                    <a href="javascript::void(0)" class="my_plbtn">评论</a>
+                    <a href="javascript::void(0)" class="my_zan" nid="33">赞(0)</a>
+                                    </div>
+                <div class="pl_conten ">
+                    <div class="msgbox">
+                                            </div>
+                    <textarea   class="edit" name="comment" rows="" cols=""  style="height: 30px; color: rgb(64, 64, 64);resize: none;" placeholder="我也说一句"></textarea>
+                    <div class="but">
+                        <a href="javascript::void(0)" class="btn" nid="33" uid="">发表</a><!--表情开始-->
+                    </div>
+                </div>
+            </div>
+                <div id="pageNav_pc" class="pageNav pageNav_pc"><a href="makerinfo/id/7.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo/id/7" class="prev first no-prev">第一页</a>
+<a href="makerinfo/id/7.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo/id/7" class="prev no-prev">上一页</a>
+<a href="makerinfo/id/7.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo/id/7" class="page selected">1</a>
+<a href="makerinfo/id/7/page/2.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo/id/7/page/2" class="page">2</a>
+<a href="makerinfo/id/7/page/2.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo/id/7/page/2" class="next">下一页</a>
+<a href="makerinfo/id/7/page/2.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo/id/7/page/2" class="next last">最后一页</a></div>
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+<!--  结束-->
+<script type="text/javascript">
+    $(".pc_bjbtn").bind('click',function(){
+        var id = $("input[name='id']").val();
+        var uid = $("input[name='uid']").val();
+        if(uid == ''){
+            $(".dl_dl").show();
+            return false;
+        }
+        window.location.href='../login.htm'/*tpa=http://www.youxiaoyouda.com/login*/+id;
+
+    })
+    $(".wy_zc").on('click',function(){
+        var id = $("input[name='id']").val();
+        var uid = $("input[name='uid']").val();
+        var action = '/maker/support';
+        if(id==''|| uid==''){
+            $(".dl_dl").show();
+            return false;
+        }
+        $.post(action,{id:id,uid:uid},function(data){
+            if(data.code == 0){
+                $(".wy_zc").html('我已支持');
+                $(".wy_zc").removeClass("wy_zc").addClass("wy_zc1");
+            }else{
+                sweetAlert(data.message);
+            }
+        },'json')
+    });
+    $(".wy_zc1").on('click',function(){
+        sweetAlert('我已支持过了！');
+        return ;
+    })
+
+    $(".btn").on('click',function(){
+        var id = $(this).attr('nid');
+        var uid = $(this).attr('uid');
+        var comment = $(this).parent().prev().val();
+        var action = '/user/comment';
+        var dom = $(this);
+        if(uid==''){
+            $(".dl_dl").show();
+            return false;
+        }
+        $.post(action,{id:id,content:comment},function(data){
+            if(data.code ==0){
+                dom.parent().prev().val('');
+                dom.parent('.but').siblings('.msgbox').html(data.data);
+            }else{
+                sweetAlert(data.message);
+            }
+        },'json');
+    })
+    $(".my_zan").bind('click',function(){
+        var id = $(this).attr('nid');
+        var action = '/user/praise';
+        var dom = $(this);
+        $.post(action,{id:id},function(data){
+            if(data.code ==0){
+                dom.html('已赞('+data.data+')')
+            }else{
+                sweetAlert(data.message);
+            }
+
+        },'json')
+    })
+    $(".my_xx").bind('click',function(){
+        var id = $(this).attr('nid');
+        var action = '/user/del_dynamic';
+        $.post(action,{id:id},function(data){
+            if(data.code == 0){
+                sweetAlert("个人动态删除成功!");
+                window.location = '../login.htm'/*tpa=http://www.youxiaoyouda.com/login*/;
+            }else{
+                sweetAlert(data.message);
+            }
+        },'json');
+    })
+    $(".msg_x").on('click',function(){
+        var id = $(this).attr('id');
+        var action = '/user/del_comment';
+        var dom = $(this);
+        $.post(action,{id:id},function(data){
+            if(data.code ==0){
+                dom.parents('.msgbox').html(data.data);
+            }else{
+                sweetAlert(data.message);
+            }
+        },'json');
+    })
+
+    //     分享
+    var shareUrl=function(shareConfig){
+        var allApi={
+            "tenc":"http://share.v.t.qq.com/index.php?c=share&a=index&url={URL}&title={TITLE}&pic={PICS}&appkey=99d207b90670adceaaa416b63528d92c",
+            "sina":"http://service.weibo.com/share/share.php?url={URL}&title={TITLE}&pic={PIC}&appkey=760594855&ralateUid=5823080698",
+            "renren":"http://widget.renren.com/dialog/share?resourceUrl={URL}&srcUrl={SRCURL}&title={TITLE}&description={DESC}&pic={PIC}",
+            "qzone":"http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={URL}&title={DESC}&desc={TITLE}&summary={SUMMARY}&site=&pics={PICS}",
+            "douban":"http://www.douban.com/share/service?bm=&image=&href={URL}&updated=&name={TITLE}",
+            'weixin':"http://s.jiathis.com/?webid=weixin&url={URL}&title={TITLE}&isexit=false"
+        };
+        var options = {type: "NOTYPE", url: window.location.href, title: document.title, desc: "", pics: [], summary:""};
+        options = $.extend(options, shareConfig);
+        var apiUrl = allApi[options.type];
+        if (apiUrl == undefined) {
+            return;
+        }
+
+        var pics = options.pics.join("||") || "";
+        var pic = options.pics.pop() || "";
+        apiUrl = apiUrl.replace("{URL}", encodeURIComponent(options.url));
+        apiUrl = apiUrl.replace("{SRCURL}", encodeURIComponent(options.url));
+        apiUrl = apiUrl.replace("{TITLE}", encodeURIComponent(options.title));
+        apiUrl = apiUrl.replace("{DESC}", encodeURIComponent(options.desc));
+        apiUrl = apiUrl.replace("{SUMMARY}", encodeURIComponent(options.summary));
+        apiUrl = apiUrl.replace("{PICS}", encodeURIComponent(pics));
+        apiUrl = apiUrl.replace("{PIC}", encodeURIComponent(pic));
+        window.open(apiUrl);
+    }
+</script>
+<div class="fonter">
+    <div class="fo_nav">
+        <ul>
+            <li><a href="../index/index.htm" tppabs="http://www.youxiaoyouda.com/index/index">首页</a></li>
+            <li><a href="../news/index.htm" tppabs="http://www.youxiaoyouda.com/news/index">热点</a></li>
+            <li><a href="index.htm" tppabs="http://www.youxiaoyouda.com/maker/index">创客</a></li>
+            <li><a href="../college/index.htm" tppabs="http://www.youxiaoyouda.com/college/index">学院</a></li>
+            <li><a href="../index/aboutus.htm" tppabs="http://www.youxiaoyouda.com/index/aboutus">关于我们 </a></li>
+            <li><a href="../index/joinus.htm" tppabs="http://www.youxiaoyouda.com/index/joinus">加入我们 </a></li>
+            <li><a href="../index/contact.htm" tppabs="http://www.youxiaoyouda.com/index/contact">联系我们</a></li>
+            <li><a href="../index/feedback.htm" tppabs="http://www.youxiaoyouda.com/index/feedback">意见反馈</a></li>
+            <li><a href="../index/help.htm" tppabs="http://www.youxiaoyouda.com/index/help">帮助中心</a></li>
+            <li><p>合作邮箱：<span>market@youxiaoyouda.com</span></p></li>
+        </ul>
+    </div>
+    <div class="fo_tonav">
+        <div class="fo_tona_t">
+            <div class="fo_tl">
+                <h4 style="
+    width: 400px;
+"><a href="" style="font-size: 14px;">友情链接</a></h4>
+                <p style="
+    width: 427px;
+">
+                    <a href="http://www.sequoiacap.com/" target="_blank"> 红杉资本 </a>
+                    <a href="http://www.cefund.com/" target="_blank"> 青云创投 </a>
+                    <a href="http://lvzhou.gobi.cn/" target="_blank"> 戈壁合伙人 </a>
+                    <a href="http://www.cdhfund.com/" target="_blank"> 鼎晖投资 </a>
+                    <a href="http://www.idg.com.cn/" target="_blank"> IDG中国 </a>
+                    <a href="http://www.exevc.com/" target="_blank"> 元素资本 </a>
+                    <a href="http://www.qimingvc.com/" tppabs="http://www.qimingvc.com/" target="_blank"> 启明创投 </a>
+                    <a href="http://www.legendcapital.com.cn/" target="_blank"> 君联资本 </a>
+                    <a href="http://www.kpcb.com/china" target="_blank"> 凯鹏华盈</a>
+                    <a href="http://www.waldenintl.com/" target="_blank"> 华登国际</a>
+                    <a href="http://www.banyanvc.com/" target="_blank"> 高榕资本 </a>
+                    <a href="http://www.chinagrowthcapital.com/" target="_blank"> 华创资本</a>
+                    <a href="http://shenmatouzi.com/" target="_blank"> 神马投资</a>
+                    <a href="http://www.legendstar.com.cn/" target="_blank"> 联想之星 </a><br>
+                </p>
+            </div>
+            <div class="fo_tr" style="width: 682px;">
+                <h4 style="font-size: 14px; color: #818181;margin-left: 88px;">
+                    <a href="../index/aboutus.htm" tppabs="http://www.youxiaoyouda.com/index/aboutus" style="font-size: 14px; color: #818181;">关于我们</a>
+                </h4>
+                <div class="tr_b">
+
+                    <!-- 	<a href="/" target="_blank" class="app"></a> -->
+                    <div class="fo_ewm">
+                        <a href="">
+                            <img src="../assets/img/jpg/ck_kf.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/ck_kf.jpg" alt="二维码">
+                        </a>
+                        <a href="">
+           			    	<span class="fo_ewm_span">
+           			    		客服
+           			    	</span>
+                        </a>
+
+                    </div>
+                    <div class="fo_ewm">
+                        <img src="../assets/img/jpg/wb-ewm.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/wb-ewm.jpg" alt="二维码">
+           			    	<span class="fo_ewm_span">
+           			    		微博
+           			    	</span>
+
+                    </div>
+                    <div class="fo_ewm">
+                        <img src="../assets/img/jpg/dyh-ewm.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/dyh-ewm.jpg" alt="二维码">
+           			 		 <span class="fo_ewm_span">
+           			    		订阅号
+           			    	</span>
+                    </div>
+                    <div class="fo_ewm">
+                        <img src="../assets/img/jpg/wx-erm.png" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/wx-erm.png" alt="二维码">
+							<span class="fo_ewm_span">
+           			    		微信
+           			    	</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="fo_xk">© 2015  北京有小有大科技有限公司   版权所有   </p>
+    </div>
+</div>
+
+</body>
+</html>

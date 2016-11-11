@@ -1,0 +1,32 @@
+@charset "utf-8";
+*{font-family: "Microsoft YaHei";}
+.need{min-width: 1000px;}
+.need .img-responsive{width:100%;min-height: 240px; max-height:470px;}
+
+.need .need_app_home{}
+.need .need_app_home .items{width:965px;margin:0 auto;margin-bottom:100px;}
+.need .need_app_home .items .need_home_title h3,p{text-align: center;}
+.need .need_app_home .items .need_home_title h3{font-family: "Microsoft YaHei";color:#408bca;margin-top:90px;font-size:32px;}
+.need .need_app_home .items .need_home_title h3.mar_t{margin-top:100px;}
+.need .need_app_home .items .need_home_title p{color:#666;margin-bottom:35px;font-size:16px;padding-top:10px;}
+
+.need .need_app_home .items .container-fluid .row .col-md-6{height:443px;}
+
+.need .need_app_home .items .container-fluid .row  .items_border{border:1px solid #d5dfe6;border-radius:7px;background-color:#fafafa;}
+.need .need_app_home .items .container-fluid .row  .items_border:hover{border-color:#408bca;}
+.need .need_app_home .items .container-fluid .row  .items_head{height:104px;border-bottom: 1px solid #d5dfe6;}
+.need .need_app_home .items .container-fluid .row  .android{background:url("../assets/img/developer/android.png")/*tpa=http://www.kuai.ma/assets/img/developer/android.png*/ no-repeat 94px center;}
+.need .need_app_home .items .container-fluid .row  .ios{background:url("../assets/img/developer/ios.png")/*tpa=http://www.kuai.ma/assets/img/developer/ios.png*/ no-repeat 94px center;}
+.need .need_app_home .items .container-fluid .row  .items_head span{display:inline-block;margin-left:172px;height:104px;line-height:104px;font-family:"Microsoft YaHei";color:#408bca;font-size:30px;}
+.need .need_app_home .items .container-fluid .row  .items_head span.item_title{display:inline-block;margin-left:0px;height:104px;line-height:104px;font-family:"Microsoft YaHei";color:#408bca;font-size:25px;width:100%;text-align:center;}
+.need .need_app_home .items .container-fluid .row  .items_content{height:334px;padding:35px 20px 20px 20px;}
+.need .need_app_home .items .container-fluid .row  .items_content .version,.version_describe{color:#6666;}
+.need .need_app_home .items .container-fluid .row  .items_content .version span{display:inline-block;width:50%;}
+.need .need_app_home .items .container-fluid .row  .items_content .version span.version_number{text-align: left;}
+.need .need_app_home .items .container-fluid .row  .items_content .version span.version_time{text-align: right;}
+
+.need .need_app_home .items .container-fluid .row  .items_content .version_describe{height: 150px;overflow: hidden;}
+.need .need_app_home .items .container-fluid .row  .items_content .version_describe ul{list-style-type:none;padding:0;margin-top:27px;}
+
+.need .need_app_home .items .container-fluid .row  .items_content .operation a{display:block;width:190px;margin:0 auto;margin-bottom: 20px;height:40px;line-height: 27px;border:1px solid #408bca;color:#408bca;}
+.need .need_app_home .items .container-fluid .row  .items_content .operation a:hover{background-color:#408bca;color:#FFF;}

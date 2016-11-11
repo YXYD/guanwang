@@ -1,0 +1,199 @@
+.tankuang .modal-content{
+	background: #428bca;
+	width: 533px;
+	height: 368px;
+	text-align: center;
+	border-radius: 10px;
+}
+.tankuang input {
+	display: block;
+	width: 151px;
+	height: 40px;
+	cursor: pointer;
+	background-image: url("../assets/img/tangkuangbutton.png")/*tpa=http://www.kuai.ma/assets/img/tangkuangbutton.png*/;
+	margin-top: 58px;
+	border: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:4px;
+}
+.tankuang img {
+	display: block;
+	margin-top: 39px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tankuang_span1 {
+	font-size: 34.848px;
+	font-family: "Microsoft YaHei";
+	color: rgb(255, 255, 255);
+	display: block;
+	margin-top: 30px;
+}
+.tankuang_span2 {
+	font-size: 18.449px;
+	font-family: "Microsoft YaHei";
+	color: rgb(255, 255, 255);
+	display: block;
+	margin-top: 10px;
+}
+
+.tankuang1 {
+	position: fixed;
+	background: #7c7c7c;
+	width: 350px;
+	height: 200px;
+	display: none;
+	text-align: center;
+}
+
+.tankuang1 input {
+	display: block;
+	width: 151px;
+	height: 40px;
+	cursor: pointer;
+	background-image: url("../assets/img/tangkuangbutton.png")/*tpa=http://www.kuai.ma/assets/img/tangkuangbutton.png*/;
+	margin-top: 10px;
+	border: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tankuang_span3 {
+	font-size: 20px;
+	font-family: "Microsoft YaHei";
+	color: rgb(255, 255, 255);
+	display: block;
+	margin-top: 10px;
+}
+.tankuang_span4 {
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	color: rgb(255, 255, 255);
+	display: block;
+	margin-top: 10px;
+}
+
+.flow_path_mian{background-color: #f8f8f8;margin: 0px auto;padding-top:55px;}
+.flow_path .flow_path_box{width:970px;padding-bottom: 90px;margin:0 auto;}
+.flow_path .flow_path_box .parent_box{height:117px;width:139px;}
+.flow_path .flow_path_box .parent_box span{height:100%;width:100%;}
+.flow_path .flow_path_box h4{font-size:15px;text-align: center;color:#898989; margin-top:25px;}
+.flow_path .flow_path_box>div{display:inline-block;}
+.flow_path .flow_path_box>div .indicator{width:58px;height:100px;}
+
+
+.request-banner{position:relative;}
+.request-banner-title{position:absolute;top:33%;left:50%;width:800px;text-align:center;margin-left:-400px;font-size:53px;font-family: "Microsoft YaHei";color:#fff;line-height:90px;}
+.request-feature{padding:60px 0;}
+.request-feature.gray-bg{background-color:#F7F7F7;}
+.request-feature div.container{width:980px;}
+.request-feature-icon{width:249px;height:234px;float:left;}
+.request-feature-icon.cto{background-image: url("../assets/img/request/request_feature_cto.png")/*tpa=http://www.kuai.ma/assets/img/request/request_feature_cto.png*/;margin-top:50px;}
+.request-feature-icon.private{background-image: url("../assets/img/request/request_feature_private.png")/*tpa=http://www.kuai.ma/assets/img/request/request_feature_private.png*/;}
+.request-feature-icon.money{background-image: url("../assets/img/request/request_feature_money.png")/*tpa=http://www.kuai.ma/assets/img/request/request_feature_money.png*/;}
+.request-feature-icon.experience{background-image: url("../assets/img/request/request_feature_experience.png")/*tpa=http://www.kuai.ma/assets/img/request/request_feature_experience.png*/;}
+
+.request-feature-content{float:left;}
+.request-feature h1{line-height:60px;font-size:40px;}
+.request-feature span{display:block;padding-top:20px;color:#999;font-size:18px;}
+.request-feature-padding{margin-left:60px;}
+
+.request-feature-tech{text-align:center;padding:30px 0 65px 0;}
+div.request-feature-tech span{padding-top:5px;}
+.request-feature-tech div.container{width:960px;}
+.request-feature-tech .langs-container{background:#fff;border-radius:8px;padding:20px 30px;margin:30px 0 50px 0;}
+.request-feature-tech .langs-container-img{background-image: url("../assets/img/request/request_langs.jpg")/*tpa=http://www.kuai.ma/assets/img/request/request_langs.jpg*/;width:842px;height:190px;margin:0 auto;}
+.request-feature-tech ul.techs{overflow:hidden;padding:25px 0 0 0;margin:0;}
+.request-feature-tech ul.techs li{border-radius:6px;background:#fff;float:left;padding:25px 16px;margin:0;}
+.request-feature-tech ul.techs li.tech_02,.request-feature-tech ul.techs li.tech_05,.request-feature-tech ul.techs li.tech_08{margin:0 32px;}
+
+.request-feature-tech ul.techs li div{width:256px;height:188px;}
+.request-feature-tech ul.techs li.tech_01 div{background-image: url("../assets/img/request/request_skill_1.png")/*tpa=http://www.kuai.ma/assets/img/request/request_skill_1.png*/;}
+.request-feature-tech ul.techs li.tech_02 div{background-image: url("../assets/img/request/request_skill_2.png")/*tpa=http://www.kuai.ma/assets/img/request/request_skill_2.png*/;}
+.request-feature-tech ul.techs li.tech_03 div{background-image: url("../assets/img/request/request_skill_3.png")/*tpa=http://www.kuai.ma/assets/img/request/request_skill_3.png*/;}
+.request-feature-tech ul.techs li.tech_04 div{background-image: url("../assets/img/request/request_skill_4.png")/*tpa=http://www.kuai.ma/assets/img/request/request_skill_4.png*/;}
+.request-feature-tech ul.techs li.tech_05 div{background-image: url("../assets/img/request/request_skill_5.png")/*tpa=http://www.kuai.ma/assets/img/request/request_skill_5.png*/;}
+.request-feature-tech ul.techs li.tech_06 div{background-image: url("../assets/img/request/request_skill_6.png")/*tpa=http://www.kuai.ma/assets/img/request/request_skill_6.png*/;}
+.request-feature-tech ul.techs li.tech_07 div{background-image: url("../assets/img/request/request_skill_7.png")/*tpa=http://www.kuai.ma/assets/img/request/request_skill_7.png*/;}
+.request-feature-tech ul.techs li.tech_08 div{background-image: url("../assets/img/request/request_skill_8.png")/*tpa=http://www.kuai.ma/assets/img/request/request_skill_8.png*/;}
+.request-feature-tech ul.techs li.tech_09 div{background-image: url("../assets/img/request/request_skill_9.png")/*tpa=http://www.kuai.ma/assets/img/request/request_skill_9.png*/;}
+
+.request-feature-tech ul.techs li span{display:block;color:#333;font-size:24px;padding-top:12px;}
+
+
+.request-feature-reviews{text-align:center;padding:50px 0 60px 0;}
+.request-feature-reviews ul{text-align:left;}
+.request-feature-reviews li{margin-top:50px;line-height:26px;}
+.request-feature-reviews li div{color:#333;font-size:24px;}
+.request-feature-reviews li div b{font-weight:normal;color:#999;font-size:14px;padding-left:10px;}
+.request-feature-reviews li span{display:block;color:#333;font-size:18px;padding:0;line-height:32px;}
+
+
+.request-form-types{overflow:hidden;margin:10px auto 30px auto;width:876px;}
+.request-form-types div.checkbox label{width:130px;height:140px;border:2px solid #D7D7D7;border-radius:6px;position:relative;}
+.request-form-types div.checkbox label.active{border:2px solid #4FA7F2;}
+.checkbox_img>div.request-form-types>div.checkbox{width:auto;margin-left:15px;text-align:center;}
+.checkbox_img>div.request-form-types>div.checkbox:first-child{margin-left:0;}
+.checkbox_img>div.request-form-types>div.checkbox span.invent_type{position:absolute;top:-12px;right:-12px;background:none;}
+.checkbox_img>div.request-form-types>div.checkbox span.checked{width:24px;height:24px;position:absolute;top:-12px;right:-18px;background: url("../assets/img/request/request-items-v2.png")/*tpa=http://www.kuai.ma/assets/img/request/request-items-v2.png*/ -22px -175px;padding:0;}
+
+.request-form-types div.checkbox label span.invent_type_content{display:block;margin:10px 0 0 0;color:#555;font-size:14px;}
+.request-form-types div.checkbox label.active span.invent_type_content{color:#4fa7f2;}
+
+
+.request-form-types div.checkbox label .invent_type_icon{width:60px;height:54px;background: url("../assets/img/request/request-items-v2.png")/*tpa=http://www.kuai.ma/assets/img/request/request-items-v2.png*/ -8px -15px;margin:20px auto 0 auto;}
+.request-form-types div.checkbox label .invent_type_icon.web{background-position:-8px -9px;}
+.request-form-types div.checkbox label .invent_type_icon.android{background-position:-76px -9px;}
+.request-form-types div.checkbox label .invent_type_icon.ios{background-position:-140px -9px;}
+.request-form-types div.checkbox label .invent_type_icon.weixin{background-position:-216px -9px;}
+.request-form-types div.checkbox label .invent_type_icon.mobile{background-position:-308px -9px;}
+.request-form-types div.checkbox label .invent_type_icon.other{background-position:-385px -9px;}
+
+#div3{
+    background-color: #fff;
+	padding:50px 0 80px 0;
+}
+#div3 .publish_need_title h1{line-height:60px;font-size:40px;text-align:center;padding-bottom:20px;}
+#div3 .publish_need_title span{display:block;color:#999;font-size:18px;padding-bottom:20px;text-align:center;}
+
+.flow_path_title h1{line-height:60px;font-size:40px;text-align:center;padding-bottom:30px;color:#333;}
+
+#isClose{}
+#isClose .tupian{background:url("../assets/img/request/request-items-v2.png")/*tpa=http://www.kuai.ma/assets/img/request/request-items-v2.png*/ 0 -212px no-repeat;height:155px;}
+#isClose .bottom{height:100px;}
+#isClose .close{display:block;height: 75px;}
+#isClose .request-button{background:url("../assets/img/request/request-items-v2.png")/*tpa=http://www.kuai.ma/assets/img/request/request-items-v2.png*/ -54px -436px no-repeat;width:201px;height:50px;cursor:pointer;}
+#isClose .bottom_2{padding-top: 83px;height:70px;}
+#isClose div.wrapper{width:880px;}
+
+
+.dev-package{margin:120px 0 50px 0;text-align:center;}
+.dev-package span{display:block;color:#999;font-size:18px;padding-bottom:20px;}
+.home_testin > div,.home_aliyun > div,.home_eCloud > div,.home_Message > div ,.home_Incubator > div {width:141px;height:141px;margin-bottom: 30px;}
+.home_testin{background: url("../assets/img/home_testin.png")/*tpa=http://www.kuai.ma/assets/img/home_testin.png*/ no-repeat center;}
+.home_aliyun{background: url("../assets/img/home_aliyun.png")/*tpa=http://www.kuai.ma/assets/img/home_aliyun.png*/ no-repeat center;}
+.home_eCloud{background: url("../assets/img/home_eCloud.png")/*tpa=http://www.kuai.ma/assets/img/home_eCloud.png*/ no-repeat center;}
+.home_Message{background: url("../assets/img/home_Message.png")/*tpa=http://www.kuai.ma/assets/img/home_Message.png*/ no-repeat center;}
+.home_Incubator{background: url("../assets/img/home_Incubator.png")/*tpa=http://www.kuai.ma/assets/img/home_Incubator.png*/ no-repeat center;}
+
+.form-horizontal .submit_btn button{background:url("../assets/img/request/request-items-v2.png")/*tpa=http://www.kuai.ma/assets/img/request/request-items-v2.png*/ -299px -436px no-repeat;width:193px;height:45px;cursor:pointer;font-size:18px;padding:8px 60px;}
+
+
+/*hack of mobile*/
+@media (max-width:1200px) {
+	.request-banner-title{top:30%;font-size:36px;line-height:60px;}
+}
+
+
+
+
+.counters{padding:50px 75px;background-color:#F7F7F7;}
+.counters .counter{color:#1f7edd;margin:0 0 20px;}
+.counters .counter span{font-size:50px;color:#1f7edd;text-align:center;}
+.counters h4 {
+    font-size: 20px;
+    font-weight: 700;
+	text-align:center;
+}
+.counters .item{margin:25px 0;text-align:center;}

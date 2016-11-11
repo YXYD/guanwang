@@ -1,0 +1,249 @@
+.devpackage_content {
+    font-family: "Microsoft Yahei" !important;
+    width: 100%;
+    overflow: hidden;
+}
+.devpackage_wrap {
+    padding: 100px 0;
+    background-color: #fff;
+}
+.devpackage_grey {
+    background-color: #f7f7f7;
+}
+.devpackage_inner_content {
+    width: 1000px;
+    margin: 0 auto;
+}
+.devpackage_inner_content h3 {
+    color: #525252;
+    font-size: 24px;
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+}
+.devpackage_inner_content p {
+    font-size: 14px;
+    color: #a2a3a5;
+    width: 500px;
+    margin: 0 auto;
+    line-height: 24px;
+    text-align: center;
+}
+.devpackage_inner_content ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+/*S devpackage_gift_list*/
+.devpackage_inner_content .devpackage_gift_list {
+    padding: 70px 0 10px;
+    text-align: left;
+}
+.devpackage_inner_content .devpackage_gift_list li {
+    display: inline-block;
+    width: 290px;
+    height: 192px;
+    margin-left: 65px;
+    margin-bottom: 30px;
+    position: relative;
+    background-image: url("../assets/img/devpackage_gift_list_bg.png")/*tpa=http://www.kuai.ma/assets/img/devpackage_gift_list_bg.png*/;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_1, .devpackage_inner_content .devpackage_gift_list li.item_4 {
+    margin-left: 0;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_1 {
+    background-position: 0 0;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_2 {
+    background-position: -356px 0;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_3 {
+    background-position: -711px 0;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_4 {
+    background-position: 0 -228px;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_5 {
+    background-position: -356px -228px;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_6 {
+    background-position: -711px -228px;
+}
+.devpackage_inner_content .devpackage_gift_list li i {
+    display: block;
+    position: absolute;
+    width: 42px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    font-style: normal;
+    left: 22px;
+    top: 0;
+    text-align: center;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_1 i {
+    background-color: #124967;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_2 i {
+    background-color: #276161;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_3 i {
+    background-color: #2a5f44;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_4 i {
+    background-color: #124967;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_5 i {
+    background-color: #225069;
+}
+.devpackage_inner_content .devpackage_gift_list li.item_6 i {
+    background-color: #346564;
+}
+.devpackage_inner_content .devpackage_gift_list li h3 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    padding: 60px 0 14px 22px;
+    text-align: left;
+}
+.devpackage_inner_content .devpackage_gift_list li p {
+    font-size: 12px;
+    color: #fff;
+    padding: 0 0 0 22px;
+    text-align: left;
+}
+/*E devpackage_gift_list*/
+/*S devpackage_cloud_list*/
+.devpackage_inner_content .devpackage_cloud_list {
+    padding: 80px 0 55px 0;
+}
+.devpackage_inner_content .devpackage_cloud_list li {
+    display: inline-block;
+    margin-left: 80px;
+    width: 150px;
+    height: 150px;
+    background-image: url("../assets/img/devpackage_cloud_icon.png")/*tpa=http://www.kuai.ma/assets/img/devpackage_cloud_icon.png*/;
+    background-repeat: no-repeat;
+}
+.devpackage_inner_content .devpackage_cloud_list li.item_1 {
+    background-position: 0 0;
+    margin-left: 0;
+}
+.devpackage_inner_content .devpackage_cloud_list li.item_2 {
+    background-position: -230px 0;
+}
+.devpackage_inner_content .devpackage_cloud_list li.item_3 {
+    background-position: -460px 0;
+}
+/*E devpackage_cloud_list*/
+/*S devpackage_partner_list*/
+.devpackage_inner_content .devpackage_partner_list {
+    padding: 80px 0 70px 0;
+}
+.devpackage_inner_content .devpackage_partner_list li {
+    display: inline-block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    width: 214px;
+    height: 284px;
+    margin-left: 32px;
+    background-image: url("../assets/img/devpackage_partner_list_icon_v1.png")/*tpa=http://www.kuai.ma/assets/img/devpackage_partner_list_icon_v1.png*/;
+}
+
+.devpackage_inner_content .devpackage_partner_list li.item_www {
+	background-position: -276px center;
+}
+.devpackage_inner_content .devpackage_partner_list li.item_kjs {
+	background-position: -1px center;
+}
+
+.devpackage_inner_content .devpackage_partner_list li.item_36k {
+	background-position: -785px center;
+}
+.devpackage_inner_content .devpackage_partner_list li.item_101 {
+	background-position: -525px center;
+}
+
+
+.devpackage_inner_content .devpackage_partner_list li.item_1 {
+    margin-left: 0;
+}
+.devpackage_inner_content .devpackage_partner_list li p {
+    width: 100%;
+    color: #525252;
+    font-size: 24px;
+    padding-top: 240px;
+}
+
+
+
+
+/*E devpackage_partner_list*/
+/*S devpackage_media_list*/
+.devpackage_inner_content .devpackage_media_list {
+    padding: 90px 0 50px 0;
+}
+.devpackage_inner_content .devpackage_media_list li {
+    display: inline-block;
+    width: 192px;
+    height: 113px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    background-image: url("../assets/img/devpackage_media_list_icon.png")/*tpa=http://www.kuai.ma/assets/img/devpackage_media_list_icon.png*/;
+    background-repeat: no-repeat;
+}
+.devpackage_inner_content .devpackage_media_list li.item_1 {
+    margin-left: 0;
+    background-position: 20px 5px;
+}
+.devpackage_inner_content .devpackage_media_list li.item_2 {
+    background-position: -230px 6px;
+}
+.devpackage_inner_content .devpackage_media_list li.item_3 {
+    background-position: -481px 7px;
+}
+.devpackage_inner_content .devpackage_media_list li.item_4 {
+    background-position: -732px 5px;
+}
+.devpackage_inner_content .devpackage_media_list li.item_5 {
+    margin-left: 0;
+    background-position: 11px -161px;
+}
+.devpackage_inner_content .devpackage_media_list li.item_6 {
+    background-position: -242px -170px;
+}
+.devpackage_inner_content .devpackage_media_list li.item_7 {
+    background-position: -492px -157px;
+}
+.devpackage_inner_content .devpackage_media_list li.item_8 {
+    background-position: -735px -162px;
+}
+/*E devpackage_media_list*/
+.devpackage_inner_content .devpackage_investment {
+    padding: 80px 0 150px;
+}
+.devpackage_inner_content .devpackage_handle {
+    width: 100%;
+    font-size: 0;
+    padding-bottom: 35px;
+}
+.devpackage_inner_content .devpackage_handle a {
+    display: inline-block;
+    color: #418bca;
+    font-size: 24px;
+    width: 230px;
+    height: 70px;
+    background: url("../assets/img/devpackage_btn_bg.png")/*tpa=http://www.kuai.ma/assets/img/devpackage_btn_bg.png*/ no-repeat center;
+    outline: none;
+    line-height: 70px;
+    text-decoration: none;
+}
+.devpackage_inner_content .devpackage_handle .devpackage_apply {
+    margin-left: 120px;
+}

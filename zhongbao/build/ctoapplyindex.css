@@ -1,0 +1,297 @@
+body 
+{
+    background-color:#f7f7f7;
+    min-width:1280px;
+}
+
+.img_div
+{
+   width:100%;
+   margin:0 auto;
+   padding:0;
+   border-width:0;
+   text-align:left;
+}
+
+
+.content_div1
+{
+    width:100%;
+    background-color:White;
+    height:315px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.content_div1 .title_div
+{
+    width:100%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top:110px;
+    font-family:"Microsoft Yahei" !important;
+    font-size:24px;
+    color:#428bca;
+    text-align:center;
+}
+
+.content_div1 .word_div
+{
+    width:750px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+    font-family:"Microsoft Yahei" !important;
+    font-size:15px;
+    color:Gray;
+    line-height:30px;
+    margin-top:20px;
+}
+
+
+.content_div2
+{
+    width:100%;
+    height:1100px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.content_div2 .title_div
+{
+    width:100%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top:140px;
+    font-family:"Microsoft Yahei" !important;
+    font-size:24px;
+    color:#428bca;
+    text-align:center;
+   
+}
+
+.content_div2 .word_div
+{
+    width:780px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+    font-family:"Microsoft Yahei" !important;
+    font-size:15px;
+    color:Gray;
+    line-height:30px;
+    margin-top: 16px;
+    margin-bottom: 60px;
+}
+
+.content_div2 .line_div
+{
+    width:100%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.content_div2 .div_link
+{
+    width:1000px;
+    height:300px;
+    text-align:center;
+    margin:auto auto;
+}
+
+.content_div2 .div_link .div_block
+{
+    float:left;
+    width:50%;
+    height:100%;
+}
+
+
+.content_div2 .div_link .div_block .leftcontent
+{
+    width: 360px;
+    height: 290px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.content_div2 .div_link .div_block .rightcontent
+{
+    width:360px;
+    height:290px;
+    text-align:center;
+    margin-left:75px;
+    margin-top:30px;
+}
+
+.content_div2 .div_link .div_img
+{
+     margin-top:11px;
+}
+
+.content_div2 .div_link .div_t
+{
+    margin-top: 35px;
+    font-family: "Microsoft Yahei" !important;
+    font-size: 15px;
+    color: #555555;
+}
+
+.content_div2 .div_link .div_content
+{
+    margin-top: 23px;
+    width: 333px;
+    text-align: center;
+    font-family: "Microsoft Yahei" !important;
+    font-size: 15px;
+    color: #898989;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 151px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.content_div3
+{
+    width:100%;
+    height:780px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color:White;
+}
+
+.content_div3 .title_div
+{
+    width:100%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top:140px;
+    font-family:"Microsoft Yahei" !important;
+    font-size:24px;
+    color:#428bca;
+    text-align:center;  
+}
+
+.content_div3 .tj_div
+{
+    width:370px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    height :500px;
+    margin-top:100px;
+}
+
+.content_div3 .tj_div .tj_step_div
+{
+     width:367;
+     height:80px;
+     text-align:left;
+     padding-left:100px;
+     line-height:80px;
+     font-family:"Microsoft Yahei" !important;
+     font-size:17px;
+     color:Gray;
+}
+
+.content_div3 .tj_div .tj_step_div2
+{
+     width:367px;
+     height:80px;
+     margin-top:55px;
+     text-align:left;
+     padding-left:100px;
+     line-height:78px;
+     font-family:"Microsoft Yahei" !important;
+     font-size:17px;
+     color:Gray;
+}
+
+
+.content_div4
+{
+    width:100%;
+    height:915px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.content_div4 .title_div
+{
+    width:100%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top:140px;
+    font-family:"Microsoft Yahei" !important;
+    font-size:24px;
+    color:#428bca;
+    text-align:center;  
+}
+
+.content_div4 .lc_div
+{
+    width:910px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:146px;
+    height:160px;
+    text-align:left;
+}
+
+.content_div4 .lc_div .block_div
+{
+     width:120px;
+     text-align:center;
+      height:160px;
+      float:left;
+}
+
+.content_div4 .lc_div .block_div .img_div
+{
+   
+    width:120px;
+    height:111px;
+}
+
+.content_div4 .lc_div .block_div .word_div
+{
+    width:120px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    font-family:"Microsoft Yahei" !important;
+    font-size:13px;
+    color:Gray;
+    margin-top:10px;
+}
+
+.content_div4 .lc_div .arrow_div
+{
+    float:left;
+    width:60px;
+    height:25px;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:60px;
+}
+
+.content_div4 .btn_div
+{
+    width:100%;
+    margin-top:200px;
+    text-align:center;
+}
+
+.content_div4 .btn_div .btn
+{
+    width:405px;
+    height:84px;
+    border-width:0;
+    padding:0;
+    margin:0;
+    cursor:pointer;
+}
+
+

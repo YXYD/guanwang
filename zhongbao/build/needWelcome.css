@@ -1,0 +1,66 @@
+@charset "UTF-8";
+*{font-family: "微软雅黑";}
+.welcome{min-width: 1000px;}
+.welcome .img-responsive{width:100%;min-height: 240px; max-height:470px;}
+.welcome_home .welcome_items,.rule_items{ width:1000px;margin:0 auto;}
+.welcome_home .welcome_items .welcome_title{}
+.welcome_home .welcome_items .welcome_title h3{text-align: center;font-family: "微软雅黑";color:#408bca;margin-top:110px;margin-bottom: 95px;}
+.welcome_home .welcome_items .container-fluid .row span{height:224px;width:202px;display:block;margin:0 auto;}
+.welcome_home .welcome_items .container-fluid .row span.product{background:url("../assets/img/developer/product.png")/*tpa=http://www.kuai.ma/assets/img/developer/product.png*/ no-repeat center center;}
+.welcome_home .welcome_items .container-fluid .row span.design{background:url("../assets/img/developer/design.png")/*tpa=http://www.kuai.ma/assets/img/developer/design.png*/ no-repeat center center;}
+.welcome_home .welcome_items .container-fluid .row span.programmer{background:url("../assets/img/developer/programmer.png")/*tpa=http://www.kuai.ma/assets/img/developer/programmer.png*/ no-repeat center center;}
+.welcome_home .welcome_items .container-fluid .row .caption{margin-bottom: 160px;}
+.welcome_home .welcome_items .container-fluid .row .caption h4,p{margin:0 auto;text-align: center;width:200px;}
+.welcome_home .welcome_items .container-fluid .row .caption h4{font-family:"微软雅黑";color:#408bca;margin-top:40px;margin-bottom:20px;}
+.welcome_home .welcome_items .container-fluid .row .caption p{color:#898989;}
+
+.welcome_home .superiority_items{background-color:#f7f7f7;height:1100px;position:relative;}
+.welcome_home .superiority_items .bigCircle{height:650px;width:650px;margin:0 auto;background: url("../assets/img/developer/bigCircle.png")/*tpa=http://www.kuai.ma/assets/img/developer/bigCircle.png*/ no-repeat center center;position: relative;}
+.welcome_home .superiority_items .bigCircle > div.free,div.identity,div.deposit,div.analyse,div.money{height:255px;width:255px;background-color:#fff;border-radius:132px;position:absolute;}
+.welcome_home .superiority_items .bigCircle > div.subject_title{position: absolute;background: url("../assets/img/developer/advantage.png")/*tpa=http://www.kuai.ma/assets/img/developer/advantage.png*/ no-repeat center center;width:243px;height:34px;}
+.welcome_home .superiority_items .bigCircle > div > span{display:block;margin:0 auto;position: relative;top:40px;}
+.welcome_home .superiority_items .bigCircle > div > p{width:148px;margin-top:64px;text-align: center;color:#898989;line-height: 25px;}
+.welcome_home .superiority_items .bigCircle > div.free{left:197.5px;top:-127.5px;}
+.welcome_home .superiority_items .bigCircle > div.identity{left:500.5px;top:127.5px;}
+.welcome_home .superiority_items .bigCircle > div.deposit{left:396.5px;top:475.5px;}
+.welcome_home .superiority_items .bigCircle > div.analyse{left:-3.5px;top:475.5px;}
+.welcome_home .superiority_items .bigCircle > div.money{left:-106.5px;top:127.5px;}
+.welcome_home .superiority_items .bigCircle > div.subject_title{left:201.5px;top:317.5px;}
+/*.welcome_home .superiority_items .bigCircle > div.subject_title h1{color:#408bca;}*/
+
+.welcome_home .superiority_items .bigCircle > div.free .free_img{width:104px;height:104px;background:url("../assets/img/developer/free.png")/*tpa=http://www.kuai.ma/assets/img/developer/free.png*/ no-repeat center center;}
+.welcome_home .superiority_items .bigCircle > div.identity .identity_img{width:104px;height:104px;background:url("../assets/img/developer/identity.png")/*tpa=http://www.kuai.ma/assets/img/developer/identity.png*/ no-repeat center center;}
+.welcome_home .superiority_items .bigCircle > div.deposit .deposit_img{width:104px;height:104px;background:url("../assets/img/developer/deposit.png")/*tpa=http://www.kuai.ma/assets/img/developer/deposit.png*/ no-repeat center center;}
+.welcome_home .superiority_items .bigCircle > div.analyse .analyse_img{width:104px;height:104px;background:url("../assets/img/developer/analyse.png")/*tpa=http://www.kuai.ma/assets/img/developer/analyse.png*/ no-repeat center center;}
+.welcome_home .superiority_items .bigCircle > div.money .money_img{width:104px;height:104px;background:url("../assets/img/developer/money.png")/*tpa=http://www.kuai.ma/assets/img/developer/money.png*/ no-repeat center center;}
+
+
+.welcome_home .rule_items{height:1000px;padding-top:140px;}
+.welcome_home .rule_items  fieldset{border:3px solid #d1eaff;margin:0;padding-left:20px;border-radius:5px;}
+.welcome_home .rule_items  fieldset .rule_img{width:939px;height:125px;margin:55px 0 80px 0;background: url("../assets/img/developer/rule.png")/*tpa=http://www.kuai.ma/assets/img/developer/rule.png*/ no-repeat center center;position:relative;}
+.welcome_home .rule_items  fieldset .rule_img span{color:#408bca;position:absolute;}
+.welcome_home .rule_items  fieldset legend{width:10%;border-bottom:none;margin-bottom:0px;padding-left:5px;font-family: "微软雅黑";color:#408bca;}
+.welcome_home .rule_items .payment_rule{margin-top:70px;}
+.welcome_home .rule_items .payment_rule fieldset .rule_img span {display:inline-block;width:111px;}
+.welcome_home .rule_items .payment_rule fieldset .rule_img span.payment_title_1{left:266px;top:-10px;font-size:17px;text-align: center;}
+.welcome_home .rule_items .payment_rule fieldset .rule_img span.payment_title_2{left:565px;top:-10px;font-size:17px;text-align: center;}
+.welcome_home .rule_items .payment_rule fieldset .rule_img span.payment_content{display:inline-block;width:111px;text-align: center;color:#898989;}
+.welcome_home .rule_items .payment_rule fieldset .rule_img span.content_1{top:100px;left:125px;}
+.welcome_home .rule_items .payment_rule fieldset .rule_img span.content_2{top:100px;left:265px;}
+.welcome_home .rule_items .payment_rule fieldset .rule_img span.content_3{top:100px;left:414px;}
+.welcome_home .rule_items .payment_rule fieldset .rule_img span.content_4{top:100px;left:566px;}
+.welcome_home .rule_items .payment_rule fieldset .rule_img span.content_5{top:100px;left:707px;}
+.welcome_home .rule_items .payment_rule fieldset .rule_img span.grade_content{display:inline-block;width:309px;text-align: center;color:#898989;}
+.welcome_home .rule_items .payment_rule fieldset .rule_img span.grade_1{top:100px;left:125px;width:107px;}
+.welcome_home .rule_items .payment_rule fieldset .rule_img span.grade_2{top:100px;left:464px;}
+
+.enroll_items{background-color:#f7f7f7;}
+.enroll_items .enroll_items_main{width:650px;margin:0 auto;display: block;}
+.enroll_items .enroll_items_main .enroll_title{padding-top: 100px;}
+.enroll_items .enroll_items_main .enroll_items_form label{color:#555555;font-weight: normal;font-size:15px;}
+
+.enroll_items h3{text-align: center;color:#2e6da4}
+.enroll_items_form{margin-top: 100px;}
+.enroll_items_form_div1{margin-top: 30px;}
+.ruzhu{margin-top: 100px}
+.ruzhu button{padding:10px 40px}

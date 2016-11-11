@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=UTF-8>
+    <meta property="wb:webmaster" content="d12de21fd0a2c4ec" />
+    <title>有小有大-小梦想，大坚持</title>
+    <html xmlns:wb="http://open.weibo.com/wb">
+    <script src="../../tjs.sjs.sinajs.cn/open/api/js/wb.js" tppabs="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="../assets/css/reset.css" tppabs="http://www.youxiaoyouda.com/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" tppabs="http://www.youxiaoyouda.com/assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/calender.css" tppabs="http://www.youxiaoyouda.com/assets/css/calender.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/laydate.css" tppabs="http://www.youxiaoyouda.com/assets/css/laydate.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/sweet.css" tppabs="http://www.youxiaoyouda.com/assets/css/sweet.css"/>
+    <script src="../assets/js/jquery-1.8.1.min.js" tppabs="http://www.youxiaoyouda.com/assets/js/jquery-1.8.1.min.js"></script>
+    <script src="../assets/js/EasySlide.js" tppabs="http://www.youxiaoyouda.com/assets/js/EasySlide.js"></script>
+    <script src="../assets/js/main.js" tppabs="http://www.youxiaoyouda.com/assets/js/main.js"></script>
+    <script src="../assets/js/PCASClass.js" tppabs="http://www.youxiaoyouda.com/assets/js/PCASClass.js"></script>
+    <script src="../assets/js/formcom.js" tppabs="http://www.youxiaoyouda.com/assets/js/formcom.js"></script>
+    <script src="../assets/js/jquery.validate-1.13.1.js" tppabs="http://www.youxiaoyouda.com/assets/js/jquery.validate-1.13.1.js"></script>
+    <script src="../assets/js/layer.js" tppabs="http://www.youxiaoyouda.com/assets/js/layer.js"></script>
+    <script src="../assets/js/sweet.js" tppabs="http://www.youxiaoyouda.com/assets/js/sweet.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="hender">
+        <ul class="ul_con">
+            <li><!--<a href="#" class="wap">wap端</a>-->
+                <div class="none">
+                    <img src="../assets/img/wx.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/wx.jpg" alt="微信" />
+                </div>
+            </li>
+        <!--    <li><a href="#">手机版</a>
+                <div class="none">
+                    <img src="" alt="" />
+                </div>
+            </li>-->
+                       <li><span class="index_dl">登陆</span></li>
+            <li><span class="index_zc">快速注册</span></li>
+                   </ul>
+    </div>
+    <div class="tc_dl ne dl_dl">
+        <div class="tc_dl_mb">
+            <div class="tc_dl_bt">
+                登陆
+                <a href="javascript::void(0)" class="gb_01">x</a>
+            </div>
+            <div class="tc_ip">
+                <form action="" method="post" class="dl_for">
+                    <div class="phone_01">
+                        <input type="text" placeholder="手机号/邮箱" name="username" />
+                        <label id="txtUserName-error" class="error" for="txtUserName"></label>
+                    </div>
+                    <div class="phone_poswod phone_01">
+                        <input type="password" placeholder="密码" name="password" />
+                        <label id="txtPassWord-error" class="error" for="txtPassWord"></label>
+                    </div>
+                    <div class="subm">
+                        <input type="button" name="login" id="login" value="立即登陆" />
+                    </div>
+                </form>
+                <div class="zc_lik">
+                    没有账号？
+                    <a href="javascipt:" style="color:#397ADB;" class="ljzc">立即注册</a>
+                    <a href="../forgetpassword/index.htm" tppabs="http://www.youxiaoyouda.com/forgetpassword/index" class="wj_lik clear fr">忘记密码</a>
+                </div>
+                <div class="linebg"><b class="fond"></b>合作账号登录<b class="back"></b></div>
+                <div class="clearfix">
+                    <a class="wb"></a>
+                    <a class="qq"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--注册-->
+    <div class="tc_dl dl_zc ne">
+        <div class="tc_dl_mb_02">
+            <div class="tc_dl_bt">
+                注册
+                <a href="javascript::void(0)" class="gb_02">x</a>
+            </div>
+            <div class="qh_btn" id="tab_title">
+                <div class="phone_btn selected" id="sx" style="margin-right: 40px;">手机注册</div>
+                <div class="eml_btn">邮箱注册</div>
+            </div>
+            <div id="tab_con">
+                <div class="phone_from ss">
+                    <form>
+                        <p style="margin-top:9px;">
+                            <input type="text" name="phone" placeholder="手机号" />
+                        </p>
+                        <p style="position: relative;">
+                            <input type="text" style="width: 176px;"name="verify" placeholder="验证码" />
+                            <a href="javascript:void(0)" class="zc_yzm" name="yan_2"><img src="../captcha/captcha-time=1468064981.png" tppabs="http://www.youxiaoyouda.com/captcha/captcha?time=1468064981" alt="验证码"  onclick="this.src='/captcha/captcha?temp='+Math.random()"/></a>
+                            <span class="clear"></span>
+                        </p>
+                        <p style="position: relative;">
+                            <input type="text" style="width: 176px;" name="phone_verify" placeholder="手机验证码"  autocomplete="off"/>
+                            <input class="zc_hq" id="zc_hq" type="button"  value="获取" />
+                            <span class="clear"></span>
+                        </p>
+                        <p><input type="text"  placeholder="密码"  name="password_phone" autocomplete="off" onfocus="this.type='password'"/></p>
+                        <div class="zc_ty"><input class="xy" name="isagree"  type="checkbox"><span>阅读并同意</span><a href="javascript::void(0)" class="yhxy_ope">《用户注册服务协议》</a></div>
+
+                        <div class="subm">
+                            <input type="button" id="photo_register" value="立即注册" />
+                        </div>
+                    </form>
+                </div>
+                <div class="eml_from ne ss">
+                    <form action="http://www.youxiaoyouda.com/home/email_register" >
+                        <div class="eml_01" style="margin-top: 26px;">
+                            <input type="text" placeholder="邮箱" name="email"/>
+                        </div>
+                        <div class="eml_poswod">
+                            <input type="password" placeholder="密码"  name="password_email"/>
+                        </div>
+
+                        <div class="phone_poswod_qr">
+                            <input type="password" id="txtPassWord" name="repassword" placeholder="确认密码" />
+                        </div>
+                        <div class="zc_ty"><input class="xy"  type="checkbox" name="ischeck"><span>阅读并同意</span><a href="javascript::void(0)" class="yhxy_ope">《用户注册服务协议》</a></div>
+                        <div class="subm">
+                            <input type="button" name="register" id="register" value="立即注册" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="dl_dj"><span>已有账号？</span><a href="javascipt:" class="dl_tz">立即登录</a></div>
+            <div class="linebg_02"><b class="fond"></b>合作账号登录<b class="back"></b></div>
+            <div class="clearfix">
+                <a class="wb"></a>
+                <a class="qq"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="zc_fwxy_wc ne">
+    <div class="zc_fwxy">
+        <div class="zc_fwxy_hend">
+            用户注册服务协议
+            <h3 class="zc_fwxy_gbtn">X</h3>
+        </div>
+        <div class="zc_fwxy_content">
+            <h2>有小有大创客联盟注册协议</h2>
+            <p>须知：有小有大创客联盟<a href="www.youxiaoyouda.com.htm" tppabs="http://www.youxiaoyouda.com/index/www.youxiaoyouda.com">(www.youxiaoyouda.com)</a>1.1 用户在使用本网站的服务之前，应当仔细阅读本协议，并同意遵守本协议及所有网站规则后方可成为本站用户，一旦用户注册成功，则用户与本网站之间自动形成协议关系，用户应当受本协议及所有网站规则的约束。用户在使用特殊的服务或产品时，应当同意接受相关协议后方能使用。
+                1.2 本协议则可由本站随时更新，用户应当及时关注并同意本站不承担通知义务。本站的通知、公告、声明或其它类似内容是本协议的一部分。
+            </p>
+            <p>服务内容：</p>
+            <p>1、本站的具体内容由本站根据实际情况提供。</p>
+            <p>2、本站仅提供相关的网络服务，除此之外与相关网络服务有关的设备(如个人电脑、手机、及其他与接入互联网或移动网有关的装置)及所需的费用(如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费)均应由用户自行负担。</p>
+
+        </div>
+        <div class="zc_fwxygb">
+            <span class="zc_fwxy-button-text">已阅读并同意此协议</span>
+        </div>
+
+    </div>
+</div>
+
+<!-- 返回顶部-->
+<!-- 返回顶部-->
+<div class="v_main_back" id="_v_main_back">
+</div>
+<div class="nav-com">
+    <div class="nav">
+    <div class="logo">
+        <a href="#">
+            <em>有小有大</em>
+            <img src="../assets/img/jpg/logo.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/logo.jpg" class="log_img"/>
+        </a>
+    </div>
+    <ul class="nav_nav_pg">
+        <li><a href="index.htm" tppabs="http://www.youxiaoyouda.com/index/index" class="nav_axs pg_a" >
+                首页
+            </a></li>
+        <li><a href="../news/index.htm" tppabs="http://www.youxiaoyouda.com/news/index"  class="pg_a" >
+                热点
+            </a></li>
+        <li><a href="../maker/index.htm" tppabs="http://www.youxiaoyouda.com/maker/index"  class="pg_a" >
+                创客
+            </a></li>
+        <li class="nav_pag_xm"><a href="../project/index.htm" tppabs="http://www.youxiaoyouda.com/project/index"  class="pg_a" >
+                项目
+                <i class="pg_xlbtn bor-xz"></i>
+            </a>
+            <ul class="nav_pag_xl">
+                                    <li><a href="javascript::void(0)" id="create">创建项目</a></li>
+                                <li><a href="../project/teamlist.htm" tppabs="http://www.youxiaoyouda.com/project/teamlist">发起组队</a></li>
+                <li><a href="../project/crowdlist.htm" tppabs="http://www.youxiaoyouda.com/project/crowdlist">寻求资金</a></li>
+                <li><a href="../project/financelist.htm" tppabs="http://www.youxiaoyouda.com/project/financelist">筹集资源</a></li>
+                <li><a href="../project/helplist.htm" tppabs="http://www.youxiaoyouda.com/project/helplist" style="border: none;">寻求帮助</a></li>
+            </ul>
+        </li>
+         <li>
+             <a href="../capital/index.htm" tppabs="http://www.youxiaoyouda.com/capital/index"  class="pg_a" >
+                资金支持
+            </a>
+        </li>
+        <li><a href="../college/index.htm" tppabs="http://www.youxiaoyouda.com/college/index"  class="pg_a" >
+                创客学院
+            </a>
+        </li>
+        <li><a href="../jishu/index.html" tppabs="http://www.youxiaoyouda.com/jishu/index.html"  class="pg_a" >
+                技术支持
+            </a>
+        </li>
+    </ul>
+</div>
+</div>
+<script>
+    $("#create").bind("click",function(){
+        var action ='/project/checklogin';
+        $.post(action,{},function(data){
+            if(data.data=='login'){
+                $(".dl_dl").show();
+            }else{
+                window.location.href='../login.htm'/*tpa=http://www.youxiaoyouda.com/project/create*/;
+            }
+        },'json')
+    })
+    $(function(){
+        $("#register").click(function(){
+            var form = $(this).parents('form');
+            var email = $("input[name='email']");
+            var password = $("input[name='password_email']");
+            var repassword = $("input[name='repassword']");
+            var ischeck = $("input[name='ischeck']").is(':checked');
+            var action = form.attr('action');
+            if(email.val().length<1){
+                sweetAlert("邮箱不能为空!");
+                email.focus();
+                return false;
+            }
+            if(password.val().length<1){
+                sweetAlert("密码不能为空!");
+                password.focus();
+                return false;
+            }
+            if(password.val() !=  repassword.val()){
+                sweetAlert("两次密码不一致!");
+                repassword.focus();
+                return false;
+            }
+            if(ischeck == false){
+                sweetAlert("请同意用户协议!");
+                return false;
+            }
+            $.post(action, {email:email.val(),password:password.val(),repassword:repassword.val()}, function(data){
+                if(data.code == 0){
+                    /*sweetAlert('邮件发送成功');*/
+                    window.location.href='../login.htm'/*tpa=http://www.youxiaoyouda.com/user/index*/;
+                    /*window.location.href= data.data.url;*/
+                }else{
+                    sweetAlert(data.message);
+                }
+            },'json')
+        })
+    });
+    $(function(){
+        $("#login").click(function(){
+          var username = $("input[name='username']");
+          var password = $("input[name='password']");
+          var action = '/home/login';
+            if(username.val().length<1){
+              $("#txtUserName-error").html('请输入用户名');
+              username.focus();
+              return false;
+          }else if(!checkValue(username.val())){
+              $("#txtUserName-error").html("手机号或邮箱格式不正确!");
+              username.focus();
+              return false;
+          }
+          if(password.val().length<1){
+              $("#txtPassWord-error").html('请输入密码');
+              password.focus();
+              return false;
+          }
+            $.post(action,{username:username.val(),password:password.val()},function(data){
+                if(data.code == 0){
+                    window.location.href=data.data;
+                }else{
+                    sweetAlert(data.message);
+                    $(".dl_dl").show();
+                }
+            },'json')
+        })
+    })
+
+    /*
+    *     验证用户 * */
+
+    function checkValue(value){
+
+        return /^([a-z0-9]*[-_]?[a-z0-9]+)+@([a-z0-9]*[-_]?[a-z0-9]+)+[\.][a-z0-9]+([\.][a-z]+)?$/i.test(value) || /^1[34578]\d{9}$/.test(value);
+    }
+
+   $("#zc_hq").click(function(){
+       var phoneNum = $("input[name='phone']");
+       var numCheck = /^1[3|4|5|7|8][0-9]{9}$/.test(phoneNum.val());
+       if(phoneNum.val().length<1){
+           sweetAlert('请输入手机号');
+           phoneNum.focus();
+           return false
+       }
+       else if (!numCheck) {
+           sweetAlert('手机号格式不正确');
+           phoneNum.focus();
+           return false
+       }
+       var url = '/api/send_phone_vcode_request?phone='+ phoneNum.val();
+       $.ajax({
+           url:url,
+           dataType:'json',
+           success:function(data){
+               if(data.code == 0){
+                   var clearInterval = setInterval(function(){
+                       seconds -= 1;
+                       jPublicGetCode.html('已发送(' + seconds + 's)');
+                       if(seconds === 0){
+                           window.clearInterval(clearInterval);
+                           jPublicGetCode.html('再次获取').removeAttr('style').removeClass('getSend');
+                       }
+                   }, 1000);
+               }else{
+                   $(".getCode").removeClass("getSend").removeClass("active");
+                   userDialog("发送失败","error");
+               }
+           }
+       })
+   })
+
+  $("#photo_register").bind('click',function(){
+      var phoneNum = $("input[name='phone']");
+      var verify= $("input[name='verify']");
+      var phone_verify = $("input[name='phone_verify']");
+      var password_phone = $("input[name='password_phone']");
+      var isagree = $("input[name='isagree']").is(':checked');
+      var numCheck = /^1[3|4|5|7|8][0-9]{9}$/.test(phoneNum.val());
+      var action = '/home/phone_register';
+      if(phoneNum.val().length<1){
+          sweetAlert('请输入手机号');
+          phoneNum.focus();
+          return false
+      }
+      else if (!numCheck) {
+          sweetAlert('手机号格式不正确');
+          phoneNum.focus();
+          return false
+      }
+      if(verify.val().length<1){
+          sweetAlert("验证码不能为空!");
+          verify.focus();
+          return false;
+      }
+      if(password_phone.val().length<1){
+          sweetAlert("密码不能为空！");
+          password_phone.focus();
+          return false;
+      }
+      if(isagree == false){
+          sweetAlert("请同意用户协议！");
+          return false;
+      }
+      $.post(action,{phone:phoneNum.val(),verify:verify.val(),phone_verify:phone_verify.val(),password:password_phone.val(),isgree:isagree},function(data){
+          if(data.code == 0){
+              window.location.href='../login.htm'/*tpa=http://www.youxiaoyouda.com/user/index*/;
+          }else{
+              sweetAlert(data.message);
+              $("#tab_con").show();
+          }
+      },'json')
+  });
+
+</script>
+<div class="lxwm_con">
+    <div class="lxwm_box">
+        <div class="lxwm-set_topImg">
+        </div>
+        <div class="lxwm_l fl">
+            <ul>
+                <li><a href="aboutus.htm" tppabs="http://www.youxiaoyouda.com/index/aboutus" class="contact icon-ast">关于我们</a></li>
+                <li><a href="joinus.htm" tppabs="http://www.youxiaoyouda.com/index/joinus" class="contact icon-ast">加入我们</a></li>
+                <li><a href="contact.htm" tppabs="http://www.youxiaoyouda.com/index/contact" class="contact icon-ast">联系我们</a></li>
+                <li><a href="agree.htm" tppabs="http://www.youxiaoyouda.com/index/agree" class="about icon-ast">服务协议</a></li>
+                <li><a href="feedback.htm" tppabs="http://www.youxiaoyouda.com/index/feedback" class="contact icon-ast">意见反馈</a></li>
+               <!-- <li><a href="/index/help" class="contact icon-ast">帮助中心</a></li>-->
+            </ul>
+        </div>
+        <div class="lxwm_r fr">
+            <h4>用户注册服务协议</h4>
+            <p>须知：有小有大创客联盟<a href="www.youxiaoyouda.com.htm" tppabs="http://www.youxiaoyouda.com/index/www.youxiaoyouda.com">(www.youxiaoyouda.com)</a>是北京有小有大科技有限公司（简称“有小有大创客联盟”）运营的网络平台，本协议的双方是有小有大创客联盟的注册用户（简称“您”）与有小有大创客联盟。在您注册并使用“有小有大创客联盟”提供的各项服务之前，请您务必仔细阅读并透彻理解本协议条款。如果您同意注册并使用“有小有大创客联盟”提供的服务，即视为您已经认真阅读、理解并完全接受了本协议所有的规范并愿接受其约束，本协议即时在您与有小有大创客联盟之间发生法律效力。用户：是同意遵守本协议，在有小有大创客联盟网站完成注册，进行投融资、招商引资和信息交流活动的主体，包括项目方、资金方、招商方、交易信息的发布者等所有参与本平台活动的自然人、法人或其它组织。</p>
+            <p>以下为本协议内容：</p>
+            <p>1、用户通过完成注册程序成为注册用户，表示用户与有小有大创客联盟达成协议并接受所有的服务条款。</p>
+            <p>2、您应是具有完全民事权利能力和民事行为能力的自然人，或依法设立并有效存续的单位（包括企业法人及其他组织）。且用户承诺以其真实身份注册成为有小有大创客联盟用户，并保证所提供的个人资料信息真实、完整、有效，依据法律规定和必备条款约定对所提供的信息承担相应的法律责任。所有原始键入的资料将引用为注册资料。用户以其真实身份注册成为有小有大创客联盟用户后，如果用户提供的资料不准确，不真实，不合法有效，用户需承担因此引起的相应后果。</p>
+            <p>3、您应妥善保管您的登录用户名和密码，使用您的用户名和密码登陆创客网进行的任何操作，将视为您本人的操作，一切后果由您本人承担。如果您的用户名或密码泄露，您应立即通知有小有大创客联盟，以避免可能的损失。</p>
+            <p>4、尊重个人隐私是有小有大创客联盟的一项基本原则，但为更好地保护您的合法权益并向您提供优质、高效的服务，有小有大创客联盟可能将您的信息应用在以下方面：</p>
+            <p class="fwzy_pl">（1）在您登陆有小有大创客联盟网站时进行必要的身份验证；</p>
+            <p class="fwzy_pl">（2）根据您的浏览记录及相关信息，向您推荐您可能感兴趣的项目资料；</p>
+            <p class="fwzy_pl">（3）针对您通过有小有大创客联盟提出的任何问题及时予以回复，并提供必要的协助；</p>
+            <p class="fwzy_pl">（4）分析有小有大创客联盟的用户需求及使用情况，以为您提供更优质的服务；</p>
+            <p>注：未经用户许可有小有大创客联盟不会向任何第三方提供、公开或共享用户注册资料中的姓名、个人有效身份证件号码、联系方式、家庭住址等个人身份信息，但下列情况除外：</p>
+            <p class="fwzy_pl">（1）经用户或用户监护人授权披露的，</p>
+            <p class="fwzy_pl">（2）有关法律要求有小有大创客联盟披露的，</p>
+            <p class="fwzy_pl">（3）司法机关或行政机关基于法定程序要求有小有大创客联盟披露的，</p>
+            <p class="fwzy_pl">（4）有小有大创客联盟为了维护自己的合法权益而向用户提起诉讼或仲裁时，</p>
+            <p class="fwzy_pl">（5）应用户或用户监护人的合法要求而提供个人身份信息时，</p>
+            <p class="fwzy_pl">（6）为了更好保护用户账号安全方面而采取的技术措施的。</p>
+            <p>5、有小有大创客联盟将针对您的个人需求向您发送相关电子邮件，同时也会将此类邮件的发送控制在最低限度，如果您不选择退订系类邮件，视为您接受有小有大创客联盟继续向您发送此类邮件。</p>
+            <p>6、您在对有小有大创客联盟网上发布的项目提供众筹支持时，应认真阅读有小有大创客联盟发布的有关该项目的一切信息。如果您确定为某项目提供众筹支持，视为您已经完全理解并接受该项目的相关内容及风险，一切后果由您本人承担，有小有大创客联盟不承担任何责任。</p>
+            <h4>北京有小有大科技有限公司风险揭示书</h4>
+            <h5>尊敬的投资人：</h5>
+            <p>为了使您更好地了解投资有小有大创客联盟为草根创业融资项目的风险，我公司根据《中华人民共和国公司法》、《北京有小有大科技有限公司用户服务协议》（以下简称《服务协议》）及其他制度、规则的有关规定，特为您提供此份投资风险揭示书。</p>
+            <p>如您接受上述《服务协议》及本投资风险揭示书，即表明您已充分了解并知晓投资创业融资项目的风险，并承诺承担该等风险。</p>
+            <h5>一、重要提示</h5>
+
+            <p>1、创客联盟交易规则与上海、深圳证券交易所的业务规则、各地非上市公司股权交易所以及股份报价转让业务规则存在很大差别，在参与平台业务之前，请您认真阅读《服务协议》以及本风险揭示书。</p>
+            <p>2、有小有大创客联盟业务尚处于起步阶段，相关制度、规则尚在不断完善中，请您关注相关制度、规则的调整和更新并加以遵守。</p>
+            <p>3、作为一家专注于天使投资的平台，天使汇中的挂牌公司/其他民事主体并非经国务院证券监督管理机构核准公开发行股票的公司或其他主体，而是具备成长潜力和良好发展空间的非公众公司或其他民事主体；该等主体处于初创期或成长初期，受宏观政策、行业形势等影响较大，且自身也可能存在管理体制不成熟、运营欠规范等风险。</p>
+            <p>4、有小有大创客联盟仅为您提供创业者基本信息及创业融资项目基本信息，虽然有小有大创客联盟努力通过制定规则等方式使挂牌公司/其他民事主体的信息披露真实有效，但有小有大创客联盟对创业者及创业融资项目利用天使汇发布的信息的真实性、准确性、完整性、合法性、及时性或有效性不做任何性质的担保或保证，您对上述信息的理解和利用依赖于您的投资经验及您自身独立的思考和判断。</p>
+            <p>5、有小有大创客联盟也不对您的投资收益、交易的达成等事项作任何性质的担保或保证；有小有大创客联盟不对您的投资损失承担任何责任。</p>
+            <h5>二、风险揭示</h5>
+            <p>使用有小有大创客联盟提供的在线投资服务进行投资需关注以下风险：</p>
+            <p>1、宏观经济风险：由于我国及周边国家、地区宏观经济环境和周边市场的变化，使挂牌公司/其他民事主体的经营处于剧烈波动中，从而导致挂牌公司/其他民事主体的价值不同程度的贬损，您存在亏损的可能，您将承担由此造成的损失。公司/其他民事主体经营和披露信息的波动，您存在亏损的可能，您将承担由此造成的损失。</p>
+            <p>2、政策风险：挂牌公司/其他民事主体所处行业的法律、法规及相关政策发生变化，或者有小有大创客联盟的制度、规则发生变化，可能引起挂牌公司/其他民事主体经营和披露信息的波动，您存在亏损的可能，您将承担由此造成的损失。</p>
+            <p>3、公司/主体风险：挂牌公司/其他民事主体的内部管理和外部决策不在有小有大创客联盟的控制范围内，有小有大创客联盟只能在法律法规及有小有大创客联盟制度、业务规则允许的范围内尽可能向您进行完整的信息披露，鉴于此，您将承担由于挂牌公司/其他民事主体业务风险造成的损失。另，大部分挂牌公司/其他民事主体处于种子期或初创期，规模较小，抗市场风险和行业风险的能力较弱，主营业务收入可能波动较大，在一定程度上容易引起挂牌公司/其他民事主体价值的波动，您将承担由此造成的损失。</p>
+            <p>4、技术风险：由于有小有大创客联盟的业务是通过电子通讯技术和电脑技术来实现的，这些技术存在被网络黑客和计算机病毒攻击的可能，有小有大创客联盟将尽力保障平台正常运行，但您将承担由您的个人电脑终端故障或其他有小有大创客联盟平台以外因素导致系统故障而造成的损失。</p>
+            <p>5、不可抗力因素导致的风险：诸如地震、火灾、水灾、战争等不可抗力因素可能导致交易系统的瘫痪，您将承担由此导致的损失。</p>
+            <p>6、其他有小有大创客联盟无法预见、无法避免或无法控制的风险。本风险揭示书并不保证揭示您使用有小有大创客联盟提供的在线投资服务进行投资所面临的全部风险，您参与此项业务前，应全面了解相关法律法规、认真阅读上述《服务协议》，并根据您自身的投资目的、投资期限、投资经验、资产状况等判断是否具备相应的投资风险承受能力。
+                您承诺并保证已认真阅读本投资风险揭示书，理解以上所揭示的所有风险，并愿意承担投资风险给您造成的损失。</p>
+
+            <h4>项目服务协议</h4>
+            <p>有小有大创客联盟网（网址:http://www.youxiaoyouda.com）是北京有小有大科技有限公司旗下经营的网站。本协议双方为北京有小有大科技有限公司（简称“有小有大创客联盟”）与有小有大创客联盟项目发起人（简称“您”或“用户”）。在您使用有小有大创客联盟提供的服务之前，请务必认真阅读本协议的全部内容。本协议一经您点击确认并同意接受，即在您与有小有大创客联盟之间产生法律效力。</p>
+            <h3>一、 定义</h3>
+            <p>1、项目发起人：在有小有大创客联盟网平台注册并发起众筹项目的单位或个人；2、项目投资人：在有小有大创客联盟网平台注册并投资某众筹项目的单位或个人。3、保证金：项目发起人在有小有大创客联盟平台发起的项目，由有小有大创客联盟作为代收款方，收取项目投资人基于项目投资明细单而支付的众筹金额。项目众筹成功后，有小有大创客联盟留存项目众筹总金额的30%作为保证金，在项目发起人兑现对项目投资人的回报承诺后，有小有大创客联盟将该保证金返还给项目发起人。如果项目发起人未兑现对项目投资人的回报承诺，则有小有大创客联盟有权直接支配该保证金以用于兑现对项目投资人的回报承诺。4、资金支付渠道费：为保证众筹资金安全，众筹项目项下资金均通过第三方支付公司代为划转，由此产生的支付渠道费由项目发起人负担，项目众筹成功后，有小有大创客联盟将扣除项目众筹总金额的1.5%作为资金支付渠道费，并支付给第三方支付机构。如众筹项目不成功，则不收取该笔费用。另，如众筹项目已众筹成功，但由于发起人原因无法履行回报的，发起人需向有小有大创客联盟支付相当于筹资总金额的1.5%的资金支付手续费。</p>
+            <h3>二、本协议的构成及效力</h3>
+            <p>1、所有有小有大创客联盟已经发布的或将来发布的各类规则，作为本协议不可分割的一部分，与本协议具有同等的法律效力。
+                2、有小有大创客联盟有权根据需要适时修订本协议及各类规则，并在网站上公示。变更后的协议和规则一经在有小有大创客联盟网站上公示，即发生法律效力。
+                3、在使用有小有大创客联盟提供的服务之前，请务必认真阅读本协议的全部内容。如您对本协议有任何疑问，应向有小有大创客联盟咨询。本协议生效后，您不应以未阅读或不接受本协议的内容为由，主张本协议无效或要求撤销本协议。
+                4、您应该按照本协议约定行使权利并履行义务。如您不能接受本协议的约定，包括但不限于不能接受修订后的协议及各类规则，则您应立即停止使用有小有大创客联盟针对项目发起人提供的服务。如您继续使用有小有大创客联盟针对项目发起人提供的服务，则表示您同意并接受本协议及各类规则的约束。</p>
+            <h3>三、项目发起人的资格</h3>
+            <p>1、作为项目发起人，您应为有小有大创客联盟的注册用户，完全理解并接受本协议。
+                2、作为项目发起人的单位应为依法成立并登记备案的企业法人或其他组织；作为项目发起人的个人，应为年满18周岁并具有完全民事行为能力和民事权利能力的自然人，如项目发起人未满18周岁，应由其监护人代为履行本协议权利和义务。
+                3、您应按照有小有大创客联盟的要求，进行必要的身份认证和资质认证，包括但不限于身份证、护照、学历证明等的认证。
+                4、您应拥有在中国大陆地区开户并接收人民币汇款的银行卡或支付宝账户。
+                5、您应妥善保管在有小有大创客联盟的用户名和密码，凡使用您的用户名和密码登陆有小有大创客联盟进行的一切操作，均视为您本人的行为，一切责任由您本人承担。</p>
+            <h3>四、您发起的众筹项目应符合以下要求</h3>
+            <p>1、您在有小有大创客联盟网上发起的项目，应明确具体的开始时间和结束时间。截止项目结束时间，如项目众筹金额低于预定众筹金额，则项目众筹失败；如项目众筹金额等于或大于预定众筹金额，则项目众筹成功。</p>
+        </div>
+    </div>
+</div>
+<div class="fonter">
+    <div class="fo_nav">
+        <ul>
+            <li><a href="index.htm" tppabs="http://www.youxiaoyouda.com/index/index">首页</a></li>
+            <li><a href="../news/index.htm" tppabs="http://www.youxiaoyouda.com/news/index">热点</a></li>
+            <li><a href="../maker/index.htm" tppabs="http://www.youxiaoyouda.com/maker/index">创客</a></li>
+            <li><a href="../college/index.htm" tppabs="http://www.youxiaoyouda.com/college/index">学院</a></li>
+            <li><a href="aboutus.htm" tppabs="http://www.youxiaoyouda.com/index/aboutus">关于我们 </a></li>
+            <li><a href="joinus.htm" tppabs="http://www.youxiaoyouda.com/index/joinus">加入我们 </a></li>
+            <li><a href="contact.htm" tppabs="http://www.youxiaoyouda.com/index/contact">联系我们</a></li>
+            <li><a href="feedback.htm" tppabs="http://www.youxiaoyouda.com/index/feedback">意见反馈</a></li>
+            <li><a href="help.htm" tppabs="http://www.youxiaoyouda.com/index/help">帮助中心</a></li>
+            <li><p>合作邮箱：<span>market@youxiaoyouda.com</span></p></li>
+        </ul>
+    </div>
+    <div class="fo_tonav">
+        <div class="fo_tona_t">
+            <div class="fo_tl">
+                <h4 style="
+    width: 400px;
+"><a href="" style="font-size: 14px;">友情链接</a></h4>
+                <p style="
+    width: 427px;
+">
+                    <a href="http://www.sequoiacap.com/" target="_blank"> 红杉资本 </a>
+                    <a href="http://www.cefund.com/" target="_blank"> 青云创投 </a>
+                    <a href="http://lvzhou.gobi.cn/" target="_blank"> 戈壁合伙人 </a>
+                    <a href="http://www.cdhfund.com/" target="_blank"> 鼎晖投资 </a>
+                    <a href="http://www.idg.com.cn/" target="_blank"> IDG中国 </a>
+                    <a href="http://www.exevc.com/" target="_blank"> 元素资本 </a>
+                    <a href="http://www.qimingvc.com/" tppabs="http://www.qimingvc.com/" target="_blank"> 启明创投 </a>
+                    <a href="http://www.legendcapital.com.cn/" target="_blank"> 君联资本 </a>
+                    <a href="http://www.kpcb.com/china" target="_blank"> 凯鹏华盈</a>
+                    <a href="http://www.waldenintl.com/" target="_blank"> 华登国际</a>
+                    <a href="http://www.banyanvc.com/" target="_blank"> 高榕资本 </a>
+                    <a href="http://www.chinagrowthcapital.com/" target="_blank"> 华创资本</a>
+                    <a href="http://shenmatouzi.com/" target="_blank"> 神马投资</a>
+                    <a href="http://www.legendstar.com.cn/" target="_blank"> 联想之星 </a><br>
+                </p>
+            </div>
+            <div class="fo_tr" style="width: 682px;">
+                <h4 style="font-size: 14px; color: #818181;margin-left: 88px;">
+                    <a href="aboutus.htm" tppabs="http://www.youxiaoyouda.com/index/aboutus" style="font-size: 14px; color: #818181;">关于我们</a>
+                </h4>
+                <div class="tr_b">
+
+                    <!-- 	<a href="/" target="_blank" class="app"></a> -->
+                    <div class="fo_ewm">
+                        <a href="">
+                            <img src="../assets/img/jpg/ck_kf.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/ck_kf.jpg" alt="二维码">
+                        </a>
+                        <a href="">
+           			    	<span class="fo_ewm_span">
+           			    		客服
+           			    	</span>
+                        </a>
+
+                    </div>
+                    <div class="fo_ewm">
+                        <img src="../assets/img/jpg/wb-ewm.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/wb-ewm.jpg" alt="二维码">
+           			    	<span class="fo_ewm_span">
+           			    		微博
+           			    	</span>
+
+                    </div>
+                    <div class="fo_ewm">
+                        <img src="../assets/img/jpg/dyh-ewm.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/dyh-ewm.jpg" alt="二维码">
+           			 		 <span class="fo_ewm_span">
+           			    		订阅号
+           			    	</span>
+                    </div>
+                    <div class="fo_ewm">
+                        <img src="../assets/img/jpg/wx-erm.png" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/wx-erm.png" alt="二维码">
+							<span class="fo_ewm_span">
+           			    		微信
+           			    	</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="fo_xk">© 2015  北京有小有大科技有限公司   版权所有   </p>
+    </div>
+</div>
+
+</body>
+</html>

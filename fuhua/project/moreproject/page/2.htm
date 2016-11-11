@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=UTF-8>
+    <meta property="wb:webmaster" content="d12de21fd0a2c4ec" />
+    <link rel="stylesheet" type="text/css" href="../../../assets/5f174b3c/pager.css" tppabs="http://www.youxiaoyouda.com/assets/5f174b3c/pager.css" />
+<title>有小有大-小梦想，大坚持</title>
+    <html xmlns:wb="http://open.weibo.com/wb">
+    <script src="../../../../tjs.sjs.sinajs.cn/open/api/js/wb.js" tppabs="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="../../../assets/css/reset.css" tppabs="http://www.youxiaoyouda.com/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css" tppabs="http://www.youxiaoyouda.com/assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/calender.css" tppabs="http://www.youxiaoyouda.com/assets/css/calender.css"/>
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/laydate.css" tppabs="http://www.youxiaoyouda.com/assets/css/laydate.css"/>
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/sweet.css" tppabs="http://www.youxiaoyouda.com/assets/css/sweet.css"/>
+    <script src="../../../assets/js/jquery-1.8.1.min.js" tppabs="http://www.youxiaoyouda.com/assets/js/jquery-1.8.1.min.js"></script>
+    <script src="../../../assets/js/EasySlide.js" tppabs="http://www.youxiaoyouda.com/assets/js/EasySlide.js"></script>
+    <script src="../../../assets/js/main.js" tppabs="http://www.youxiaoyouda.com/assets/js/main.js"></script>
+    <script src="../../../assets/js/PCASClass.js" tppabs="http://www.youxiaoyouda.com/assets/js/PCASClass.js"></script>
+    <script src="../../../assets/js/formcom.js" tppabs="http://www.youxiaoyouda.com/assets/js/formcom.js"></script>
+    <script src="../../../assets/js/jquery.validate-1.13.1.js" tppabs="http://www.youxiaoyouda.com/assets/js/jquery.validate-1.13.1.js"></script>
+    <script src="../../../assets/js/layer.js" tppabs="http://www.youxiaoyouda.com/assets/js/layer.js"></script>
+    <script src="../../../assets/js/sweet.js" tppabs="http://www.youxiaoyouda.com/assets/js/sweet.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="hender">
+        <ul class="ul_con">
+            <li><!--<a href="#" class="wap">wap端</a>-->
+                <div class="none">
+                    <img src="../../../assets/img/wx.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/wx.jpg" alt="微信" />
+                </div>
+            </li>
+        <!--    <li><a href="#">手机版</a>
+                <div class="none">
+                    <img src="" alt="" />
+                </div>
+            </li>-->
+                       <li><span class="index_dl">登陆</span></li>
+            <li><span class="index_zc">快速注册</span></li>
+                   </ul>
+    </div>
+    <div class="tc_dl ne dl_dl">
+        <div class="tc_dl_mb">
+            <div class="tc_dl_bt">
+                登陆
+                <a href="javascript::void(0)" class="gb_01">x</a>
+            </div>
+            <div class="tc_ip">
+                <form action="" method="post" class="dl_for">
+                    <div class="phone_01">
+                        <input type="text" placeholder="手机号/邮箱" name="username" />
+                        <label id="txtUserName-error" class="error" for="txtUserName"></label>
+                    </div>
+                    <div class="phone_poswod phone_01">
+                        <input type="password" placeholder="密码" name="password" />
+                        <label id="txtPassWord-error" class="error" for="txtPassWord"></label>
+                    </div>
+                    <div class="subm">
+                        <input type="button" name="login" id="login" value="立即登陆" />
+                    </div>
+                </form>
+                <div class="zc_lik">
+                    没有账号？
+                    <a href="javascipt:" style="color:#397ADB;" class="ljzc">立即注册</a>
+                    <a href="../../../forgetpassword/index.htm" tppabs="http://www.youxiaoyouda.com/forgetpassword/index" class="wj_lik clear fr">忘记密码</a>
+                </div>
+                <div class="linebg"><b class="fond"></b>合作账号登录<b class="back"></b></div>
+                <div class="clearfix">
+                    <a class="wb"></a>
+                    <a class="qq"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--注册-->
+    <div class="tc_dl dl_zc ne">
+        <div class="tc_dl_mb_02">
+            <div class="tc_dl_bt">
+                注册
+                <a href="javascript::void(0)" class="gb_02">x</a>
+            </div>
+            <div class="qh_btn" id="tab_title">
+                <div class="phone_btn selected" id="sx" style="margin-right: 40px;">手机注册</div>
+                <div class="eml_btn">邮箱注册</div>
+            </div>
+            <div id="tab_con">
+                <div class="phone_from ss">
+                    <form>
+                        <p style="margin-top:9px;">
+                            <input type="text" name="phone" placeholder="手机号" />
+                        </p>
+                        <p style="position: relative;">
+                            <input type="text" style="width: 176px;"name="verify" placeholder="验证码" />
+                            <a href="javascript:void(0)" class="zc_yzm" name="yan_2"><img src="../../../captcha/detail-id=19&style=1" tppabs="http://www.youxiaoyouda.com/captcha/captcha?time=1468065404" alt="验证码"  onclick="this.src='/captcha/captcha?temp='+Math.random()"/></a>
+                            <span class="clear"></span>
+                        </p>
+                        <p style="position: relative;">
+                            <input type="text" style="width: 176px;" name="phone_verify" placeholder="手机验证码"  autocomplete="off"/>
+                            <input class="zc_hq" id="zc_hq" type="button"  value="获取" />
+                            <span class="clear"></span>
+                        </p>
+                        <p><input type="text"  placeholder="密码"  name="password_phone" autocomplete="off" onfocus="this.type='password'"/></p>
+                        <div class="zc_ty"><input class="xy" name="isagree"  type="checkbox"><span>阅读并同意</span><a href="javascript::void(0)" class="yhxy_ope">《用户注册服务协议》</a></div>
+
+                        <div class="subm">
+                            <input type="button" id="photo_register" value="立即注册" />
+                        </div>
+                    </form>
+                </div>
+                <div class="eml_from ne ss">
+                    <form action="http://www.youxiaoyouda.com/home/email_register" >
+                        <div class="eml_01" style="margin-top: 26px;">
+                            <input type="text" placeholder="邮箱" name="email"/>
+                        </div>
+                        <div class="eml_poswod">
+                            <input type="password" placeholder="密码"  name="password_email"/>
+                        </div>
+
+                        <div class="phone_poswod_qr">
+                            <input type="password" id="txtPassWord" name="repassword" placeholder="确认密码" />
+                        </div>
+                        <div class="zc_ty"><input class="xy"  type="checkbox" name="ischeck"><span>阅读并同意</span><a href="javascript::void(0)" class="yhxy_ope">《用户注册服务协议》</a></div>
+                        <div class="subm">
+                            <input type="button" name="register" id="register" value="立即注册" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="dl_dj"><span>已有账号？</span><a href="javascipt:" class="dl_tz">立即登录</a></div>
+            <div class="linebg_02"><b class="fond"></b>合作账号登录<b class="back"></b></div>
+            <div class="clearfix">
+                <a class="wb"></a>
+                <a class="qq"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="zc_fwxy_wc ne">
+    <div class="zc_fwxy">
+        <div class="zc_fwxy_hend">
+            用户注册服务协议
+            <h3 class="zc_fwxy_gbtn">X</h3>
+        </div>
+        <div class="zc_fwxy_content">
+            <h2>有小有大创客联盟注册协议</h2>
+            <p>须知：有小有大创客联盟<a href="javascript:if(confirm('http://www.youxiaoyouda.com/project/moreproject/page/www.youxiaoyouda.com  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ���������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='http://www.youxiaoyouda.com/project/moreproject/page/www.youxiaoyouda.com'" tppabs="http://www.youxiaoyouda.com/project/moreproject/page/www.youxiaoyouda.com">(www.youxiaoyouda.com)</a>1.1 用户在使用本网站的服务之前，应当仔细阅读本协议，并同意遵守本协议及所有网站规则后方可成为本站用户，一旦用户注册成功，则用户与本网站之间自动形成协议关系，用户应当受本协议及所有网站规则的约束。用户在使用特殊的服务或产品时，应当同意接受相关协议后方能使用。
+                1.2 本协议则可由本站随时更新，用户应当及时关注并同意本站不承担通知义务。本站的通知、公告、声明或其它类似内容是本协议的一部分。
+            </p>
+            <p>服务内容：</p>
+            <p>1、本站的具体内容由本站根据实际情况提供。</p>
+            <p>2、本站仅提供相关的网络服务，除此之外与相关网络服务有关的设备(如个人电脑、手机、及其他与接入互联网或移动网有关的装置)及所需的费用(如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费)均应由用户自行负担。</p>
+
+        </div>
+        <div class="zc_fwxygb">
+            <span class="zc_fwxy-button-text">已阅读并同意此协议</span>
+        </div>
+
+    </div>
+</div>
+
+<!-- 返回顶部-->
+<!-- 返回顶部-->
+<div class="v_main_back" id="_v_main_back">
+</div>
+<div class="nav-com">
+    <div class="nav">
+    <div class="logo">
+        <a href="#">
+            <em>有小有大</em>
+            <img src="../../../assets/img/jpg/logo.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/logo.jpg" class="log_img"/>
+        </a>
+    </div>
+    <ul class="nav_nav_pg">
+        <li><a href="../../../index/index.htm" tppabs="http://www.youxiaoyouda.com/index/index"  class="pg_a" >
+                首页
+            </a></li>
+        <li><a href="../../../news/index.htm" tppabs="http://www.youxiaoyouda.com/news/index"  class="pg_a" >
+                热点
+            </a></li>
+        <li><a href="../../../maker/index.htm" tppabs="http://www.youxiaoyouda.com/maker/index"  class="pg_a" >
+                创客
+            </a></li>
+        <li class="nav_pag_xm"><a href="../../index.htm" tppabs="http://www.youxiaoyouda.com/project/index" class="nav_axs pg_a" >
+                项目
+                <i class="pg_xlbtn bor-xz"></i>
+            </a>
+            <ul class="nav_pag_xl">
+                                    <li><a href="javascript::void(0)" id="create">创建项目</a></li>
+                                <li><a href="../../teamlist.htm" tppabs="http://www.youxiaoyouda.com/project/teamlist">发起组队</a></li>
+                <li><a href="../../crowdlist.htm" tppabs="http://www.youxiaoyouda.com/project/crowdlist">寻求资金</a></li>
+                <li><a href="../../financelist.htm" tppabs="http://www.youxiaoyouda.com/project/financelist">筹集资源</a></li>
+                <li><a href="../../helplist.htm" tppabs="http://www.youxiaoyouda.com/project/helplist" style="border: none;">寻求帮助</a></li>
+            </ul>
+        </li>
+         <li>
+             <a href="../../../capital/index.htm" tppabs="http://www.youxiaoyouda.com/capital/index"  class="pg_a" >
+                资金支持
+            </a>
+        </li>
+        <li><a href="../../../college/index.htm" tppabs="http://www.youxiaoyouda.com/college/index"  class="pg_a" >
+                创客学院
+            </a>
+        </li>
+        <li><a href="../../../shop/index.htm" tppabs="http://www.youxiaoyouda.com/shop/index"  class="pg_a" >
+                技术支持
+            </a>
+        </li>
+    </ul>
+</div>
+</div>
+<script>
+    $("#create").bind("click",function(){
+        var action ='/project/checklogin';
+        $.post(action,{},function(data){
+            if(data.data=='login'){
+                $(".dl_dl").show();
+            }else{
+                window.location.href='../../../login.htm'/*tpa=http://www.youxiaoyouda.com/project/create*/;
+            }
+        },'json')
+    })
+    $(function(){
+        $("#register").click(function(){
+            var form = $(this).parents('form');
+            var email = $("input[name='email']");
+            var password = $("input[name='password_email']");
+            var repassword = $("input[name='repassword']");
+            var ischeck = $("input[name='ischeck']").is(':checked');
+            var action = form.attr('action');
+            if(email.val().length<1){
+                sweetAlert("邮箱不能为空!");
+                email.focus();
+                return false;
+            }
+            if(password.val().length<1){
+                sweetAlert("密码不能为空!");
+                password.focus();
+                return false;
+            }
+            if(password.val() !=  repassword.val()){
+                sweetAlert("两次密码不一致!");
+                repassword.focus();
+                return false;
+            }
+            if(ischeck == false){
+                sweetAlert("请同意用户协议!");
+                return false;
+            }
+            $.post(action, {email:email.val(),password:password.val(),repassword:repassword.val()}, function(data){
+                if(data.code == 0){
+                    /*sweetAlert('邮件发送成功');*/
+                    window.location.href='../../../login.htm'/*tpa=http://www.youxiaoyouda.com/user/index*/;
+                    /*window.location.href= data.data.url;*/
+                }else{
+                    sweetAlert(data.message);
+                }
+            },'json')
+        })
+    });
+    $(function(){
+        $("#login").click(function(){
+          var username = $("input[name='username']");
+          var password = $("input[name='password']");
+          var action = '/home/login';
+            if(username.val().length<1){
+              $("#txtUserName-error").html('请输入用户名');
+              username.focus();
+              return false;
+          }else if(!checkValue(username.val())){
+              $("#txtUserName-error").html("手机号或邮箱格式不正确!");
+              username.focus();
+              return false;
+          }
+          if(password.val().length<1){
+              $("#txtPassWord-error").html('请输入密码');
+              password.focus();
+              return false;
+          }
+            $.post(action,{username:username.val(),password:password.val()},function(data){
+                if(data.code == 0){
+                    window.location.href=data.data;
+                }else{
+                    sweetAlert(data.message);
+                    $(".dl_dl").show();
+                }
+            },'json')
+        })
+    })
+
+    /*
+    *     验证用户 * */
+
+    function checkValue(value){
+
+        return /^([a-z0-9]*[-_]?[a-z0-9]+)+@([a-z0-9]*[-_]?[a-z0-9]+)+[\.][a-z0-9]+([\.][a-z]+)?$/i.test(value) || /^1[34578]\d{9}$/.test(value);
+    }
+
+   $("#zc_hq").click(function(){
+       var phoneNum = $("input[name='phone']");
+       var numCheck = /^1[3|4|5|7|8][0-9]{9}$/.test(phoneNum.val());
+       if(phoneNum.val().length<1){
+           sweetAlert('请输入手机号');
+           phoneNum.focus();
+           return false
+       }
+       else if (!numCheck) {
+           sweetAlert('手机号格式不正确');
+           phoneNum.focus();
+           return false
+       }
+       var url = '/api/send_phone_vcode_request?phone='+ phoneNum.val();
+       $.ajax({
+           url:url,
+           dataType:'json',
+           success:function(data){
+               if(data.code == 0){
+                   var clearInterval = setInterval(function(){
+                       seconds -= 1;
+                       jPublicGetCode.html('已发送(' + seconds + 's)');
+                       if(seconds === 0){
+                           window.clearInterval(clearInterval);
+                           jPublicGetCode.html('再次获取').removeAttr('style').removeClass('getSend');
+                       }
+                   }, 1000);
+               }else{
+                   $(".getCode").removeClass("getSend").removeClass("active");
+                   userDialog("发送失败","error");
+               }
+           }
+       })
+   })
+
+  $("#photo_register").bind('click',function(){
+      var phoneNum = $("input[name='phone']");
+      var verify= $("input[name='verify']");
+      var phone_verify = $("input[name='phone_verify']");
+      var password_phone = $("input[name='password_phone']");
+      var isagree = $("input[name='isagree']").is(':checked');
+      var numCheck = /^1[3|4|5|7|8][0-9]{9}$/.test(phoneNum.val());
+      var action = '/home/phone_register';
+      if(phoneNum.val().length<1){
+          sweetAlert('请输入手机号');
+          phoneNum.focus();
+          return false
+      }
+      else if (!numCheck) {
+          sweetAlert('手机号格式不正确');
+          phoneNum.focus();
+          return false
+      }
+      if(verify.val().length<1){
+          sweetAlert("验证码不能为空!");
+          verify.focus();
+          return false;
+      }
+      if(password_phone.val().length<1){
+          sweetAlert("密码不能为空！");
+          password_phone.focus();
+          return false;
+      }
+      if(isagree == false){
+          sweetAlert("请同意用户协议！");
+          return false;
+      }
+      $.post(action,{phone:phoneNum.val(),verify:verify.val(),phone_verify:phone_verify.val(),password:password_phone.val(),isgree:isagree},function(data){
+          if(data.code == 0){
+              window.location.href='../../../login.htm'/*tpa=http://www.youxiaoyouda.com/user/index*/;
+          }else{
+              sweetAlert(data.message);
+              $("#tab_con").show();
+          }
+      },'json')
+  });
+
+</script>
+<div class="hot_conter clear">
+    <form action="http://www.youxiaoyouda.com/project/index">
+        <div class="of_hss">项目搜索：
+            <input type="text" class="ss_srk" style="width: 224px;height: 38px; outline: none;" placeholder="请输入关键字" name="keyword" value=""/>
+            <input type="hidden" name="province" value="-1">
+            <input type="hidden" name="stage" value="-1">
+            <input type="hidden" name="need" value="-1">
+            <input type="submit" class="of_ss" value="搜索" style="font-size: 14px; border: none;">
+        </div>
+    </form>
+    <div class="of_sx">
+        <div class="of_sx_rm of_sx_xs" style="overflow: hidden;">
+            <div class="of-tx fl">地区 :</div>
+            <div class="of_sx_dq fl of_sx_rm_2">
+                <a href="../../index-keyword=&province=-1&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=-1&stage=-1&need=-1"  class="hover" >全部</a>
+                                <a href="../../index-keyword=&province=北京市&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=北京市&stage=-1&need=-1"  >北京市</a>
+                                <a href="../../index-keyword=&province=上海市&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=上海市&stage=-1&need=-1"  >上海市</a>
+                                <a href="../../index-keyword=&province=广州市&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=广州市&stage=-1&need=-1"  >广州市</a>
+                                <a href="../../index-keyword=&province=天津市&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=天津市&stage=-1&need=-1"  >天津市</a>
+                                <a href="../../index-keyword=&province=重庆市&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=重庆市&stage=-1&need=-1"  >重庆市</a>
+                                <a href="../../index-keyword=&province=河北省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=河北省&stage=-1&need=-1"  >河北省</a>
+                                <a href="../../index-keyword=&province=山西省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=山西省&stage=-1&need=-1"  >山西省</a>
+                                <a href="../../index-keyword=&province=内蒙古自治区&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=内蒙古自治区&stage=-1&need=-1"  >内蒙古自治区</a>
+                                <a href="../../index-keyword=&province=辽宁省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=辽宁省&stage=-1&need=-1"  >辽宁省</a>
+                                <a href="../../index-keyword=&province=吉林省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=吉林省&stage=-1&need=-1"  >吉林省</a>
+                                <a href="../../index-keyword=&province=黑龙江省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=黑龙江省&stage=-1&need=-1"  >黑龙江省</a>
+                                <a href="../../index-keyword=&province=江苏省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=江苏省&stage=-1&need=-1"  >江苏省</a>
+                                <a href="../../index-keyword=&province=浙江省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=浙江省&stage=-1&need=-1"  >浙江省</a>
+                                <a href="../../index-keyword=&province=安徽省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=安徽省&stage=-1&need=-1"  >安徽省</a>
+                                <a href="../../index-keyword=&province=福建省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=福建省&stage=-1&need=-1"  >福建省</a>
+                                <a href="../../index-keyword=&province=江西省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=江西省&stage=-1&need=-1"  >江西省</a>
+                                <a href="../../index-keyword=&province=山东省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=山东省&stage=-1&need=-1"  >山东省</a>
+                                <a href="../../index-keyword=&province=河南省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=河南省&stage=-1&need=-1"  >河南省</a>
+                                <a href="../../index-keyword=&province=湖北省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=湖北省&stage=-1&need=-1"  >湖北省</a>
+                                <a href="../../index-keyword=&province=湖南省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=湖南省&stage=-1&need=-1"  >湖南省</a>
+                                <a href="../../index-keyword=&province=广东省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=广东省&stage=-1&need=-1"  >广东省</a>
+                                <a href="../../index-keyword=&province=广西省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=广西省&stage=-1&need=-1"  >广西省</a>
+                                <a href="../../index-keyword=&province=海南省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=海南省&stage=-1&need=-1"  >海南省</a>
+                                <a href="../../index-keyword=&province=四川省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=四川省&stage=-1&need=-1"  >四川省</a>
+                                <a href="../../index-keyword=&province=贵州省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=贵州省&stage=-1&need=-1"  >贵州省</a>
+                                <a href="../../index-keyword=&province=云南省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=云南省&stage=-1&need=-1"  >云南省</a>
+                                <a href="../../index-keyword=&province=西藏自治区&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=西藏自治区&stage=-1&need=-1"  >西藏自治区</a>
+                                <a href="../../index-keyword=&province=陕西省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=陕西省&stage=-1&need=-1"  >陕西省</a>
+                                <a href="../../index-keyword=&province=甘肃省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=甘肃省&stage=-1&need=-1"  >甘肃省</a>
+                                <a href="../../index-keyword=&province=青海省&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=青海省&stage=-1&need=-1"  >青海省</a>
+                                <a href="../../index-keyword=&province=宁夏回族自治区&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=宁夏回族自治区&stage=-1&need=-1"  >宁夏回族自治区</a>
+                                <a href="../../index-keyword=&province=新疆维吾尔自治区&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=新疆维吾尔自治区&stage=-1&need=-1"  >新疆维吾尔自治区</a>
+                                <span class="of_Btn_co" style="color:#0076D9;">展开+</span>
+            </div>
+
+        </div>
+        <div class="of_sx_rm of_sx_rm_3">
+            <span class="of-tx">发展阶段:</span>
+            <a href="../../index-keyword=&province=-1&stage=-1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=-1&stage=-1&need=-1"  class="hover" >全部</a>
+                        <a href="../../index-keyword=&province=-1&stage=1&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=-1&stage=1&need=-1" >仅有一个想法</a>
+                        <a href="../../index-keyword=&province=-1&stage=2&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=-1&stage=2&need=-1" >准备阶段</a>
+                        <a href="../../index-keyword=&province=-1&stage=3&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=-1&stage=3&need=-1" >已经开始</a>
+                        <a href="../../index-keyword=&province=-1&stage=4&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=-1&stage=4&need=-1" >准备推入市场</a>
+                        <a href="../../index-keyword=&province=-1&stage=5&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=-1&stage=5&need=-1" >已经推入市场</a>
+                        <a href="../../index-keyword=&province=-1&stage=6&need=-1.htm" tppabs="http://www.youxiaoyouda.com/project/index?keyword=&province=-1&stage=6&need=-1" >已经实现盈利</a>
+                    </div>
+    </div>
+    <div class="of_ckdr">
+        <div class="of_xm_px">
+           <!-- <h4><span>排序</span><a class="col_px" href="/project/">最新</a>
+                <a href="javascript:">综合</a></h4>-->
+                        <h6 class=""><a href="../../../login.htm" tppabs="http://www.youxiaoyouda.com/project/create" style="font-size: 14px;
+                           color: #88afe9;">创建项目</a>
+            </h6>
+                    </div>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=92.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=92"><img src="../../../assets/project/577e458e9a69b.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/577e458e9a69b.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=92.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=92">p2p项目</a></h5>
+                <p style="width: 90%;">做一个p2p项目..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-07-07</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=90.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=90"><img src="../../../assets/project/577e240482c81.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/577e240482c81.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=90.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=90">穿越体验师</a></h5>
+                <p style="width: 90%;">人们对未来总是存在向往，为此，我们特地凭借高科技设计出一款模..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-07-07</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=89.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=89"><img src="../../../assets/project/577df3d92bbee.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/577df3d92bbee.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=89.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=89">22℃极智凉感席</a></h5>
+                <p style="width: 90%;">夏天是人们最为讨厌的季节，浑身的汗臭味给人增添一种反感，为此..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">3</a><a href="javascript::void(0)" class="">2016-07-07</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=88.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=88"><img src="../../../assets/project/577dd48fefe21.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/577dd48fefe21.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=88.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=88">一个永远不缺电的电池</a></h5>
+                <p style="width: 90%;">2005年中国物理专家设计一个发电实验的样品，这个发电实验（..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-07-07</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=86.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=86"><img src="../../../assets/project/577c74f54c083.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/577c74f54c083.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=86.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=86">营销策划公司</a></h5>
+                <p style="width: 90%;">为一些公司做营销策划来收取费用。..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-07-06</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=85.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=85"><img src="../../../assets/project/577a3e37050c0.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/577a3e37050c0.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=85.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=85">培训学院</a></h5>
+                <p style="width: 90%;">我希望认识很多老师和培训机构，把我们的课程和你们的包装起来一..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-07-04</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=84.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=84"><img src="../../../assets/project/577a3b175e642.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/577a3b175e642.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=84.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=84">自动化网购系统</a></h5>
+                <p style="width: 90%;">作用：让人们足不出户享受到快捷的购买商品服务。与现有的网购平..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-07-04</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=82.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=82"><img src="../../../assets/project/57739b15a0dab.png" tppabs="http://www.youxiaoyouda.com/assets/project/57739b15a0dab.png" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=82.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=82">宠物水母养殖</a></h5>
+                <p style="width: 90%;">宠物已经成为众多家庭中不可缺少的成员之一，最常见的就是猫狗。..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-06-29</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=80.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=80"><img src="../../../assets/project/577235f8271ce.png" tppabs="http://www.youxiaoyouda.com/assets/project/577235f8271ce.png" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=80.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=80">可百分百净化掉PM0.5以上的空气净化机,地温(水温)空调机</a></h5>
+                <p style="width: 90%;">本人经过八十五年研制并已定型,还通过权威检验的高精度空气浄机..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-28</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=79.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=79"><img src="../../../assets/project/57723497b27b1.png" tppabs="http://www.youxiaoyouda.com/assets/project/57723497b27b1.png" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=79.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=79">你我携手，共建绿色沙洲</a></h5>
+                <p style="width: 90%;">我们生活的环境正在遭到破坏，有些破坏是不可修复的，为了减缓这..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-28</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=77.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=77"><img src="../../../assets/project/5767b04369190.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/5767b04369190.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=77.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=77">伊佳咖啡厅</a></h5>
+                <p style="width: 90%;">想开一家有格调的咖啡厅，以前在国内知名咖啡厅做过店经理，对整..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-06-20</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=76.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=76"><img src="../../../assets/project/5763bebb271f0.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/5763bebb271f0.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=76.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=76">互联网医院</a></h5>
+                <p style="width: 90%;">中国最好的互联网医院..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-17</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=75.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=75"><img src="../../../assets/project/5763bd2b714ed.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/5763bd2b714ed.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=75.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=75">可回收垃圾的再循环利用</a></h5>
+                <p style="width: 90%;">地球是我们赖以生存的家园，并为我们提供了如此美丽的环境。但是..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-17</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=74.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=74"><img src="../../../assets/project/57637d4b07594.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/57637d4b07594.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=74.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=74">山野菜</a></h5>
+                <p style="width: 90%;">我对郊游别感兴趣，自从在怀柔尝到一些农家菜之后，就念念不忘，..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-06-17</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=73.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=73"><img src="../../../assets/project/57626ec582c3e.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/57626ec582c3e.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=73.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=73">剪掉头发的一半 捐给癌症病友做假发</a></h5>
+                <p style="width: 90%;">现在很多人都被癌症折磨着，她们失去了自己的长发，同时也失去了..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-16</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=72.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=72"><img src="../../../assets/project/57620bf96cde0.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/57620bf96cde0.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=72.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=72">虚拟现实场景社交平台</a></h5>
+                <p style="width: 90%;">场景1：老爸喊儿子吃饭，老爸：“大头儿子，回家吃饭了”， 儿..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-06-16</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=71.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=71"><img src="../../../assets/project/57612e1112e86.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/57612e1112e86.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=71.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=71">洗车找我</a></h5>
+                <p style="width: 90%;">本人从事网站前端多年，感觉自己并不是很适合这个工作，主要是（..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-15</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=69.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=69"><img src="../../../assets/project/57612538ddc91.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/57612538ddc91.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=69.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=69">手工绘画</a></h5>
+                <p style="width: 90%;">一副美丽的画给你一种心灵的感受，让你感受到自然的真谛。..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-15</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=68.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=68"><img src="../../../assets/project/5761173b13256.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/5761173b13256.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=68.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=68">大学生跳蚤市场</a></h5>
+                <p style="width: 90%;">每年的毕业季，大学生们都要把在学校的生活物品卖掉好多，所以每..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-06-15</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=67.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=67"><img src="../../../assets/project/576116d220f26.png" tppabs="http://www.youxiaoyouda.com/assets/project/576116d220f26.png" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=67.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=67">智能机器人培训</a></h5>
+                <p style="width: 90%;">目前培训行业越来越火，我也想加入培训行业，我想做一个针对于智..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">2</a><a href="javascript::void(0)" class="">2016-06-15</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=66.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=66"><img src="../../../assets/project/575fdb93ad678.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/575fdb93ad678.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=66.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=66">乐泰农业</a></h5>
+                <p style="width: 90%;">我们提供优质生态的水果，让广大消费者能从网络与实体店都能方便..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-14</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=65.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=65"><img src="../../../assets/project/575fc355102ef.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/575fc355102ef.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=65.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=65">关爱动物  为它们筹建一个家园</a></h5>
+                <p style="width: 90%;">儿童的玩伴，小伙子的帮手，老年人的安慰愿动物的爱永远伴随着你..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-14</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=64.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=64"><img src="../../../assets/project/575fbf75129da.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/575fbf75129da.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=64.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=64">办公室绿植</a></h5>
+                <p style="width: 90%;">现在城市上班族很累，我们希望做一个供办公室和家庭用的生态绿植..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-14</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=63.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=63"><img src="" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=63.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=63">单车旅游达人</a></h5>
+                <p style="width: 90%;">开发一款手机APP能够实现车辆防盗、车辆定位、多人导航、餐饮..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-14</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=62.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=62"><img src="" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=62.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=62">国学教育</a></h5>
+                <p style="width: 90%;">自己在小微企业做了数年的技术，产品。希望能做基于手机互联网的..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-14</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=61.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=61"><img src="../../../assets/project/575e68356a3a9.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/575e68356a3a9.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=61.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=61">以二战与抗战为主题的游戏</a></h5>
+                <p style="width: 90%;">以二战与抗战为主题的，集换式卡牌游戏TCG，同时也是市场罕见..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-13</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=60.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=60"><img src="../../../assets/project/575e62fc3d409.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/575e62fc3d409.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=60.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=60">实现梦工厂</a></h5>
+                <p style="width: 90%;">大家都看过《甲方乙方》吧，我就是想把电影中的好梦一日游变成现..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">2</a><a href="javascript::void(0)" class="">2016-06-13</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=59.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=59"><img src="" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=59.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=59">为你而来</a></h5>
+                <p style="width: 90%;">红娘..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-13</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=58.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=58"><img src="../../../assets/project/575e5ada88da2.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/575e5ada88da2.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=58.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=58">探险旅游</a></h5>
+                <p style="width: 90%;">生活中有那么多的新奇事物，我们应该勇于面对。..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-13</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=57.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=57"><img src="../../../assets/project/575e4fdd85e5e.png" tppabs="http://www.youxiaoyouda.com/assets/project/575e4fdd85e5e.png" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=57.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=57">野珍经贸项目</a></h5>
+                <p style="width: 90%;">纯天然食品，健康，绿色，养生，家乡资源丰富，大城市需求大，家..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-13</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=56.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=56"><img src="../../../assets/project/575e4190b21a7.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/575e4190b21a7.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=56.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=56">来给孩子们演一场木偶戏吧！</a></h5>
+                <p style="width: 90%;">　　《大闹天宫》是根据中国古典名著《西游记》前七回改编而成的..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-13</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=54.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=54"><img src="../../../assets/project/575d2447b8758.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/575d2447b8758.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=54.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=54">互联网公司</a></h5>
+                <p style="width: 90%;">我在北京开了一家互联网公司，网站含有个人展示，新闻，项目资源..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">2</a><a href="javascript::void(0)" class="">2016-06-12</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=53.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=53"><img src="../../../assets/project/575d2072a8eb4.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/575d2072a8eb4.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=53.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=53">音乐之声</a></h5>
+                <p style="width: 90%;">总有那么一首歌震撼你的心扉。..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-06-12</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=52.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=52"><img src="../../../assets/project/575cf5e660c17.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/575cf5e660c17.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=52.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=52">智慧社区</a></h5>
+                <p style="width: 90%;">社区部落于2016年重磅出击！为推进市场的快速发展，社区部落..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-12</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=51.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=51"><img src="../../../assets/project/575cc7a7d8bcc.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/575cc7a7d8bcc.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=51.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=51">老年人社区服务平台</a></h5>
+                <p style="width: 90%;">关注老人，善待老人，爱护老人，致力于打造一个老百姓信得过的老..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-12</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=50.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=50"><img src="../../../assets/project/5757fe1365573.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/5757fe1365573.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=50.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=50">创业教育</a></h5>
+                <p style="width: 90%;">一个小时让你充分理解怎么去对接投资人和投资机构的投资大佬。让..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-06-08</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=49.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=49"><img src="../../../assets/project/5757f7ff24d0d.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/5757f7ff24d0d.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=49.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=49">熊猫食品电商</a></h5>
+                <p style="width: 90%;">我希望做一个优质的食品电商。包含绿色农业，饮食健康文化等..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-06-08</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=48.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=48"><img src="../../../assets/project/57564edc89579.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/57564edc89579.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=48.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=48">一起奔跑</a></h5>
+                <p style="width: 90%;">奔跑吧，兄弟..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-07</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=47.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=47"><img src="" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=47.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=47">冰</a></h5>
+                <p style="width: 90%;">锦葵科..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-07</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=46.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=46"><img src="../../../assets/project/575544aba4db3.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/575544aba4db3.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=46.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=46">土鸡养殖基地</a></h5>
+                <p style="width: 90%;">市场需求量大 绿色生态养殖利润率高 饲养管理有优势..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-06</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=45.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=45"><img src="" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=45.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=45">社区健身体育计划服务平台</a></h5>
+                <p style="width: 90%;">以各居民小区、学校为主，组织建立全民业余赛事活动~赛事活动可..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-06</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=44.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=44"><img src="" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=44.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=44">半自动和弦吉他</a></h5>
+                <p style="width: 90%;">半自动和弦吉他产品把传统吉他的每组和弦用机械及电机、电脑的组..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-06</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=43.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=43"><img src="" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=43.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=43">半自动和弦吉他</a></h5>
+                <p style="width: 90%;">半自动和弦吉他产品把传统吉他的每组和弦用机械及电机、电脑的组..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-06</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=42.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=42"><img src="" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=42.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=42">元俊……*&*（……&*（——）0-0元俊……*&*（……&*（——）0-012元俊……*&*（……&*（——）0-03442元俊……*&*（……&*（——）0-0435</a></h5>
+                <p style="width: 90%;">元俊……*&*（……&*（——）0-0元俊……*&*（……&..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-06-05</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=41.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=41"><img src="../../../assets/project/5751474ca04a6.gif" tppabs="http://www.youxiaoyouda.com/assets/project/5751474ca04a6.gif" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=41.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=41">拍摄一部悬崖上的金鱼王子</a></h5>
+                <p style="width: 90%;">金鱼姬是一条活泼好动的小鱼，一次偶然的机会，它在涨潮时被冲进..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-06-03</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=40.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=40"><img src="../../../assets/project/574f9d0bca8d2.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574f9d0bca8d2.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=40.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=40">“找我” 装修互联网一站式服务平台</a></h5>
+                <p style="width: 90%;">搭上互联网的东风，结合传统产业，打造一个便捷，高效，的装修平..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-06-02</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=39.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=39"><img src="../../../assets/project/574f94f965ef3.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574f94f965ef3.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=39.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=39">动漫工作室</a></h5>
+                <p style="width: 90%;">一款超经典的影片，给你心灵的震撼。..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-06-02</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=38.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=38"><img src="../../../assets/project/574cee89535bb.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574cee89535bb.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=38.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=38">ddds</a></h5>
+                <p style="width: 90%;">dsds ..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-05-31</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=37.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=37"><img src="../../../assets/project/574cee40bc509.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/574cee40bc509.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=37.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=37">广告费g'f,>>></a></h5>
+                <p style="width: 90%;">规范规范..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-05-31</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=36.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=36"><img src="../../../assets/project/574bb92784c05.png" tppabs="http://www.youxiaoyouda.com/assets/project/574bb92784c05.png" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=36.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=36">寻找实力投资者合伙成立建筑工程公司</a></h5>
+                <p style="width: 90%;">项目可以靠，可以带来丰厚收益！..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-05-30</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=34.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=34"><img src="../../../assets/project/573c3907d93dd.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/573c3907d93dd.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=34.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=34">美人鱼</a></h5>
+                <p style="width: 90%;">培植美人鱼，因为现在女孩太少了，男女比例失衡很严重。..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-05-18</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=30.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=30"><img src="" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=30.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=30">4121212</a></h5>
+                <p style="width: 90%;">大都市的..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-05-11</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=29.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=29"><img src="../../../assets/project/5731adc750463.png" tppabs="http://www.youxiaoyouda.com/assets/project/5731adc750463.png" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=29.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=29">一起去月球</a></h5>
+                <p style="width: 90%;">一起去月球旅游探险，观光，体验地球之外的星球..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">2</a><a href="javascript::void(0)" class="">2016-05-10</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=28.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=28"><img src="" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=28.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=28">白菜金服</a></h5>
+                <p style="width: 90%;">打造中国最大的金融服务B2C平台..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-05-10</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=27.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=27"><img src="../../../assets/img/5707542a744e3.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/5707542a744e3.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=27.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=27">微电影拍摄</a></h5>
+                <p style="width: 90%;">微电影是指专门运用在各种新媒体平台上播放的、适合在移动状态和..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">4</a><a href="javascript::void(0)" class="">2016-04-08</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=26.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=26"><img src="" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=26.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=26">摄影</a></h5>
+                <p style="width: 90%;">摄影一词是源于希腊语 φῶς phos（光线）和 γραφι..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-04-06</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=25.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=25"><img src="../../../assets/img/5704a592a3cb2.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/5704a592a3cb2.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=25.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=25">银河系光触媒环保节能项目</a></h5>
+                <p style="width: 90%;">住宅装修污染治理工程 服务对象：住宅装修已完工，室内空气质量..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-04-06</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=16.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=16"><img src="../../../assets/img/56fe1dd15a853.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/56fe1dd15a853.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=16.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=16">有小有大创客联盟</a></h5>
+                <p style="width: 90%;">为更容易的创业..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-04-01</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=14.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=14"><img src="../../../assets/img/56fe0e0931636.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/56fe0e0931636.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=14.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=14">无滤芯空气净化器</a></h5>
+                <p style="width: 90%;">现在的空气给人们带来一种恐惧，想要安装净化器但是现在的产品也..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-04-01</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=13.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=13"><img src="../../../assets/img/56fe0b35ddf46.png" tppabs="http://www.youxiaoyouda.com/assets/img/56fe0b35ddf46.png" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=13.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=13">StarWrist男士手表</a></h5>
+                <p style="width: 90%;">手表是身份的象征，现在大多数的手边看起来比较普通，没有一款合..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">0</a><a href="javascript::void(0)" class="">2016-04-01</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=11.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=11"><img src="../../../assets/img/56fdf443cb13a.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/56fdf443cb13a.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=11.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=11">早先生--你想枕样就怎样</a></h5>
+                <p style="width: 90%;">市场上有很多不用款式的枕头，但是没有一款可以帮助人们轻松入睡..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">3</a><a href="javascript::void(0)" class="">2016-04-01</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=10.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=10"><img src="../../../assets/img/56fddfc63661f.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/56fddfc63661f.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=10.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=10">旅游赚钱</a></h5>
+                <p style="width: 90%;">喜欢旅游吗？想一边旅游一边赚钱吗？这是一家全球最大的旅游俱乐..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">4</a><a href="javascript::void(0)" class="">2016-04-01</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=9.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=9"><img src="../../../assets/img/56fcbb16a514f.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/56fcbb16a514f.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=9.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=9">烘焙培训</a></h5>
+                <p style="width: 90%;">在烘焙行业的高速发展中一线技术人员急剧匮乏，未来五年，西点烘..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">2</a><a href="javascript::void(0)" class="">2016-03-31</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=8.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=8"><img src="../../../assets/img/56fcb25eb45cb.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/56fcb25eb45cb.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=8.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=8">真人密室逃脱</a></h5>
+                <p style="width: 90%;">密室逃脱中包含了很多和推理，逻辑，图形相关的内容，也不乏寻找..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-03-31</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=7.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=7"><img src="../../../assets/img/56fbc7e787351.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/56fbc7e787351.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=7.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=7">独特格调咖啡厅</a></h5>
+                <p style="width: 90%;">现在大多数的咖啡厅都是差不多没什么特色的，我的想法是可以做得..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">2</a><a href="javascript::void(0)" class="">2016-03-30</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=6.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=6"><img src="../../../assets/img/56fbb95d6e695.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/56fbb95d6e695.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=6.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=6">程序化交易</a></h5>
+                <p style="width: 90%;">我希望建立一个程序化交易的团队..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-03-30</a></span></>
+            </li>
+        </ul>
+                <ul class="of_ck" style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 6px; margin-top: 50px;margin-bottom: 50px;">
+            <li class="of_ck_tx"><a href="../../projectinfo-id=2.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=2"><img src="../../../assets/img/56fa1f50bb3bc.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/56fa1f50bb3bc.jpg" alt="" /></a></li>
+            <li class="of_ck_gs"><h5><a href="../../projectinfo-id=2.htm" tppabs="http://www.youxiaoyouda.com/project/projectinfo?id=2">园艺设计</a></h5>
+                <p style="width: 90%;">私家庭院景观设计 别墅庭院设计 北京礼品公司 平顶山画室 次..</p>
+                <div class="fr pldata"  ><span class="ml_20"><a href="javascript::void(0)" class="rs">1</a><a href="javascript::void(0)" class="">2016-03-29</a></span></>
+            </li>
+        </ul>
+                <div id="pageNav_xm_gd_list" class="pageNav pageNav_xmgd " style="position: relative;"><a href="../../moreproject.htm" tppabs="http://www.youxiaoyouda.com/project/moreproject" class="prev first">第一页</a>
+<a href="../../moreproject.htm" tppabs="http://www.youxiaoyouda.com/project/moreproject" class="prev">上一页</a>
+<a href="../../moreproject.htm" tppabs="http://www.youxiaoyouda.com/project/moreproject" class="page">1</a>
+<a href="2.htm" tppabs="http://www.youxiaoyouda.com/project/moreproject/page/2" class="page selected">2</a>
+<a href="3.htm" tppabs="http://www.youxiaoyouda.com/project/moreproject/page/3" class="page">3</a>
+<a href="4.htm" tppabs="http://www.youxiaoyouda.com/project/moreproject/page/4" class="page">4</a>
+<a href="3.htm" tppabs="http://www.youxiaoyouda.com/project/moreproject/page/3" class="next">下一页</a>
+<a href="4.htm" tppabs="http://www.youxiaoyouda.com/project/moreproject/page/4" class="next last">最后一页</a></div>
+    </div>
+    <div class="mai_cy" >
+        <div class="man_xm_bt">
+            <span  class="m-l"><a href="#">创客推荐</a></span>
+            <span><a href="../../../maker/index-more=more.htm" tppabs="http://www.youxiaoyouda.com/maker/index?more=more" style="font-size: 14px; color:#88afe9;">更多</a></span>
+        </div>
+        <div class="mx_m" id="outer">
+            <div id="inner">
+                                <div class="mx_ll">
+                    <div class="mx_tx">
+                        <a href="../../../maker/makerinfo-id=146.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo?id=146"><img src="../../../assets/project/5763bc0427e24.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/5763bc0427e24.jpg" alt="" /></a>
+                    </div>
+                    <p><a href="../../../maker/makerinfo-id=146.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo?id=146">心有翅膀</a><br/>
+                        没有任何理让我不<br/>
+                        喜欢拍照</p>
+                </div>
+                                <div class="mx_ll">
+                    <div class="mx_tx">
+                        <a href="../../../maker/makerinfo-id=144.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo?id=144"><img src="../../../assets/project/57637bbe120d6.jpg" tppabs="http://www.youxiaoyouda.com/assets/project/57637bbe120d6.jpg" alt="" /></a>
+                    </div>
+                    <p><a href="../../../maker/makerinfo-id=144.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo?id=144">深海`</a><br/>
+                        没有任何理让我不<br/>
+                        喜欢拍照</p>
+                </div>
+                                <div class="mx_ll">
+                    <div class="mx_tx">
+                        <a href="../../../maker/makerinfo-id=143.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo?id=143"><img src="../../../assets/img/jpg/avatar4.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/avatar4.jpg" alt="" /></a>
+                    </div>
+                    <p><a href="../../../maker/makerinfo-id=143.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo?id=143">花样年华</a><br/>
+                        没有任何理让我不<br/>
+                        喜欢拍照</p>
+                </div>
+                                <div class="mx_ll">
+                    <div class="mx_tx">
+                        <a href="../../../maker/makerinfo-id=142.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo?id=142"><img src="../../../assets/img/jpg/avatar5.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/avatar5.jpg" alt="" /></a>
+                    </div>
+                    <p><a href="../../../maker/makerinfo-id=142.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo?id=142">花样年华</a><br/>
+                        没有任何理让我不<br/>
+                        喜欢拍照</p>
+                </div>
+                                <div class="mx_ll">
+                    <div class="mx_tx">
+                        <a href="../../../maker/makerinfo-id=141.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo?id=141"><img src="../../../assets/img/jpg/avatar8.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/avatar8.jpg" alt="" /></a>
+                    </div>
+                    <p><a href="../../../maker/makerinfo-id=141.htm" tppabs="http://www.youxiaoyouda.com/maker/makerinfo?id=141">小鱼</a><br/>
+                        没有任何理让我不<br/>
+                        喜欢拍照</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="fonter">
+    <div class="fo_nav">
+        <ul>
+            <li><a href="../../../index/index.htm" tppabs="http://www.youxiaoyouda.com/index/index">首页</a></li>
+            <li><a href="../../../news/index.htm" tppabs="http://www.youxiaoyouda.com/news/index">热点</a></li>
+            <li><a href="../../../maker/index.htm" tppabs="http://www.youxiaoyouda.com/maker/index">创客</a></li>
+            <li><a href="../../../college/index.htm" tppabs="http://www.youxiaoyouda.com/college/index">学院</a></li>
+            <li><a href="../../../index/aboutus.htm" tppabs="http://www.youxiaoyouda.com/index/aboutus">关于我们 </a></li>
+            <li><a href="../../../index/joinus.htm" tppabs="http://www.youxiaoyouda.com/index/joinus">加入我们 </a></li>
+            <li><a href="../../../index/contact.htm" tppabs="http://www.youxiaoyouda.com/index/contact">联系我们</a></li>
+            <li><a href="../../../index/feedback.htm" tppabs="http://www.youxiaoyouda.com/index/feedback">意见反馈</a></li>
+            <li><a href="../../../index/help.htm" tppabs="http://www.youxiaoyouda.com/index/help">帮助中心</a></li>
+            <li><p>合作邮箱：<span>market@youxiaoyouda.com</span></p></li>
+        </ul>
+    </div>
+    <div class="fo_tonav">
+        <div class="fo_tona_t">
+            <div class="fo_tl">
+                <h4 style="
+    width: 400px;
+"><a href="" style="font-size: 14px;">友情链接</a></h4>
+                <p style="
+    width: 427px;
+">
+                    <a href="http://www.sequoiacap.com/" target="_blank"> 红杉资本 </a>
+                    <a href="http://www.cefund.com/" target="_blank"> 青云创投 </a>
+                    <a href="http://lvzhou.gobi.cn/" target="_blank"> 戈壁合伙人 </a>
+                    <a href="http://www.cdhfund.com/" target="_blank"> 鼎晖投资 </a>
+                    <a href="http://www.idg.com.cn/" target="_blank"> IDG中国 </a>
+                    <a href="http://www.exevc.com/" target="_blank"> 元素资本 </a>
+                    <a href="http://www.qimingvc.com/" tppabs="http://www.qimingvc.com/" target="_blank"> 启明创投 </a>
+                    <a href="http://www.legendcapital.com.cn/" target="_blank"> 君联资本 </a>
+                    <a href="http://www.kpcb.com/china" target="_blank"> 凯鹏华盈</a>
+                    <a href="http://www.waldenintl.com/" target="_blank"> 华登国际</a>
+                    <a href="http://www.banyanvc.com/" target="_blank"> 高榕资本 </a>
+                    <a href="http://www.chinagrowthcapital.com/" target="_blank"> 华创资本</a>
+                    <a href="http://shenmatouzi.com/" target="_blank"> 神马投资</a>
+                    <a href="http://www.legendstar.com.cn/" target="_blank"> 联想之星 </a><br>
+                </p>
+            </div>
+            <div class="fo_tr" style="width: 682px;">
+                <h4 style="font-size: 14px; color: #818181;margin-left: 88px;">
+                    <a href="../../../index/aboutus.htm" tppabs="http://www.youxiaoyouda.com/index/aboutus" style="font-size: 14px; color: #818181;">关于我们</a>
+                </h4>
+                <div class="tr_b">
+
+                    <!-- 	<a href="/" target="_blank" class="app"></a> -->
+                    <div class="fo_ewm">
+                        <a href="">
+                            <img src="../../../assets/img/jpg/ck_kf.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/ck_kf.jpg" alt="二维码">
+                        </a>
+                        <a href="">
+           			    	<span class="fo_ewm_span">
+           			    		客服
+           			    	</span>
+                        </a>
+
+                    </div>
+                    <div class="fo_ewm">
+                        <img src="../../../assets/img/jpg/wb-ewm.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/wb-ewm.jpg" alt="二维码">
+           			    	<span class="fo_ewm_span">
+           			    		微博
+           			    	</span>
+
+                    </div>
+                    <div class="fo_ewm">
+                        <img src="../../../assets/img/jpg/dyh-ewm.jpg" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/dyh-ewm.jpg" alt="二维码">
+           			 		 <span class="fo_ewm_span">
+           			    		订阅号
+           			    	</span>
+                    </div>
+                    <div class="fo_ewm">
+                        <img src="../../../assets/img/jpg/wx-erm.png" tppabs="http://www.youxiaoyouda.com/assets/img/jpg/wx-erm.png" alt="二维码">
+							<span class="fo_ewm_span">
+           			    		微信
+           			    	</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="fo_xk">© 2015  北京有小有大科技有限公司   版权所有   </p>
+    </div>
+</div>
+
+</body>
+</html>

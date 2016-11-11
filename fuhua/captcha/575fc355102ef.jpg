@@ -1,0 +1,11 @@
+exception 'CHttpException' with message '系统无法找到请求的 "575fc355102ef.jpg" 动作.' in /var/www/server/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/server/framework/web/CController.php(270): CController->missingAction('575fc355102ef.j...')
+#1 /var/www/server/framework/web/CWebApplication.php(282): CController->run('575fc355102ef.j...')
+#2 /var/www/server/framework/web/CWebApplication.php(141): CWebApplication->runController('captcha/575fc35...')
+#3 /var/www/server/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/server/index.php(46): CApplication->run()
+#5 {main}
+REQUEST_URI=/captcha/575fc355102ef.jpg
+HTTP_REFERER=http://www.youxiaoyouda.com/project/financelist?keyword=&province=江西省&type=2
+---
